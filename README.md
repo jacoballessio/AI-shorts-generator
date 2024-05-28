@@ -4,15 +4,15 @@ AI-Powered Video Summarization and Highlight Generation Tool
 
 ## Overview
 
-The AI-Shorts-Generator is a cutting-edge tool that leverages artificial intelligence to create engaging, short-form video content from longer sources. It analyzes and summarizes lengthy videos, identifies the most compelling moments and key highlights, and generates condensed, short-form edits tailored for platforms like YouTube Shorts, Instagram Reels, and TikTok.
+The AI-Shorts-Generator will be a cutting-edge tool that leverages artificial intelligence to create engaging, short-form video content from longer sources. It will analyze and summarize lengthy videos, identify the most compelling moments and key highlights, and generate condensed, short-form edits tailored for platforms like YouTube Shorts, Instagram Reels, and TikTok.
 
-## Features
+## Planned Features
 
 - **Video Summarization**: Analyze and summarize lengthy videos using speech recognition, natural language processing, and computer vision techniques.
 - **Highlight Extraction**: Extract identified highlights and compile them into a condensed, short-form video with seamless transitions and visual enhancements.
 - **Customization**: Allow users to specify preferences such as desired length, level of detail, and overall tone/style.
 - **Automated Captioning and Tagging**: Generate captions and tags for accessibility and improved discoverability.
-- **Platform Integration**: Seamlessly upload long-form videos and receive short-form versions tailored for various platforms.
+- **Platform Integration**: Enable seamless upload of long-form videos and receive short-form versions tailored for various platforms.
 - **Analytics and Insights**: Analyze user engagement and feedback to continuously improve algorithms and provide valuable insights to content creators.
 
 ## Planning
@@ -48,7 +48,3 @@ The AI-Shorts-Generator is a cutting-edge tool that leverages artificial intelli
 - Deploy the AI-Shorts-Generator to a production environment, ensuring scalability and reliability.
 - Develop a maintenance plan for regular updates, bug fixes, and security patches.
 - Continuously monitor user feedback and analytics to identify areas for improvement and new feature development.
-
-## Contributing
-
-Contributions to the AI-Shorts-Generator project are welcome! If you're interested in contributing, please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines and instructions.
