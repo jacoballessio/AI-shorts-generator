@@ -5,6 +5,7 @@ import os
 import time
 import random
 from transformers import VisionEncoderDecoderModel, ViTImageProcessor, AutoTokenizer
+from groq import Groq
 
 class VideoSummarizer:
     def __init__(self, video_path, summary_length, cache_dir):
@@ -67,15 +68,16 @@ class VideoSummarizer:
         retry_count = 0
         while retry_count < max_retries:
             try:
-                client = anthropic.Anthropic(api_key=self.claude_api_key)
-                summary_prompt = f"Please generate a comprehensive summary of the video based on the following transcript and visual information:\n\nTranscript:\n{transcript}\n\nVisual Information:\n{chr(10).join(captions)}\n\nSummary:"
-                summary_response = client.messages.create(
-                    model="claude-3-opus-20240229",
-                    max_tokens=1000,
-                    temperature=0.0,
-                    messages=[{"role": "user", "content": summary_prompt}]
+                client = Groq(
+                    api_key=os.environ.get("GROQ_API_KEY"),
                 )
-                summary_text = summary_response.content[0].text.strip()
+                summary_prompt = f"Please generate a comprehensive summary of the video based on the following transcript and visual information:\n\nTranscript:\n{transcript}\n\nVisual Information:\n{chr(10).join(captions)}\n\nSummary:"
+                summary_response = client.chat.completions.create(
+                    messages=[{"role": "user", "content": summary_prompt}],
+                    model="mixtral-8x7b-32768",
+                )
+
+                summary_text = summary_response.choices[0].message.content
                 return summary_text
             except anthropic.InternalServerError as e:
                 retry_count += 1

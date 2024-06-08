@@ -11,6 +11,9 @@ from langchain.agents import initialize_agent
 from langchain.agents import AgentType
 from tools import generate_narration, generate_tts, extract_video_clips, generate_captions, enhance_video, assemble_video, assemble_audio
 import os
+from langchain_groq import ChatGroq
+from langchain_openai import ChatOpenAI
+
 def main(video_path, summary_length, cache_dir):
     load_dotenv(override=True)
     anthropic_api_key = os.environ.get("CLAUDE_API_KEY")
@@ -27,14 +30,15 @@ def main(video_path, summary_length, cache_dir):
     summary = summarizer.generate_summary(transcript, frame_descriptions)
     print(f"Generated summary: {summary}")
 
-    llm = ChatAnthropic(model="claude-3-opus-20240229", api_key=anthropic_api_key)
-
-
-
+  
     plan = generate_short_plan(summary)
     print(f"Generated plan: {plan}")
 
     tools = [generate_narration, generate_tts, extract_video_clips, generate_captions, assemble_audio, assemble_video]
+    
+    #llm = ChatAnthropic(model="claude-3-opus-20240229", api_key=anthropic_api_key)
+    #llm = ChatGroq(temperature=0, model_name="mixtral-8x7b-32768")
+    llm = ChatOpenAI(model="gpt-4o")
 
     agent_prompt = hub.pull("hwchase17/openai-tools-agent")
     agent_prompt.messages[0] = SystemMessage("""
