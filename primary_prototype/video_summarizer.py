@@ -6,6 +6,7 @@ import time
 import random
 from transformers import VisionEncoderDecoderModel, ViTImageProcessor, AutoTokenizer
 from groq import Groq
+import json
 
 class VideoSummarizer:
     def __init__(self, video_path, summary_length, cache_dir):
@@ -16,7 +17,25 @@ class VideoSummarizer:
         self.image_processor = ViTImageProcessor.from_pretrained("nlpconnect/vit-gpt2-image-captioning", cache_dir=cache_dir)
         self.tokenizer = AutoTokenizer.from_pretrained("nlpconnect/vit-gpt2-image-captioning", cache_dir=cache_dir)
         self.claude_api_key = os.environ.get("CLAUDE_API_KEY")
-        
+    
+    def save_summary_to_cache(self, summary, frame_descriptions, cache_file):
+        cache_data = {
+            "summary": summary,
+            "frame_descriptions": frame_descriptions
+        }
+        with open(cache_file, "w") as f:
+            json.dump(cache_data, f, indent=4)
+
+    def load_summary_from_cache(self, cache_file):
+        try:
+            with open(cache_file, "r") as f:
+                cache_data = json.load(f)
+                summary = cache_data["summary"]
+                frame_descriptions = cache_data["frame_descriptions"]
+                return summary, frame_descriptions
+        except (FileNotFoundError, json.JSONDecodeError):
+            return None, None
+                
     def extract_audio(self):
         audio_file = 'temp_audio.wav'
         command = [

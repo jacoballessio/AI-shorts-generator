@@ -9,6 +9,7 @@ import wave
 from pydub import AudioSegment
 from gtts import gTTS
 from moviepy.audio.AudioClip import CompositeAudioClip
+import subprocess
 
 @tool
 def generate_narration(summary: str = "", plan: str = "") -> str:
@@ -16,7 +17,6 @@ def generate_narration(summary: str = "", plan: str = "") -> str:
     # Implement narration generation logic here
     narration_text = f"Based on the summary: {summary}\nAnd the plan: {plan}\nThe narration text is generated."
     return narration_text
-
 
 @tool
 def generate_tts(narration_text: str) -> str:
@@ -32,7 +32,7 @@ def generate_tts(narration_text: str) -> str:
         tts = gTTS(text=narration_text, lang='en')
         tts.save(temp_audio_path)
         
-        return temp_audio_path
+        return "tts_audio_path: "+temp_audio_path
     except Exception as e:
         print(f"Error generating TTS audio: {str(e)}")
         raise e
@@ -49,43 +49,58 @@ def extract_video_clips(video_path: str, timestamps: list) -> list:
     Returns:
         list: Absolute paths to the extracted video clip files.
     """
+    try:
+        # Create a directory to store the extracted clips
+        output_dir = "extracted_clips"
+        os.makedirs(output_dir, exist_ok=True)
 
-    # Create a directory to store the extracted clips
-    output_dir = "extracted_clips"
-    os.makedirs(output_dir, exist_ok=True)
+        clip_paths = []
+        for i, (start, end) in enumerate(timestamps):
+            # Extract the video clip
+            clip = VideoFileClip(video_path).subclip(start, end)
 
-    clip_paths = []
-    for i, (start, end) in enumerate(timestamps):
-        # Extract the video clip
-        clip = VideoFileClip(video_path).subclip(start, end)
+            # Generate the output file path
+            output_path = os.path.join(output_dir, f"clip_{i}.mp4")
 
-        # Generate the output file path
-        output_path = os.path.join(output_dir, f"clip_{i}.mp4")
+            # Write the clip to disk
+            clip.write_videofile(output_path, codec="libx264")
 
-        # Write the clip to disk
-        clip.write_videofile(output_path, codec="libx264")
+            # Append the clip path to the list
+            clip_paths.append(os.path.abspath(output_path))
 
-        # Append the clip path to the list
-        clip_paths.append(os.path.abspath(output_path))
-
-    return clip_paths
+        return clip_paths
+    except Exception as e:
+        print(f"Error extracting video clips: {str(e)}")
+        raise e
 
 @tool
 def generate_captions(transcription: str) -> str:
-    """Generates caption files (e.g., SRT, WebVTT) based on the new generated speech and clipped speech."""
-    # Implement caption generation logic here
-    # You can use libraries like webvtt or srt to generate caption files
-    # For simplicity, let's assume the captions are directly derived from the transcription
+    """Generates caption files based on the transcription."""
     caption_file = "captions.txt"
+    captions = []
+    
+    # Split the transcription into individual captions
+    # (You may need to adjust this based on the actual format of the transcription)
+    sentences = transcription.split('. ')
+    
+    start_time = 0.0
+    duration = 3.0  # Adjust the duration as needed
+    
     with open(caption_file, 'w') as f:
-        f.write(transcription)
+        for sentence in sentences:
+            if sentence.strip():
+                end_time = start_time + duration
+                caption = f"{start_time},{end_time},{sentence.strip()}\n"
+                f.write(caption)
+                captions.append(caption)
+                start_time = end_time
+    
     return caption_file
 
 @tool
 def enhance_video(video_clip_path: str) -> str:
     """Applies video enhancement techniques to improve the visual quality of the video clip."""
-    import cv2
-    import numpy as np
+    
 
     # Read the video clip
     video = cv2.VideoCapture(video_clip_path)
@@ -118,43 +133,77 @@ def enhance_video(video_clip_path: str) -> str:
     return enhanced_video_path
 
 @tool
-def assemble_audio(audio_paths: list, output_path: str) -> str:
+def assemble_audio(audio_paths: list) -> str:
     """Concatenates multiple audio files into a single audio file."""
-    from pydub import AudioSegment
-    
+    os.makedirs("assembled_audio", exist_ok=True)
+
+    output_path = "assembled_audio/final_audio.mp3"
     # Create an empty AudioSegment to store the combined audio
     combined_audio = AudioSegment.empty()
     
     # Iterate over the audio file paths and concatenate them
     for audio_path in audio_paths:
-        audio = AudioSegment.from_wav(audio_path)
-        combined_audio += audio
+        try:
+            audio = AudioSegment.from_mp3(audio_path)
+            combined_audio += audio
+        except pydub.exceptions.CouldntDecodeError as e:
+            print(f"Error decoding audio file: {audio_path}")
+            # Handle the error appropriately
     
     # Export the combined audio to the output file
-    combined_audio.export(output_path, format="wav")
+    combined_audio.export(output_path, format="mp3")
     
-    return output_path
+    return os.path.abspath(output_path)
 
 @tool
-def assemble_video(clip_paths: list, audio_file: str, caption_file: str) -> str:
-    """Stitches the extracted video clips, narration audio, and captions together into the final short-form video."""
+def assemble_video(clip_paths: list, audio_file: str) -> str:
+    """Stitches the extracted video clips and narration audio together into the final short-form video."""
+    # Load the video clips from the provided paths
+    clips = [VideoFileClip(path).set_duration(VideoFileClip(path).duration + 0.1) for path in clip_paths]
 
-    clips = [VideoFileClip(path) for path in clip_paths]
+    # Concatenate the video clips one by one
+    final_clip = clips[0]
+    for clip in clips[1:]:
+        final_clip = concatenate_videoclips([final_clip, clip])
 
-    # Concatenate the video clips
-    final_clip = concatenate_videoclips(clips)
+    # Get the total duration of the concatenated clips
+    total_duration = sum(clip.duration for clip in clips)
 
-    # Load the narration audio clip
+    # Set the duration of the final clip to the total duration
+    final_clip = final_clip.set_duration(total_duration)
+
+    # Load the audio file
     audio_clip = AudioFileClip(audio_file)
 
-    # Create a CompositeAudioClip with the narration audio
-    composite_audio = CompositeAudioClip([audio_clip])
+    # Set the duration of the audio clip to match the final video duration
+    audio_clip = audio_clip.set_duration(final_clip.duration)
 
-    # Set the audio of the final clip to the composite audio
-    final_clip = final_clip.set_audio(composite_audio)
+    # Set the audio of the final video clip
+    final_clip = final_clip.set_audio(audio_clip)
 
-    # Write the final video to disk
-    output_path = "final_video.mp4"
-    final_clip.write_videofile(output_path, codec='libx264', preset='ultrafast', threads=4)
+    # Crop the final video to 9:16 aspect ratio
+    width, height = final_clip.size
+    if width / height > 9 / 16:
+        # Crop horizontally
+        target_width = int(height * 9 / 16)
+        x1 = (width - target_width) // 2
+        x2 = x1 + target_width
+        final_clip = final_clip.crop(x1=x1, x2=x2)
+    else:
+        # Crop vertically
+        target_height = int(width * 16 / 9)
+        y1 = (height - target_height) // 2
+        y2 = y1 + target_height
+        final_clip = final_clip.crop(y1=y1, y2=y2)
+
+    # Write the final video to disk as MP4 with audio
+    output_path = "final_video_with_audio.mp4"
+    final_clip.write_videofile(output_path)
+
+    # Close the audio and video clips
+    audio_clip.close()
+    final_clip.close()
+    for clip in clips:
+        clip.close()
 
     return output_path
