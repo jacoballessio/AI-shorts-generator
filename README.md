@@ -10,6 +10,7 @@ The AI-Shorts-Generator will be a cutting-edge tool that leverages artificial in
 
 The system was able to take this 6 minute video and turn it into a 1 minute video that summarizes the main points.
 https://www.youtube.com/watch?v=3Mch4lG9PBk
+
 https://github.com/jacoballessio/AI-shorts-generator/assets/39074704/2ea0cd2c-0cb9-4cb4-aab4-49aabe361c28
 
 ## Planned Features
