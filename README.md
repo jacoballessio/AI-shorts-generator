@@ -6,6 +6,12 @@ AI-Powered Video Summarization and Highlight Generation Tool
 
 The AI-Shorts-Generator will be a cutting-edge tool that leverages artificial intelligence to create engaging, short-form video content from longer sources. It will analyze and summarize lengthy videos, identify the most compelling moments and key highlights, and generate condensed, short-form edits tailored for platforms like YouTube Shorts, Instagram Reels, and TikTok.
 
+## Demo
+
+The system was able to take this 6 minute video and turn it into a 1 minute video that summarizes the main points.
+https://www.youtube.com/watch?v=3Mch4lG9PBk
+https://github.com/jacoballessio/AI-shorts-generator/assets/39074704/2ea0cd2c-0cb9-4cb4-aab4-49aabe361c28
+
 ## Planned Features
 
 - **Video Summarization**: Analyze and summarize lengthy videos using speech recognition, natural language processing, and computer vision techniques.
