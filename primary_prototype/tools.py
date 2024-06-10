@@ -40,7 +40,7 @@ def generate_tts(narration_text: str) -> str:
 @tool
 def extract_video_clips(video_path: str, timestamps: list) -> list:
     """
-    Extracts video clips from the original video based on the provided timestamps. Keep each clip less than 5 seconds.
+    Extracts video clips from the original video based on the provided timestamps. Keep each clip between 0.3 and 5 seconds.
     
     Args:
         video_path (str): Path to the original video file.
@@ -161,22 +161,20 @@ def assemble_video(clip_paths: list, audio_file: str) -> str:
     # Load the video clips from the provided paths
     clips = [VideoFileClip(path).set_duration(VideoFileClip(path).duration + 0.1) for path in clip_paths]
 
+    # Add a small buffer duration to each clip
+    buffer_duration = 0.1
+    clips = [clip.set_duration(clip.duration + buffer_duration) for clip in clips]
+
     # Concatenate the video clips one by one
     final_clip = clips[0]
     for clip in clips[1:]:
         final_clip = concatenate_videoclips([final_clip, clip])
 
-    # Get the total duration of the concatenated clips
-    total_duration = sum(clip.duration for clip in clips)
-
-    # Set the duration of the final clip to the total duration
-    final_clip = final_clip.set_duration(total_duration)
-
     # Load the audio file
     audio_clip = AudioFileClip(audio_file)
 
-    # Set the duration of the audio clip to match the final video duration
-    audio_clip = audio_clip.set_duration(final_clip.duration)
+    # Truncate the final video clip to match the audio duration
+    final_clip = final_clip.subclip(0, audio_clip.duration)
 
     # Set the audio of the final video clip
     final_clip = final_clip.set_audio(audio_clip)
@@ -198,7 +196,12 @@ def assemble_video(clip_paths: list, audio_file: str) -> str:
 
     # Write the final video to disk as MP4 with audio
     output_path = "final_video_with_audio.mp4"
-    final_clip.write_videofile(output_path)
+    try:
+        final_clip.write_videofile(output_path)
+    except IndexError as e:
+        print(f"Index error while assembling video, ignoring: "+str(e))
+        #raise e
+
 
     # Close the audio and video clips
     audio_clip.close()

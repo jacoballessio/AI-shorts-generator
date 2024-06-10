@@ -1,0 +1,25 @@
+{
+    "summary": "Jax is a high-performance accelerated linear algebra library for numerical computing, similar to NumPy but with the addition of just-in-time compilation, automatic differentiation, and constraints such as immutable arrays and pure functions. These features allow Jax to automatically compile code for accelerated hardware like GPUs and TPUs. Jax was developed by Google and team members from the original Autograph library and can be used for tasks such as automatic differentiation, which is useful for calculating gradients in machine learning algorithms like neural networks. Jax provides automatic differentiation through the Jax grad function, which computes the derivative of a function. By using Jax, developers can take advantage of high-performance computing for tasks such as calculating gradients, building deep neural networks, and optimizing machine learning models. Additionally, Jax can be used with other libraries such as Flax for building machine learning models.",
+    "frame_descriptions": [
+        "Timestamp: 0.00s - a blurry photo of a black and white photo ",
+        "Timestamp: 10.14s - a blurry picture of a clock with a number ",
+        "Timestamp: 20.27s - a large white and blue clock with a picture of a cat on it ",
+        "Timestamp: 30.41s - a painting of a person holding a sign ",
+        "Timestamp: 40.54s - a blurry picture of a black and white bird ",
+        "Timestamp: 50.68s - a yellow and black cartoon character with a yellow heart ",
+        "Timestamp: 60.81s - a television screen with a cartoon character on it ",
+        "Timestamp: 70.95s - a train station with a lot of signs ",
+        "Timestamp: 81.08s - a blurry picture of a computer screen with a black background ",
+        "Timestamp: 91.22s - a drawing of a person with a mouse on a sign ",
+        "Timestamp: 101.35s - a computer screen with a picture of a person ",
+        "Timestamp: 111.49s - a computer screen with a picture of a person ",
+        "Timestamp: 121.62s - a blurry picture of a butterfly shaped object ",
+        "Timestamp: 131.76s - a computer screen with a picture of a person on it ",
+        "Timestamp: 141.89s - a blue and white striped bench with a blue bird on top ",
+        "Timestamp: 152.03s - a computer screen with a picture of a person on it ",
+        "Timestamp: 162.16s - a poster with a picture of a person with a heart on it ",
+        "Timestamp: 172.30s - a white screen with a picture of a computer ",
+        "Timestamp: 182.43s - a large screen tv with a picture of a man ",
+        "Timestamp: 192.57s - a drawing of a computer screen with a picture of a person "
+    ]
+}

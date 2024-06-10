@@ -40,6 +40,7 @@ class VideoSummarizer:
         audio_file = 'temp_audio.wav'
         command = [
             'ffmpeg',
+            '-y',
             '-i', self.video_path,
             '-ab', '160k',
             '-ac', '1',
