@@ -3,3 +3,5 @@ example_videos
 primary_prototype/extracted_clips
 primary_prototype/tts
 primary_prototype/*.mp4
+primary_prototype/*.mp4
+primary_prototype/temp
