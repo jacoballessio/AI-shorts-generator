@@ -14,7 +14,7 @@ import os
 from langchain_groq import ChatGroq
 from langchain_openai import ChatOpenAI
 
-def main(video_path, shorts_length, cache_dir, cache_summary):
+def main(video_path, shorts_length, user_prompt, cache_dir, cache_summary):
     load_dotenv(override=True)
     anthropic_api_key = os.environ.get("CLAUDE_API_KEY")
     summarizer = VideoSummarizer(video_path, shorts_length, cache_dir)
@@ -60,7 +60,7 @@ def main(video_path, shorts_length, cache_dir, cache_summary):
     #llm = ChatAnthropic(model="claude-3-opus-20240229", api_key=anthropic_api_key)
     #llm = ChatGroq(temperature=0, model_name="mixtral-8x7b-32768")
     llm = ChatOpenAI(model="gpt-4o")
-    user_prompt = f"The short video should be exactly {shorts_length} seconds long."
+
     agent_prompt = PromptTemplate(
         template="""
         You are an AI agent specializing in generating highly engaging, bite-sized video content. Your task is to analyze the provided information from a longer video, identify the most compelling and essential point(s), and create an ultra-concise 5-30 second video highlight without any additional input from the user.
@@ -96,7 +96,7 @@ def main(video_path, shorts_length, cache_dir, cache_summary):
     additional_info = {
         "original_video_path": os.path.abspath(video_path),
         "frame_descriptions": ', '.join(frame_descriptions),
-        #"original_transcript": transcript
+        "desired_shorts_length": "The video should be exactly "+str(shorts_length) + " seconds long"
     }
     
     result = agent.run(
@@ -110,8 +110,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='AI-Shorts-Generator')
     parser.add_argument('input_video', help='Path to the input video file')
     parser.add_argument('--shorts_length', type=int, default=30, help='Desired length of the summary in seconds')
+    parser.add_argument('--user_prompt', type=str, default=None, help='Instructions from user to guide model')
     parser.add_argument('--cache_dir', default='J:/temp', help='Directory to cache downloaded files')
     parser.add_argument('--cache_summary', action='store_true', help='Cache the video summary')
     args = parser.parse_args()
 
-    main(args.input_video, args.shorts_length, args.cache_dir, args.cache_summary)
+    main(args.input_video, args.shorts_length, args.user_prompt, args.cache_dir, args.cache_summary)

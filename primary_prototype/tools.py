@@ -4,7 +4,7 @@ from langchain.tools import tool
 import pyttsx3
 import cv2
 import moviepy.editor as mp
-from moviepy.editor import VideoFileClip, concatenate_videoclips, AudioFileClip, CompositeVideoClip, TextClip
+from moviepy.editor import VideoFileClip, concatenate_videoclips, concatenate_audioclips, AudioFileClip, CompositeVideoClip, TextClip
 import wave
 from pydub import AudioSegment
 from gtts import gTTS
@@ -54,7 +54,7 @@ def generate_tts(narration_text: str) -> str:
 def extract_video_clips(video_path: str, timestamps: list) -> list:
     """
     Extracts video clips from the original video based on the provided timestamps. Keep each clip between 0.3 and 5 seconds.
-    
+    The length of all the video clips should add up to the desired video length.
     Args:
         video_path (str): Path to the original video file.
         timestamps (list): List of tuples (start, end) in seconds for each clip.
@@ -169,28 +169,27 @@ def assemble_audio(audio_paths: list) -> str:
     return os.path.abspath(output_path)
 
 @tool
-def assemble_video(clip_paths: list, audio_file: str) -> str:
+def assemble_video(clip_paths: list, audio_clip_paths: list = None) -> str:
     """Stitches the extracted video clips and narration audio together into the final short-form video."""
     # Load the video clips from the provided paths
-    clips = [VideoFileClip(path).set_duration(VideoFileClip(path).duration + 0.1) for path in clip_paths]
-
-    # Add a small buffer duration to each clip
-    buffer_duration = 0.1
-    clips = [clip.set_duration(clip.duration + buffer_duration) for clip in clips]
+    clips = [VideoFileClip(path) for path in clip_paths]
 
     # Concatenate the video clips one by one
-    final_clip = clips[0]
-    for clip in clips[1:]:
-        final_clip = concatenate_videoclips([final_clip, clip])
+    final_clip = concatenate_videoclips(clips)
 
-    # Load the audio file
-    audio_clip = AudioFileClip(audio_file)
+    if audio_clip_paths:
+        # Concatenate the audio clips
+        audio_clips = [AudioFileClip(path) for path in audio_clip_paths]
+        audio_clip = concatenate_audioclips(audio_clips)
 
-    # Truncate the final video clip to match the audio duration
-    final_clip = final_clip.subclip(0, audio_clip.duration)
+        # Ensure the audio duration matches the video duration
+        audio_clip = audio_clip.set_duration(final_clip.duration)
 
-    # Set the audio of the final video clip
-    final_clip = final_clip.set_audio(audio_clip)
+        # Set the audio of the final video clip
+        final_clip = final_clip.set_audio(audio_clip)
+    else:
+        # Use the original audio from the video clips
+        final_clip = final_clip.set_audio(final_clip.audio)
 
     # Crop the final video to 9:16 aspect ratio
     width, height = final_clip.size
@@ -209,15 +208,9 @@ def assemble_video(clip_paths: list, audio_file: str) -> str:
 
     # Write the final video to disk as MP4 with audio
     output_path = "final_video_with_audio.mp4"
-    try:
-        final_clip.write_videofile(output_path)
-    except IndexError as e:
-        print(f"Index error while assembling video, ignoring: "+str(e))
-        #raise e
-
+    final_clip.write_videofile(output_path)
 
     # Close the audio and video clips
-    audio_clip.close()
     final_clip.close()
     for clip in clips:
         clip.close()

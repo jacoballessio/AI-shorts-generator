@@ -4,7 +4,7 @@ from main import main
 from werkzeug.utils import secure_filename
 
 
-def generate_video_shorts(video_file, shorts_length, cache_dir, cache_shorts):
+def generate_video_shorts(video_file, shorts_length, user_prompt, cache_dir, cache_shorts):
     # Get the original file name
     original_filename = video_file.name
 
@@ -31,7 +31,7 @@ def generate_video_shorts(video_file, shorts_length, cache_dir, cache_shorts):
     output_video = gr.Video(label="Generated Video Shorts")
 
     output_text.value = "Extracting audio..."
-    main(video_path, shorts_length, cache_dir, cache_shorts)
+    main(video_path, shorts_length, user_prompt, cache_dir, cache_shorts)
 
     final_shorts_path = "final_video_with_audio.mp4"
     
@@ -52,6 +52,7 @@ iface = gr.Interface(
     inputs=[
         gr.File(label="Input Video"),
         gr.Number(value=15, label="Shorts Length (seconds)"),
+        gr.Textbox(value="energetic style, warm color grading, spoken by pirate", label="Custom Instructions"),
         gr.Textbox(value="J:/temp", label="Cache Directory"),
         gr.Checkbox(value=True, label="Cache Shorts"),
     ],

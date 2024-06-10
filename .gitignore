@@ -6,3 +6,4 @@ primary_prototype/*.mp4
 primary_prototype/*.mp4
 primary_prototype/temp
 primary_prototype/assembled_audio
+primary_prototype/__pycache__
