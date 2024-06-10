@@ -5,3 +5,4 @@ primary_prototype/tts
 primary_prototype/*.mp4
 primary_prototype/*.mp4
 primary_prototype/temp
+primary_prototype/assembled_audio
