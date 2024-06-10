@@ -14,10 +14,10 @@ import os
 from langchain_groq import ChatGroq
 from langchain_openai import ChatOpenAI
 
-def main(video_path, summary_length, cache_dir, cache_summary):
+def main(video_path, shorts_length, cache_dir, cache_summary):
     load_dotenv(override=True)
     anthropic_api_key = os.environ.get("CLAUDE_API_KEY")
-    summarizer = VideoSummarizer(video_path, summary_length, cache_dir)
+    summarizer = VideoSummarizer(video_path, shorts_length, cache_dir)
 
     if cache_summary:
         cache_file = f"{os.path.splitext(video_path)[0]}_summary.json"
@@ -60,7 +60,7 @@ def main(video_path, summary_length, cache_dir, cache_summary):
     #llm = ChatAnthropic(model="claude-3-opus-20240229", api_key=anthropic_api_key)
     #llm = ChatGroq(temperature=0, model_name="mixtral-8x7b-32768")
     llm = ChatOpenAI(model="gpt-4o")
-
+    user_prompt = f"The short video should be exactly {shorts_length} seconds long."
     agent_prompt = PromptTemplate(
         template="""
         You are an AI agent specializing in generating highly engaging, bite-sized video content. Your task is to analyze the provided information from a longer video, identify the most compelling and essential point(s), and create an ultra-concise 5-30 second video highlight without any additional input from the user.
@@ -77,10 +77,11 @@ def main(video_path, summary_length, cache_dir, cache_summary):
         Your goal is to create an ultra-concise video highlight that captures the essence of the original content in a highly engaging and shareable format. Utilize your creativity, storytelling skills, and understanding of attention-grabbing techniques to craft a memorable and impactful short-form video that leaves a lasting impression.
         The plan for generating the short video is: {plan}
         Given the summary of the original video: {summary}
+        User prompt: {user_prompt}
         And additional information: {additional_information}
         Utilize the plan and tools to generate the video highlight.                         
         """,
-        input_variables=["plan", "summary", "additional_information"],
+        input_variables=["plan", "summary", "user_prompt", "additional_information"],
     )
     
     agent = initialize_agent(
@@ -100,7 +101,7 @@ def main(video_path, summary_length, cache_dir, cache_summary):
     
     result = agent.run(
         {
-            "input": f"Summary: {summary}\nPlan: {plan}\nAdditional Information: {additional_info}"
+            "input": f"Summary: {summary}\nPlan: {plan}\nUser Prompt: {user_prompt}\nAdditional Information: {additional_info}"
         }
     )
     print(f"Final result: {result}")
@@ -108,9 +109,9 @@ def main(video_path, summary_length, cache_dir, cache_summary):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='AI-Shorts-Generator')
     parser.add_argument('input_video', help='Path to the input video file')
-    parser.add_argument('--summary_length', type=int, default=30, help='Desired length of the summary in seconds')
+    parser.add_argument('--shorts_length', type=int, default=30, help='Desired length of the summary in seconds')
     parser.add_argument('--cache_dir', default='J:/temp', help='Directory to cache downloaded files')
     parser.add_argument('--cache_summary', action='store_true', help='Cache the video summary')
     args = parser.parse_args()
 
-    main(args.input_video, args.summary_length, args.cache_dir, args.cache_summary)
+    main(args.input_video, args.shorts_length, args.cache_dir, args.cache_summary)

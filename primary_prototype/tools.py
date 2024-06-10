@@ -10,12 +10,25 @@ from pydub import AudioSegment
 from gtts import gTTS
 from moviepy.audio.AudioClip import CompositeAudioClip
 import subprocess
+from groq import Groq
+
 
 @tool
 def generate_narration(summary: str = "", plan: str = "") -> str:
     """Generates the narration text based on the video summary and plan."""
-    # Implement narration generation logic here
-    narration_text = f"Based on the summary: {summary}\nAnd the plan: {plan}\nThe narration text is generated."
+    client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+    narration_prompt = f"""
+        Generate only the spoken narrative text for a short 5 to 30 second narration based on the following summary and plan. Do not include any production notes or instructions:
+        Summary: {summary}
+        Plan: {plan}
+        Focus on clearly communicating the key points in an engaging narrative style while following the provided plan. Aim for a concise yet impactful narration using only the dialogue/voiceover text without any additional notes or directions.
+    """
+    narration_response = client.chat.completions.create(
+        messages=[{"role": "user", "content": narration_prompt}],
+        model="mixtral-8x7b-32768",
+    )
+
+    narration_text = narration_response.choices[0].message.content
     return narration_text
 
 @tool

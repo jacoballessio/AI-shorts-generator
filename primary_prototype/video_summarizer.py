@@ -9,9 +9,9 @@ from groq import Groq
 import json
 
 class VideoSummarizer:
-    def __init__(self, video_path, summary_length, cache_dir):
+    def __init__(self, video_path, shorts_length, cache_dir):
         self.video_path = video_path
-        self.summary_length = summary_length
+        self.shorts_length = shorts_length
         self.whisper_model = whisper.load_model("base", download_root=cache_dir)
         self.vlm_model = VisionEncoderDecoderModel.from_pretrained("nlpconnect/vit-gpt2-image-captioning", cache_dir=cache_dir)
         self.image_processor = ViTImageProcessor.from_pretrained("nlpconnect/vit-gpt2-image-captioning", cache_dir=cache_dir)
@@ -64,7 +64,7 @@ class VideoSummarizer:
             captions.append(caption_with_timestamp)
         return captions
 
-    def extract_key_frames(self, num_frames=20):
+    def extract_key_frames(self, num_frames=25):
         cap = cv2.VideoCapture(self.video_path)
         fps = cap.get(cv2.CAP_PROP_FPS)
         total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
