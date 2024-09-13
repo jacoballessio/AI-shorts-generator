@@ -11,6 +11,9 @@ from gtts import gTTS
 from moviepy.audio.AudioClip import CompositeAudioClip
 import subprocess
 from groq import Groq
+import numpy as np
+from collections import deque
+from collections import deque
 
 
 @tool
@@ -36,10 +39,10 @@ def generate_tts(narration_text: str) -> str:
     """Converts the narration text into speech audio files using gTTS."""
     try:
         # Create the "tts" subdirectory if it doesn't exist
-        os.makedirs("tts", exist_ok=True)
+        os.makedirs("temp/tts", exist_ok=True)
         
         # Generate a unique filename for the audio file
-        temp_audio_path = tempfile.mkstemp(suffix='_narration.mp3', dir='tts')[1]
+        temp_audio_path = tempfile.mkstemp(suffix='_narration.mp3', dir='temp/tts')[1]
         
         # Convert the narration text to speech using gTTS
         tts = gTTS(text=narration_text, lang='en')
@@ -50,11 +53,102 @@ def generate_tts(narration_text: str) -> str:
         print(f"Error generating TTS audio: {str(e)}")
         raise e
     
+
+def crop_to_9_16(frame, face_center):
+    """Crops a frame to a 9:16 aspect ratio with the face centered if detected."""
+    frame_np = np.array(frame)
+    
+    # Get frame dimensions
+    height, width, _ = frame_np.shape
+    
+    # Calculate cropping box dimensions to maintain 9:16 aspect ratio
+    target_aspect_ratio = 9 / 16
+    if width / height > target_aspect_ratio:
+        # Image is wider than 9:16
+        new_width = int(height * target_aspect_ratio)
+        x1 = (width - new_width) // 2
+        x2 = x1 + new_width
+        y1 = 0
+        y2 = height
+    else:
+        # Image is taller than 9:16
+        new_height = int(width / target_aspect_ratio)
+        y1 = (height - new_height) // 2
+        y2 = y1 + new_height
+        x1 = 0
+        x2 = width
+
+    # Crop the frame to 9:16 aspect ratio
+    cropped_frame = frame_np[y1:y2, x1:x2]
+
+    # If a face center is provided, adjust the cropping box to center the face
+    if face_center is not None:
+        face_x, face_y = face_center
+        crop_width = x2 - x1
+        crop_height = y2 - y1
+        
+        # Adjust cropping box to center the face
+        center_x = min(max(face_x, crop_width // 2), width - crop_width // 2)
+        center_y = min(max(face_y, crop_height // 2), height - crop_height // 2)
+        
+        x1 = int(center_x - crop_width // 2)
+        x2 = int(center_x + crop_width // 2)
+        y1 = int(center_y - crop_height // 2)
+        y2 = int(center_y + crop_height // 2)
+
+        # Ensure cropping box is within bounds
+        x1 = max(x1, 0)
+        y1 = max(y1, 0)
+        x2 = min(x2, width)
+        y2 = min(y2, height)
+
+        cropped_frame = frame_np[y1:y2, x1:x2]
+
+    return cropped_frame
+
+
+
+
+def detect_face_center(frame):
+    """Detects the center of the first detected face in the frame."""
+    gray = cv2.cvtColor(np.array(frame), cv2.COLOR_RGB2GRAY)
+    faces = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
+    if len(faces) > 0:
+        x, y, w, h = faces[0]
+        return (x + w / 2, y + h / 2)
+    return None
+
+# Initialize a deque to store face centers over the last 10 frames
+# Smoothing parameters
+smoothing_window_size = 60
+face_center_queue = deque(maxlen=smoothing_window_size)
+
+def process_frame(frame):
+    """Process each frame to crop it to 9:16 aspect ratio, centered on the smoothed face position."""
+    global face_center_queue
+    
+    # Detect face center in the current frame
+    face_center = detect_face_center(frame)
+    
+    if face_center is not None:
+        # Add the current face center to the queue
+        face_center_queue.append(face_center)
+        
+    # Calculate the average face center from the queue
+    if face_center_queue:
+        avg_face_center = np.mean(face_center_queue, axis=0)
+    else:
+        avg_face_center = None
+    
+    # Crop the frame based on the averaged face center
+    return crop_to_9_16(frame, avg_face_center)
+
 @tool
 def extract_video_clips(video_path: str, timestamps: list) -> list:
     """
-    Extracts video clips from the original video based on the provided timestamps. Keep each clip between 0.3 and 5 seconds.
-    The length of all the video clips should add up to the desired video length.
+    Extracts video clips from the original video based on the provided timestamps. 
+    Each clip is cropped to 9:16 aspect ratio with face-centered cropping.
+    Only extract the parts you need.
     Args:
         video_path (str): Path to the original video file.
         timestamps (list): List of tuples (start, end) in seconds for each clip.
@@ -62,22 +156,32 @@ def extract_video_clips(video_path: str, timestamps: list) -> list:
     Returns:
         list: Absolute paths to the extracted video clip files.
     """
+    global face_cascade
+    face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+    
+
     try:
         # Create a directory to store the extracted clips
-        output_dir = "extracted_clips"
+        output_dir = "temp/extracted_clips"
         os.makedirs(output_dir, exist_ok=True)
-
+        buffer = 0.2
         clip_paths = []
+        final_timestamp = timestamps[-1][1]
         for i, (start, end) in enumerate(timestamps):
             # Extract the video clip
+            start = max(0, start-buffer)
+            end = min(end+buffer, final_timestamp)
             clip = VideoFileClip(video_path).subclip(start, end)
-
+            
+            # Process the clip with face detection and cropping
+            processed_clip = clip.fl_image(process_frame)
+            
             # Generate the output file path
             output_path = os.path.join(output_dir, f"clip_{i}.mp4")
-
+            
             # Write the clip to disk
-            clip.write_videofile(output_path, codec="libx264")
-
+            processed_clip.write_videofile(output_path, codec="libx264")
+            
             # Append the clip path to the list
             clip_paths.append(os.path.abspath(output_path))
 
@@ -148,9 +252,9 @@ def enhance_video(video_clip_path: str) -> str:
 @tool
 def assemble_audio(audio_paths: list) -> str:
     """Concatenates multiple audio files into a single audio file."""
-    os.makedirs("assembled_audio", exist_ok=True)
+    os.makedirs("temp/assembled_audio", exist_ok=True)
 
-    output_path = "assembled_audio/final_audio.mp3"
+    output_path = "temp/assembled_audio/final_audio.mp3"
     # Create an empty AudioSegment to store the combined audio
     combined_audio = AudioSegment.empty()
     
@@ -215,4 +319,4 @@ def assemble_video(clip_paths: list, audio_clip_paths: list = None) -> str:
     for clip in clips:
         clip.close()
 
-    return output_path
+    return os.path.abspath(output_path)

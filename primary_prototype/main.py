@@ -13,40 +13,87 @@ from tools import generate_narration, generate_tts, extract_video_clips, generat
 import os
 from langchain_groq import ChatGroq
 from langchain_openai import ChatOpenAI
+from video_effects import VIDEO_EFFECTS
+from pytubefix import YouTube
+from pytubefix.cli import on_progress
+from langchain.callbacks import OpenAICallbackHandler
 
-def main(video_path, shorts_length, user_prompt, cache_dir, cache_summary):
+MODEL_NAME = "gpt-4o-2024-08-06"
+MODEL_PRICES = {"gpt-4o": 5, "gpt-4o-2024-08-06": 2.5} # dollars per million tokens
+
+class TokenCountingCallbackHandler(OpenAICallbackHandler):
+    def __init__(self):
+        self.total_tokens = 0
+        self.prompt_tokens = 0
+        self.completion_tokens = 0
+
+    def on_llm_new_token(self, token: str, **kwargs):
+        self.total_tokens += 1
+
+    def on_llm_end(self, response, **kwargs):
+        self.prompt_tokens = response['usage']['prompt_tokens']
+        self.completion_tokens = response['usage']['completion_tokens']
+        self.total_tokens = response['usage']['total_tokens']
+
+
+def DownloadYouTubeVideo(link, download_path):
+    try:
+        yt = YouTube(link, on_progress_callback=on_progress)
+        print(yt.title)
+        
+        ys = yt.streams.get_highest_resolution()
+        downloaded_file_path = ys.download(download_path)
+        
+        # Rename the downloaded file to replace spaces with underscores
+        base_name = os.path.basename(downloaded_file_path)
+        new_name = base_name.replace(" ", "_")
+        new_file_path = os.path.join(download_path, new_name)
+        
+        os.rename(downloaded_file_path, new_file_path)
+        
+        return new_file_path
+    except FileExistsError:
+        print(f"The file already exists: {new_file_path}")
+        return new_file_path
+        
+    except Exception as e:
+        print(f"An error occurred while downloading the video: {e}")
+        return None
+    
+def main(shorts_length, visual_information_density, user_prompt, cache_dir, cache_summary, video_path=None, youtube_url=None):
     load_dotenv(override=True)
-    anthropic_api_key = os.environ.get("CLAUDE_API_KEY")
+    if video_path == None and youtube_url != None and youtube_url != "":
+        video_path = DownloadYouTubeVideo(youtube_url, cache_dir)
+        print(video_path)
+
+    if video_path == None:
+        raise Exception("video path not found")
+    
     summarizer = VideoSummarizer(video_path, shorts_length, cache_dir)
 
     if cache_summary:
-        cache_file = f"{os.path.splitext(video_path)[0]}_summary.json"
-        summary, frame_descriptions = summarizer.load_summary_from_cache(cache_file)
-        
-        if summary is None:
+        cache_file = f"{os.path.splitext(video_path)[0]}_data.json"
+        data = summarizer.load_data_from_cache(cache_file)
+
+        if data is None:
             audio_file = summarizer.extract_audio()
             transcript = summarizer.transcribe_audio(audio_file)
-            with open('transcription.txt', 'w') as transcript_file:
-                transcript_file.write(transcript)
-
             key_frames, timestamps = summarizer.extract_key_frames()
             frame_descriptions = summarizer.generate_frame_descriptions(key_frames, timestamps)
-
             summary = summarizer.generate_summary(transcript, frame_descriptions)
-            summarizer.save_summary_to_cache(summary, frame_descriptions, cache_file)
+            summarizer.save_data_to_cache(summary, frame_descriptions, transcript, cache_file)
+        else:
+            summary, frame_descriptions, transcript = data
     else:
         audio_file = summarizer.extract_audio()
         transcript = summarizer.transcribe_audio(audio_file)
-        with open('transcription.txt', 'w') as transcript_file:
-            transcript_file.write(transcript)
-
-        key_frames, timestamps = summarizer.extract_key_frames()
+        key_frames, timestamps = summarizer.extract_key_frames(visual_information_density)
         frame_descriptions = summarizer.generate_frame_descriptions(key_frames, timestamps)
-
         summary = summarizer.generate_summary(transcript, frame_descriptions)
     print(f"Generated summary: {summary}")
 
-    plan = generate_short_plan(summary)
+    plan_generation_instructions = f"Summary: {summary}\nTranscript: {transcript[:10000]}\nDesired video length: {shorts_length}\nUser Instructions:{user_prompt}"
+    plan = generate_short_plan(plan_generation_instructions)
     print(f"Generated plan: {plan}")
 
     tools = [
@@ -56,10 +103,12 @@ def main(video_path, shorts_length, user_prompt, cache_dir, cache_summary):
         assemble_audio,
         assemble_video,
     ]
-    
-    #llm = ChatAnthropic(model="claude-3-opus-20240229", api_key=anthropic_api_key)
-    #llm = ChatGroq(temperature=0, model_name="mixtral-8x7b-32768")
-    llm = ChatOpenAI(model="gpt-4o")
+
+    # Initialize the token counting callback handler
+    callback_handler = OpenAICallbackHandler()
+
+    # Create the LLM and pass the callback
+    llm = ChatOpenAI(model=MODEL_NAME, callbacks=[callback_handler])
 
     agent_prompt = PromptTemplate(
         template="""
@@ -83,7 +132,7 @@ def main(video_path, shorts_length, user_prompt, cache_dir, cache_summary):
         """,
         input_variables=["plan", "summary", "user_prompt", "additional_information"],
     )
-    
+
     agent = initialize_agent(
         tools,
         llm,
@@ -92,13 +141,14 @@ def main(video_path, shorts_length, user_prompt, cache_dir, cache_summary):
         agent_prompt=agent_prompt,
         handle_parsing_errors=True
     )
-    
+
     additional_info = {
         "original_video_path": os.path.abspath(video_path),
         "frame_descriptions": ', '.join(frame_descriptions),
-        "desired_shorts_length": "The video should be exactly "+str(shorts_length) + " seconds long"
+        "original_transcript": transcript,
+        "desired_shorts_length": "The video should be exactly " + str(shorts_length) + " seconds long"
     }
-    
+
     result = agent.run(
         {
             "input": f"Summary: {summary}\nPlan: {plan}\nUser Prompt: {user_prompt}\nAdditional Information: {additional_info}"
@@ -106,13 +156,24 @@ def main(video_path, shorts_length, user_prompt, cache_dir, cache_summary):
     )
     print(f"Final result: {result}")
 
+    # Calculate the cost based on the total tokens and the model's price per million tokens
+    total_tokens = callback_handler.total_tokens
+    model_price_per_million = MODEL_PRICES.get(MODEL_NAME, 0)
+    cost = (model_price_per_million / 1_000_000) * total_tokens
+    print(f"Total tokens used: {total_tokens}")
+    print(f"Total cost: ${cost:.6f}")
+
+    return cost
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='AI-Shorts-Generator')
     parser.add_argument('input_video', help='Path to the input video file')
     parser.add_argument('--shorts_length', type=int, default=30, help='Desired length of the summary in seconds')
+    parser.add_argument('--visual_information_density', type=int, default=30, help='Desired length of the summary in seconds')
     parser.add_argument('--user_prompt', type=str, default=None, help='Instructions from user to guide model')
     parser.add_argument('--cache_dir', default='J:/temp', help='Directory to cache downloaded files')
     parser.add_argument('--cache_summary', action='store_true', help='Cache the video summary')
     args = parser.parse_args()
 
-    main(args.input_video, args.shorts_length, args.user_prompt, args.cache_dir, args.cache_summary)
+    main(args.input_video, None, args.shorts_length, args.visual_information_density, args.user_prompt, args.cache_dir, args.cache_summary)
