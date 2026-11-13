@@ -1,0 +1,12 @@
+<segment>
+<start>0</start>
+<end>5.46</end>
+<duration>5.46</duration>
+<scene>a close-up selfie-style shot showing a bald man with light skin and dark eyebrows wearing a white collared shirt standing against a vibrant purple gradient background; he looks directly into the camera with an expressive face, his mouth open as if speaking animatedly, while large bold text appears over him reading "YOU'RE STRUGGLING WITH" in black font with a white outline, below which smaller red text reads 'THIS CONTENT,' followed by more small red text that changes to 'IT'S NOT HERE TO HELP YOU.' The camera remains static throughout the clip.</scene>
+<transcript>[SPEAKER_1]You're struggling with this content.It's not here to help you.</transcript>
+</segment>
+<segment>
+<start>5.46</start>
+<end>20.46</end>
+<duration>15</duration>
+<scene>a 

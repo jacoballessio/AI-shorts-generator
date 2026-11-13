@@ -1,0 +1,37 @@
+<example id="generated">
+	<input>
+		<sources>
+		</sources>
+		<duration>
+			45
+		</duration>
+		<creator>
+			Dan Henschel
+		</creator>
+		<topic>
+			Comedy
+		</topic>
+		<title>
+			my name is
+		</title>
+	</input>
+	<output>
+		<segments>
+			<segment>
+				<start>
+					0.0
+				</start>
+				<end>
+					45.0
+				</end>
+				<duration>
+					45.0
+				</duration>
+				<scene>
+					A short-form segment in dan hen sc he l style about Comedy. Primary angle: myna meIs.
+				</scene>
+				<transcript>
+			</segment>
+		</segments>
+	</output>
+</example>

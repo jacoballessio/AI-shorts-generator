@@ -1,0 +1,56 @@
+{
+  "input": {
+    "sources": [],
+    "duration": 42,
+    "creator": "Daniel Hentschel",
+    "topic": "Education",
+    "title": "Deluxe Elf!"
+  },
+  "output": {
+    "segments": [
+      {
+        "start_time": 0.0,
+        "end_time": 5.3,
+        "scene_description": "a close-up selfie-style shot of a person with long wavy red hair wearing an orange headband and orange top standing indoors against a softly lit, out-of-focus interior backdrop suggesting a cozy home office or craft space; they hold up a Deluxe Elf package labeled '100% Official' featuring a smiling elven character holding a glowing orb and a green checkmark, their expression animated and excited. The camera remains steady throughout the clip. . jazz creating a sense of playful energy and anticipation.",
+        "ui_elements_html": "<div class=\"overlay caption\">Deluxe Elf is here!</div>",
+        "transcript": "[SPEAKER_1][bright cheerful voice] [to hold the Deluxe Elfa package steadily, its vibrant colors and detailed design contrasting sharply with their casual attire, maintaining a lively engaging tone driven by their enthusiasm until the end of the clip.] Oh my god, the deluxe is finally here.",
+        "duration": 5.3,
+        "audio_description": "The audio begins with a high-pitched magical sound effect like a sparkly twinkle that quickly transitions into loud excited screams from multiple people music genre music music role theme music"
+      },
+      {
+        "start_time": 5.3,
+        "end_time": 20.3,
+        "scene_description": "a 360-degree panoramic view inside a vibrant festive indoor space filled with colorful Christmas trees-some adorned with gold stars others draped in red and green-and twinkling lights that cast a warm glow over the scene; the floor features red-and-white striped mat mosaics creating a cozy yet lively atmosphere. A person stands at the center holding a large plush toy resembling Frodo from *Lord of the Rings*-with long curly brown hair a green jacket and a blue staff-their posture relaxed but animated as they look around the room. The camera remains stationary throughout the clip capturing the full panorama to highlight the details of the decor and the playful movement of the plush toy. the person raises the plush toy above their head then brings it down toward themselves while moving in circles around the trees their movements energetic and full of joy. They continue these lively gestures sometimes spinning the plush toy rapidly until they exclaim \" Gueracle! The audio includes the phrase 'Christmas cheerleader!' which plays during the sequence. The person continues their spirited dance moving through the midst of the decorated trees and glowing lights maintaining the jolly holiday mood",
+        "ui_elements_html": "<div class=\"overlay caption\">Gueracle!</div>",
+        "transcript": "[SPEAKER_1][an excited high-pitched voice] Hey, Road Clown, let's see if we can find some more Christmas trees.",
+        "duration": 15.0,
+        "audio_description": ""
+      },
+      {
+        "start_time": 20.3,
+        "end_time": 35.3,
+        "scene_description": "a 7-second shaky handheld shot from behind a person in a red shirt and headband, looking into an indoor space filled with vibrant green trees adorned with red ornaments and twinkling lights; the camera moves closer to the action, revealing more details of the festive environment. The scene features several individuals engaged in playful activities: one person waves a small object likely a phone while another holds a large green inflatable balloon, both moving energetically. A third person dressed in red stands nearby observing the group's lively interactions. The camera remains unsteady throughout, capturing the dynamic movement of the scene.",
+        "ui_elements_html": "<div class=\"overlay caption\">Teamwork makes the dream work</div>\n<div class=\"overlay caption\">look at that team spirit</div>\n<div class=\"overlay caption\">let</div>\n<div class=\"overlay caption\">keywords keywords telephone</div>",
+        "transcript": "",
+        "duration": 15.0,
+        "audio_description": "ringtone music"
+      },
+      {
+        "start_time": 35.3,
+        "end_time": 39.84,
+        "scene_description": "a low-angle wide shot capturing three young men standing closely together near a large green inflatable frog-shaped structure under bright outdoor daylight; the man on the right wears a dark hoodie, while the other two don red shirts and matching headbands, all looking toward the front where a person dressed in an elaborate costume complete with a giant green-and-red outfit and a tall helmet stands holding a small child dressed as Elsa from *Frozen*. The background features vibrant purple and pink buildings peeking through foliage, creating a festive urban atmosphere. At 1s, the costumed person begins to move forward, prompting the group to follow suit-their movements synchronized and full of energy-as they pursue the child who remains calm yet surrounded by the chaotic excitement. The camera stays focused on the central figure, emphasizing his dynamic movements against the colorful backdrop of buildings and trees. As they move closer, the costumed person's expression shifts from neutral to a slight smile then to a more pronounced grin, conveying amusement and joy. The camera maintains its tight focus on the group, highlighting their playful interaction and the lively environment around them.",
+        "ui_elements_html": "<div class=\"overlay caption\">Look at that teamwork</div>\n<div class=\"overlay caption\">Let</div>\n<div class=\"overlay caption\">this was fun</div>",
+        "transcript": "",
+        "duration": 4.54
+      },
+      {
+        "start_time": 39.84,
+        "end_time": 42.0,
+        "scene_description": "a 4K ultra HD wide shot capturing a vibrant indoor space filled with colorfully decorated Christmas trees-some adornaed with gold ornaments, others draped in pink and purple hues-and twinkling string lights that cast a warm, festive glow over the scene; a person stands at the center wearing a red shirt and matching headband, raising their hands energetically while dancing wildly, their movements full of joy and spontaneity. The camera remains stationary throughout, providing a clear view of the festive backdrops and dynamic actions.",
+        "ui_elements_html": "",
+        "transcript": "",
+        "duration": 2.16
+      }
+    ]
+  }
+}

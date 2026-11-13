@@ -1,0 +1,49 @@
+{
+  "input": {
+    "sources": [],
+    "duration": 21,
+    "creator": "Turtle Killer",
+    "topic": "Comedy",
+    "title": "Bop it Turtle"
+  },
+  "output": {
+    "segments": [
+      {
+        "start_time": 0.0,
+        "end_time": 4.35,
+        "scene_description": "a close-up top-down shot of a person's hands adorned with rings and a bracelet over a light-colored surface likely a table or desk; On the left side of the frame lies a complex Bop-It game with three colored buttons-red yellow blue-and a small turtle figurine resting near its base. The right side features another identical setup creating a playful contrast between the two halves. At 1s the person presses the red button on the left side then quickly moves their hand toward the yellow button on the same side while maintaining steady posture. Their fingers curl around the button emphasizing the deliberate yet quick movements typical of a Bop-It challenge. The camera remains fixed throughout keeping both hands and the games in clear view without shifting focus. two three.' The scene maintains a focused with no additional dialogue beyond the countdown",
+        "ui_elements_html": "<div class=\"overlay caption\">bright lighting highlights every detail from the jewelry to the smooth texture of the skin.</div>",
+        "transcript": "[SPEAKER_1] One, two, three.",
+        "duration": 4.35,
+        "audio_description": "high-pitched electronic beep similar to what you would hear in a classic video game"
+      },
+      {
+        "start_time": 4.35,
+        "end_time": 4.75,
+        "scene_description": "a 3D animated game interface set against a vibrant, stylized virtual environment featuring geometric patterns, colorful accents, and a glowing light effect that creates an energetic atmosphere; two vertical columns lined with smaller rectangular panels stand side-by-side, each containing a row of buttons-one red, one yellow-with the top panel displaying 'YOU' and the bottom panel showing 'TURTLE,' while a small green turtle graphic sits at the center between them. \" At 1s, the camera shifts to a close-up of the player's hands adornED WITH RINGS AND A BRACELET, positioned over the game board to highlight their interaction with the controls. The scene transitions back to the initial wide shot showing both players and the game continues with the player pressing the red button again. At 2s, the camera angle changes slightly to show more of the players' faces and the surrounding environment including additional game elements like buttons and structures before returning to a tight focus on the players' hands interacting with the game. The overall mood remains playful and engaging driven by the dynamic gameplay and the lively environment. generic impact sounds slap",
+        "ui_elements_html": "",
+        "transcript": "[SPEAKER_2][calm, instructional tone] This is a Bop-it.",
+        "duration": 0.4,
+        "audio_description": ""
+      },
+      {
+        "start_time": 4.75,
+        "end_time": 19.75,
+        "scene_description": "a 4K close-up shot capturing two people sitting at a table in a cozy indoor workspace bathed in soft warm lighting; the person on the left wears glasses and a dark shirt, while the person on the right dons a green hat and orange top. The table holds a large wooden Bop-It! game featuring red yellow and blue buttons arranged in rows flanked by small toy turtles-one yellow one blue-resting near their respective sides. In front of each individual sits a black mug holding coffee cups and the background includes blurred shelves filled with various items creating an intimate office-like atmosphere. A high-energy electronic dance track plays throughout with no dialogue or narration. At 1s both reach for the Bop-It game's buttons simultaneously fingers curling around the red and yellow ones as they press them rapidly in succession their movements synchronous and playful. The camera remains steady focusing closely on their interactions with the game. At 2s the scene transitions to a single medium close-up of the person wearing the green hat who continues pressing the buttons with deliberate force their expression focused yet amused. The camera stays fixed on them highlighting their concentration against the consistent backdrop of the blurred shelves and coffee cups. enhanced by the warm lighting and blurred background details",
+        "ui_elements_html": "",
+        "transcript": "[SPEAKER_3] Press the buttons fast before I beat you.",
+        "duration": 15.0,
+        "audio_description": ""
+      },
+      {
+        "start_time": 19.75,
+        "end_time": 21.0,
+        "scene_description": "a 2560x1471 pixel 4K resolution image of an indoor office-like space bathed in warm lighting that casts soft shadows; a wooden table holds a large wooden game board labeled 'Bop-It!' featuring 3 buttons-red yellow; green-and two small toy turtles: a yellow one with a blue underside and a grayish-blue one with a pinkish-gray shell. Behind the camera stands a shelf filled with various items including a white box a red container and other indistinct objects creating a cozy yet focused atmosphere. Two people sit side-by-side at the table: the person on the left has short brown hair glasses and wears a dark sweater; the person on the right has curly brown hair wears a green shirt and looks down intently at the game. The camera remains stationary throughout the clip capturing both individuals from the chest up in a medium close-up shot. At 1s a hand enters the frame to gently touch the grayish-blue turtle's head then moves away quickly. Immediately after \" followed by a smiling face emoji 😚. sharp creating a humorous and abrupt end to the sequence",
+        "ui_elements_html": "<div class=\"overlay caption\">Try again!</div>\n<div class=\"overlay caption\">the scene transitions abruptly to a black screen where white text appears reading \" Try again!</div>",
+        "transcript": "[SPEAKER_4] Try again!",
+        "duration": 1.25,
+        "audio_description": "comical'thwack' sound effect similar to a slap or hit"
+      }
+    ]
+  }
+}

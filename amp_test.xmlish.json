@@ -1,0 +1,29 @@
+{
+  "input": {
+    "sources": [],
+    "duration": 8,
+    "creator": "Daniel Hentschel",
+    "topic": "Film &Animation",
+    "title": "expl or in g the ar to fs to pmoti on"
+  },
+  "output": {
+    "segments": [
+      {
+        "start_time": 0.0,
+        "end_time": 2.5,
+        "scene_description": "the video be g in s with a close-up shot of acol or fuls to pmoti on setfe at ur in gm in i at ure trees and characters in various poses, illum in at ed by soft studio lights. The camera slowlyp an sacross the set, show c as in g in tric at edetails on the characters' face s and costumes.",
+        "ui_elements_html": "",
+        "transcript": "",
+        "duration": 2.5
+      },
+      {
+        "start_time": 2.5,
+        "end_time": 5.0,
+        "scene_description": "A hand enters",
+        "ui_elements_html": "",
+        "transcript": "",
+        "duration": 2.5
+      }
+    ]
+  }
+}

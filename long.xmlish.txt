@@ -1,0 +1,403 @@
+<example>
+<input>
+<duration>21</duration>
+<creator>Me</creator>
+<topic>Comedy</topic>
+<title>The Statistical Impossibility of Being You</title>
+</input>
+<output>
+<segments><segment>
+<start>0</start>
+<end>12</end>
+<duration>12</duration>
+<scene>A bright modern office. A plain white coffee mug sits motionless on a wooden desk beside a notebook and laptop. Sunlight enters through large windows. The camera is locked in a close-up.</scene>
+<transcript>[HOST] This mug. It's sitting there, holding my coffee, keeping it warm. It seems like a simple object, right?</transcript>
+</segment>
+<segment>
+<start>12</start>
+<end>24</end>
+<duration>12</duration>
+<scene>The camera slowly pushes closer toward the mug. Dust particles drift through sunbeams. The room remains silent and ordinary.</scene>
+<transcript>[HOST] But what if I told you that the odds of the atoms in this room spontaneously arranging themselves into this mug, right now, are so low that they are effectively zero?</transcript>
+</segment>
+<segment>
+<start>24</start>
+<end>34</end>
+<duration>10</duration>
+<scene>A hand enters frame and gently taps the mug. The ceramic vibrates slightly.</scene>
+<audio>light ceramic tap</audio>
+<transcript></transcript>
+</segment>
+<segment>
+<start>34</start>
+<end>48</end>
+<duration>14</duration>
+<scene>The office dissolves into a photorealistic molecular simulation. Billions of glowing particles float and collide throughout the room. The mug remains highlighted at the center.</scene>
+<transcript>[HOST] If you took all the air molecules in this room and let them jiggle around...</transcript>
+</segment>
+<segment>
+<start>48</start>
+<end>64</end>
+<duration>16</duration>
+<scene>The camera flies through a dense cloud of particles. Equations emerge around the mug. Numbers float in three-dimensional space.</scene>
+<ui_elements_html><div style="position:absolute;top:15%;left:10%;font-size:80px;color:white;">
+Chance of Random Mug Formation
+</div><div style="position:absolute;top:35%;left:10%;font-size:120px;color:#00ffff;font-family:monospace;">
+10<sup>-10²⁶</sup>
+</div>
+</ui_elements_html>
+<transcript>[HOST] ...the chance they would just snap into the shape of this mug is ten to the negative ten to the twenty-sixth power.</transcript> </segment>
+<segment>
+<start>64</start>
+<end>78</end>
+<duration>14</duration>
+<scene>The camera races along an endless line of zeros stretching across the cosmos. The number appears infinitely long.</scene>
+<ui_elements_html><div style="position:absolute;top:40%;left:5%;font-size:100px;color:white;">
+0.000000000000000000000...
+</div>
+</ui_elements_html>
+<transcript>[HOST] That's a number so small that it is functionally impossible.</transcript> </segment>
+<segment>
+<start>78</start>
+<end>90</end>
+<duration>12</duration>
+<scene>The office suddenly reappears. The mug remains exactly where it started.</scene>
+<transcript>[HOST] And yet, this mug exists.</transcript>
+</segment>
+<segment>
+<start>90</start>
+<end>108</end>
+<duration>18</duration>
+<scene>The host stands in a cosmic observatory surrounded by rotating planets, atoms, and force diagrams.</scene>
+<ui_elements_html><div style="position:absolute;right:5%;top:10%;font-size:50px;color:white;">
+Gravity
+<br>
+Electromagnetism
+<br>
+Strong Force
+<br>
+Weak Force
+</div>
+</ui_elements_html>
+<transcript>[HOST] We usually think the universe is built on rules. Gravity, electromagnetism, the standard model.</transcript> </segment>
+<segment>
+<start>108</start>
+<end>125</end>
+<duration>17</duration>
+<scene>The diagrams dissolve into darkness. Strange geometric structures emerge from a cosmic void.</scene>
+<transcript>[HOST] But there is a deeper, stranger layer to reality. A layer where impossible things aren't just accidents.</transcript>
+</segment>
+<segment>
+<start>125</start>
+<end>140</end>
+<duration>15</duration>
+<scene>A glowing cosmic menu unfolds through space. Impossible objects flicker into existence and disappear.</scene>
+<transcript>[HOST] They are mathematical certainties. Today, we're looking at the universe's most forbidden menu.</transcript>
+</segment>
+<segment>
+<start>140</start>
+<end>156</end>
+<duration>16</duration>
+<scene>A gigantic warehouse appears, stretching beyond the horizon. Thousands of lottery machines operate simultaneously.</scene>
+<transcript>[HOST] Probability is just a game of trials.</transcript>
+</segment>
+<segment>
+<start>156</start>
+<end>172</end>
+<duration>16</duration>
+<scene>A giant coin flips through the air. Multiple copies branch outward into parallel streaks.</scene>
+<ui_elements_html><div style="position:absolute;top:15%;left:15%;font-size:70px;">
+Heads
+<br>
+Heads
+<br>
+Heads
+<br>
+Heads
+<br>
+Heads
+</div>
+</ui_elements_html>
+<transcript>[HOST] If I flip a coin once, I get heads or tails. If I flip it a trillion times, I'm eventually going to get a streak of a thousand heads in a row.</transcript> </segment>
+<segment>
+<start>172</start>
+<end>184</end>
+<duration>12</duration>
+<scene>The streak continues across a seemingly infinite wall of coins.</scene>
+<transcript>[HOST] It's rare, but it's inevitable.</transcript>
+</segment>
+<segment>
+<start>184</start>
+<end>205</end>
+<duration>21</duration>
+<scene>The warehouse transforms into a cosmic visualization of the observable universe. Stars and galaxies appear as points of light connected by glowing paths.</scene>
+<ui_elements_html><div style="position:absolute;top:20%;left:10%;font-size:100px;color:#00ffff;">
+10¹¹⁰
+</div><div style="position:absolute;top:40%;left:10%;font-size:50px;color:white;">
+Approximate Particle Interactions
+<br>
+in Cosmic History
+</div>
+</ui_elements_html>
+<transcript>[HOST] Our universe has had about thirteen point eight billion years to flip its coins. But we've only had around ten to the one hundred tenth total events.</transcript> </segment>
+<segment>
+<start>205</start>
+<end>220</end>
+<duration>15</duration>
+<scene>A giant bank account meter appears in space while galaxies drift behind it.</scene>
+<ui_elements_html><div style="position:absolute;top:25%;left:15%;font-size:80px;">
+Cosmic Budget
+</div><div style="position:absolute;top:45%;left:15%;font-size:120px;color:lime;">
+10¹¹⁰
+</div>
+</ui_elements_html>
+<transcript>[HOST] That's our cosmic budget.</transcript> </segment>
+<segment>
+<start>220</start>
+<end>240</end>
+<duration>20</duration>
+<scene>A cheeseburger appears behind a glass display case. A gigantic price tag hangs above it.</scene>
+<ui_elements_html><div style="position:absolute;top:15%;left:15%;font-size:60px;">
+Spontaneous Burger
+</div><div style="position:absolute;top:40%;left:15%;font-size:100px;color:red;">
+Cost:
+10<sup>10²⁶</sup>
+</div>
+</ui_elements_html>
+<transcript>[HOST] If the price of a spontaneous burger is ten to the negative ten to the twenty-sixth power, our universe hasn't been able to afford one yet.</transcript> </segment>
+<segment>
+<start>240</start>
+<end>255</end>
+<duration>15</duration>
+<scene>The host stands before a giant whiteboard inside the warehouse.</scene>
+<transcript>[HOST] But here's where your intuition becomes dangerous.</transcript>
+</segment>
+<segment>
+<start>255</start>
+<end>270</end>
+<duration>15</duration>
+<scene>A circle is drawn on the board. It rapidly expands into a vast map of possible particle arrangements.</scene>
+<transcript>[HOST] If there are infinite weird things on the menu, doesn't the probability add up?</transcript>
+</segment>
+<segment>
+<start>270</start>
+<end>290</end>
+<duration>20</duration>
+<scene>The visualization splits into two regions. A tiny island labeled ORDER and an enormous ocean labeled CHAOS.</scene>
+<ui_elements_html><div style="position:absolute;left:10%;top:30%;font-size:90px;color:lime;">
+ORDER
+</div><div style="position:absolute;right:10%;top:30%;font-size:90px;color:red;">
+CHAOS
+</div>
+</ui_elements_html>
+<transcript>[HOST] The problem is that the universe is biased. It loves chaos.</transcript> </segment>
+<segment>
+<start>290</start>
+<end>315</end>
+<duration>25</duration>
+<scene>Random dust configurations flood the screen by the trillions while a single cheeseburger remains isolated in a tiny region.</scene>
+<ui_elements_html><div style="position:absolute;left:5%;top:20%;font-size:50px;">
+Cheeseburger
+<br>
+1 Arrangement
+</div><div style="position:absolute;right:5%;top:20%;font-size:50px;">
+Random Dust
+<br>
+10^Trillions+ Arrangements
+</div>
+</ui_elements_html>
+<transcript>[HOST] There are countless ways to arrange atoms into useless invisible dust. There are far fewer ways to arrange them into something ordered like a cheeseburger.</transcript> </segment>
+<segment>
+<start>315</start>
+<end>240</end>
+<duration>45</duration>
+<scene>Lottery balls labeled CHAOS continue winning repeatedly while ORDER loses over and over. The camera zooms outward until the entire warehouse becomes a statistical landscape.</scene>
+<transcript>[HOST] Because the chaos menu is so much larger than the order menu, the universe keeps winning the lottery for disorder every moment.</transcript>
+</segment>
+<segment> <start>360</start>
+<end>375</end>
+<duration>15</duration>
+<scene>The warehouse fades into darkness. The last lottery machines power down one by one. Their lights disappear until only the host remains illuminated by a faint spotlight.</scene><transcript>[HOST] But let's fast forward. Not a thousand years. Not a million.</transcript>
+</segment>
+<segment> <start>375</start>
+<end>390</end>
+<duration>15</duration>
+<scene>The camera pulls away from Earth into space. Centuries pass in seconds. Continents shift. The Sun slowly brightens.</scene>
+<ui_elements_html><div style="position:absolute;top:10%;left:10%;font-size:70px;color:white;"> TIME ACCELERATION </div><div style="position:absolute;top:30%;left:10%;font-size:90px;color:#00ffff;"> 1,000 Years <br> 1 Million Years <br> 100 Million Years </div> </ui_elements_html>
+<transcript>[HOST] Let's look at the universe after the last star has burned out.</transcript>
+</segment>
+<segment> <start>390</start>
+<end>405</end>
+<duration>15</duration>
+<scene>Stars across a galaxy begin fading. Bright spiral arms become dim. Entire galaxies slowly darken.</scene><transcript>[HOST] After the last black hole has evaporated.</transcript>
+</segment>
+<segment> <start>405</start>
+<end>420</end>
+<duration>15</duration>
+<scene>A supermassive black hole sits at the center of a dead galaxy. Hawking radiation streams away as the black hole gradually shrinks.</scene>
+<ui_elements_html><div style="position:absolute;top:15%;left:10%;font-size:60px;"> Black Hole Evaporation </div><div style="position:absolute;top:35%;left:10%;font-size:80px;color:#ffaa00;"> Hawking Radiation </div> </ui_elements_html>
+<transcript>[HOST] Eventually even the longest-lived structures disappear.</transcript>
+</segment>
+<segment> <start>420</start>
+<end>440</end>
+<duration>20</duration>
+<scene>The universe becomes an endless black void. No stars. No galaxies. No planets. Only occasional particles drifting through emptiness.</scene>
+<ui_elements_html><div style="position:absolute;top:40%;left:35%;font-size:120px;color:white;"> HEAT DEATH </div> </ui_elements_html>
+<transcript>[HOST] We reach heat death. Total, uniform darkness.</transcript>
+</segment>
+<segment> <start>440</start>
+<end>455</end>
+<duration>15</duration>
+<scene>The camera slowly travels through empty space. The darkness appears infinite in every direction.</scene><transcript>[HOST] Now something changes.</transcript>
+</segment>
+<segment> <start>455</start>
+<end>470</end>
+<duration>15</duration>
+<scene>A cosmic timeline stretches across the void. The present occupies only a tiny fraction near the beginning.</scene>
+<ui_elements_html><div style="position:absolute;top:20%;left:5%;font-size:50px;"> Big Bang ---------------------------------------------------------- Present ---------------------------------------------------------- Heat Death ---------------------------------------------------------- ∞ </div> </ui_elements_html>
+<transcript>[HOST] Now we have infinite time.</transcript>
+</segment>
+<segment> <start>470</start>
+<end>490</end>
+<duration>20</duration>
+<scene>The timeline extends farther and farther until it disappears beyond the horizon.</scene><transcript>[HOST] And in an infinite timeline, even the most impossible thing becomes guaranteed.</transcript>
+</segment>
+<segment> <start>490</start>
+<end>505</end>
+<duration>15</duration>
+<scene>The word IMPOSSIBLE appears as a giant wall floating in darkness.</scene><transcript>[HOST] The impossible isn't a wall.</transcript>
+</segment>
+<segment> <start>505</start>
+<end>520</end>
+<duration>15</duration>
+<scene>The wall cracks apart and transforms into a calendar stretching infinitely into the future.</scene>
+<ui_elements_html><div style="position:absolute;top:35%;left:25%;font-size:120px;color:#00ffff;"> IMPOSSIBLE </div><div style="position:absolute;top:60%;left:30%;font-size:80px;color:white;"> → DEADLINE </div> </ui_elements_html>
+<transcript>[HOST] It's a deadline.</transcript>
+</segment>
+<segment> <start>520</start>
+<end>535</end>
+<duration>15</duration>
+<scene>Tiny quantum fluctuations appear in the darkness like ripples in water.</scene><transcript>[HOST] Random fluctuations continue forever.</transcript>
+</segment>
+<segment> <start>535</start>
+<end>550</end>
+<duration>15</duration>
+<scene>Particles begin clustering together. A faint glowing structure emerges.</scene><transcript>[HOST] Given enough time...</transcript>
+</segment>
+<segment> <start>550</start>
+<end>570</end>
+<duration>20</duration>
+<scene>The glowing structure resolves into a transparent human brain made of particles suspended in space.</scene>
+<ui_elements_html><div style="position:absolute;top:15%;left:10%;font-size:90px;color:white;"> BOLTZMANN BRAIN </div> </ui_elements_html>
+<transcript>[HOST] This is the Boltzmann Brain.</transcript>
+</segment>
+<segment> <start>570</start>
+<end>590</end>
+<duration>20</duration>
+<scene>Neural pathways illuminate throughout the brain. Electrical signals race between regions.</scene><transcript>[HOST] In the deep empty future, thermodynamics may eventually jiggle enough particles into the shape of a functioning human brain.</transcript>
+</segment>
+<segment> <start>590</start>
+<end>610</end>
+<duration>20</duration>
+<scene>Memories appear as translucent holographic scenes inside the brain: childhood, school classrooms, friendships, daily life.</scene>
+<ui_elements_html><div style="position:absolute;right:10%;top:15%;font-size:50px;"> ✓ Childhood <br> ✓ School <br> ✓ Family <br> ✓ Memories </div> </ui_elements_html>
+<transcript>[HOST] It would have memories of being born. Going to school. Living an entire life.</transcript>
+</segment>
+<segment> <start>610</start>
+<end>630</end>
+<duration>20</duration>
+<scene>The brain becomes brighter as awareness emerges. A single eye opens inside a field of darkness.</scene><transcript>[HOST] It would believe those memories were real.</transcript>
+</segment>
+<segment> <start>630</start>
+<end>650</end>
+<duration>20</duration>
+<scene>The camera enters the brain's perspective. Empty darkness surrounds a single conscious observer.</scene>
+<ui_elements_html><div style="position:absolute;top:45%;left:30%;font-size:90px;color:white;"> Where am I? </div> </ui_elements_html>
+<transcript>[HOST] It might experience one conscious thought. Where am I?</transcript>
+</segment>
+<segment> <start>650</start>
+<end>665</end>
+<duration>15</duration>
+<scene>The particle structure destabilizes. Atoms drift apart.</scene><transcript>[HOST] And then...</transcript>
+</segment>
+<segment> <start>665</start>
+<end>680</end>
+<duration>15</duration>
+<scene>The brain dissolves completely into scattered particles.</scene><transcript>[HOST] The atoms drift apart.</transcript>
+</segment>
+<segment> <start>680</start>
+<end>700</end>
+<duration>20</duration>
+<scene>The host stands beneath a night sky filled with stars. The darkness of heat death fades away.</scene><transcript>[HOST] It's a terrifying thought.</transcript>
+</segment>
+<segment> <start>700</start>
+<end>720</end>
+<duration>20</duration>
+<scene>Two parallel visualizations appear. One shows billions of years of evolution. The other shows a Boltzmann Brain briefly appearing in empty space.</scene>
+<ui_elements_html><div style="position:absolute;left:5%;top:20%;font-size:50px;"> Evolution <br> Billions of Years </div><div style="position:absolute;right:5%;top:20%;font-size:50px;"> Boltzmann Brain <br> Fraction of a Second </div> </ui_elements_html>
+<transcript>[HOST] Are we the result of billions of years of evolution, or a momentary fluctuation in the vacuum?</transcript>
+</segment>
+<segment> <start>720</start>
+<end>740</end>
+<duration>20</duration>
+<scene>The evolutionary timeline becomes brighter while the Boltzmann Brain fades into the background.</scene><transcript>[HOST] The fact that we remember a continuous life suggests we're probably the real deal.</transcript>
+</segment>
+<segment> <start>740</start>
+<end>760</end>
+<duration>20</duration>
+<scene>A timeline of cosmic history appears. The present moment glows brightly.</scene>
+<ui_elements_html><div style="position:absolute;top:35%;left:5%;font-size:60px;"> Big Bang ---------------- [ YOU ARE HERE ] ---------------- Heat Death </div> </ui_elements_html>
+<transcript>[HOST] But it tells us something profound about the universe.</transcript>
+</segment>
+<segment> <start>760</start>
+<end>780</end>
+<duration>20</duration>
+<scene>The region around the present expands and glows gold while the distant past and future remain dim.</scene>
+<ui_elements_html><div style="position:absolute;top:25%;left:30%;font-size:100px;color:gold;"> GOLDEN AGE </div> </ui_elements_html>
+<transcript>[HOST] We are living in the golden age.</transcript>
+</segment>
+<segment> <start>780</start>
+<end>800</end>
+<duration>20</duration>
+<scene>Civilization, life, forests, oceans, animals, and humanity appear as a montage around Earth.</scene><transcript>[HOST] The time when the universe is ordered enough for us to exist.</transcript>
+</segment>
+<segment> <start>800</start>
+<end>820</end>
+<duration>20</duration>
+<scene>The montage contrasts with the distant empty universe of heat death.</scene><transcript>[HOST] Yet still young enough that spontaneous glitches haven't taken over.</transcript>
+</segment>
+<segment> <start>820</start>
+<end>840</end>
+<duration>20</duration>
+<scene>A lively cosmic party appears. Stars become lanterns. Galaxies resemble glowing decorations. People laugh beneath a sky full of nebulae.</scene><transcript>[HOST] We're at the cosmic party right when the music is playing.</transcript>
+</segment>
+<segment> <start>840</start>
+<end>860</end>
+<duration>20</duration>
+<scene>Tables filled with food appear among stars and galaxies. The atmosphere is warm and celebratory.</scene><transcript>[HOST] The food is fresh. The conversation is good.</transcript>
+</segment>
+<segment> <start>860</start>
+<end>885</end>
+<duration>25</duration>
+<scene>A cheeseburger briefly flickers into existence in a dark future universe before vanishing again.</scene>
+<ui_elements_html><div style="position:absolute;top:20%;left:20%;font-size:80px;color:white;"> Future Statistical Fluctuation </div> </ui_elements_html>
+<transcript>[HOST] And while we probably won't see a burger spontaneously appear on our desk today...</transcript>
+</segment>
+<segment> <start>885</start>
+<end>910</end>
+<duration>25</duration>
+<scene>The camera zooms outward through the observable universe. Galaxies become points of light.</scene><transcript>[HOST] The math says it's waiting somewhere in the darkness, billions upon billions of years from now.</transcript>
+</segment>
+<segment> <start>910</start>
+<end>930</end>
+<duration>20</duration>
+<scene>The host looks directly toward the camera beneath a star-filled sky.</scene><transcript>[HOST] Thanks for watching.</transcript>
+</segment>
+<segment> <start>930</start>
+<end>945</end>
+<duration>15</duration>
+<scene>The screen slowly fades to black. Tiny static-like flashes appear briefly in the darkness.</scene><audio>distant cosmic static, low ambient synthesizer, gradual fade out</audio><transcript></transcript>
+</segment>
+</segments>
+</output>
+</example>

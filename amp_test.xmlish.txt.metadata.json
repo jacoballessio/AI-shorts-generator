@@ -1,0 +1,9 @@
+{
+  "generated_at": "2026-04-02T08:40:34Z",
+  "generator": "generate_example_with_carmind2_lora.py",
+  "base_model": "SuperAGI/mistral-7B-PoSE-32k",
+  "model_loaded_from": "SuperAGI/mistral-7B-PoSE-32k",
+  "adapter": "longcontext-20260324_025228\\emergency_checkpoint",
+  "format": "xmlish",
+  "fallback_used": false
+}

@@ -1,0 +1,52 @@
+<example>
+<input>
+<duration>25</duration>
+<creator>Bitch 123 - Tiwip Bili</creator>
+<topic>Comedy</topic>
+<title>Batàn Kata Masuk kenapa sih..😂😂 #batajak #comedy #</title>
+</input>
+<output>
+<segments>
+<segment>
+<start>0</start>
+<end>4.97</end>
+<duration>4.97</duration>
+<scene>a split-screen view: on the left, an outdoor concrete patio adjacent to a house entrance features a green car parked near a white door; on the right, a man with dark hair and a beard stands in a bathroom with red tiled walls, a mirror, and a black toilet.A person wearing a black hooded outfit with silver accents including a helmet, gloves, and boots enters from the left side of the frame, moving toward the man in the bathroom.The audio begins with a loud, echoing, distorted sound like a powerful engine revving up, creating a dramatic effect.At 1s, the hooded figure reaches out to touch the man's head through the open doorway, prompting him to turn around slightly while looking back with surprise.The camera remains static throughout both panels, maintaining focus on the interaction between the two individuals.On-screen text appears at the top reading "MAKAN HUMPANG DAH MAT" in large red letters, below which 'SAMYANG' is displayed in white font.A high-energy electronic dance track plays, driven by a fast-paced synthesized beat and pulsating bassline that creates an upbeat, modern club-like atmosphere.The scene transitions smoothly between the initial tense moment and the subsequent playful interaction, with no additional dialogue beyond the opening sound effects.</scene>
+<transcript>[SPEAKER_1] gitu wang </transcript>
+</segment>
+<segment>
+<start>4.97</start>
+<end>8.64</end>
+<duration>3.67</duration>
+<scene>a 3D animated scene set against a bright blue sky where a large dark-gray bat-like creature flies energetically across the frame; its wings flap rapidly, body undulate dynamically, and glowing yellow accents on its face and chest pulse softly.The camera captures the creature's full motion from a low angle looking up at it, emphasizing its agility against the open expanse of sky.At 1s, the scene shifts to a dimly lit indoor space featuring a wooden floor, dark wall, and small table holding a bowl of noodles topped with a fried egg and tomatoes-a cozy, casual dining environment.A person dressed in a black outfit lies on the floor, seemingly asleep, while another individual dressed in an orange shirt and black pants stands nearby observing quietly.On-screen text appears above the main character reading 'WAH! SOK KENAPA SIH..' in bold red font with a white outline, and below the main character reads "SAMYANG" in white font.The audio includes the word 'Hey!' heard between 1s and 2s.The camera alternates between close-ups of the creature's dynamic movements and medium shots of the people lying and sitting, highlighting the contrast between the lively flight and the stillness of the indoor setting.</scene>
+<transcript>[SPEAKER_1] Wadah! Sok Kenapa sih?</transcript>
+</segment>
+<segment>
+<start>8.64</start>
+<end>9.64</end>
+<duration>1</duration>
+<scene>a 45-degree close-up shot inside a brightly lit bathroom featuring red tiled floors, a white sink to the left, a toilet, and a shower area; natural daylight streams through an unseen window, casting soft shadows that enhance the clean, orderly atmosphere.A man with short dark hair and a full beard stands fully naked except for his feet clad in gray slippers, smiling warmly at the camera while gesturing playfully with his right hand.On-screen text appears above him reading 'WAH! HUMPANG DA MAKAN SIH..' in large stylized yellow font with a black outline, and below it 'SAMYANG FLOOR' in smaller white font.The audio begins with a low, resonant, slightly melancholic musical note from a deep bass instrument, creating a somber yet intimate mood.At 1s, he raises his arm behind his head, then lowers it, maintaining his cheerful expression as if reacting to something unexpected.He continues to gesture expressively with his hands, shifting his posture lightly before bringing them together near his chest.His movements remain playful and animated throughout, conveying a sense of lightheartedness despite the formal setting.The camera stays steady in its 45-degree position, keeping focus on his upper body and expressive gestures against the clean, structured backdrop of the bathroom.No other dialogue occurs during the sequence, allowing his physical interactions and gentle smile to carry the narrative's emotional weight.</scene>
+<transcript>[SPEAKER_2] Bah!</transcript>
+<audio>keywords telephone, ringtone</audio>
+</segment>
+<segment>
+<start>9.64</start>
+<end>24.64</end>
+<duration>15</duration>
+</segment>
+<segment>
+<start>24.64</start>
+<end>25</end>
+<duration>0.36</duration>
+</segment>
+
+<segment>>
+<start>9.64</start>
+<end>24.64</end>
+<duration>15</duration>
+<scene>a 7.5-second close-up shot focusing on a young man lying on a bed covered with a patterned gray blanket; he has short dark hair, wears a brown jacket over a blue shirt, and looks up to his right with a slight smile.The room's walls are adorned with intricate light-colored tile patterns, a decorative pillar with a circular top sits in the center behind him, and soft indoor lighting casts gentle shadows that enhance the calm atmosphere.A high-energy electronic dance remix plays throughout, featuring a fast-paced driving beat, pulsating bassline, and repetitive synthesized vocal sample saying 'I can't believe it.' No dialogue occurs during the sequence.At 3s, the scene transitions abruptly to a lively indoor kitchen featuring red tiled walls, shelves lined with bottles and containers, and a counter holding various items.Here, a person wearing glasses, a black helmet-like headpiece, a bearded face mask, and a gray outfit stands near the counter, moving energetically while gesturing animatedly with both hands raised palms up as if explaining something enthusiastically.Another individual dressed in an orange top and blue pants responds with equally spirited movements, mirroring the first person's energy.The camera shifts from a medium shot capturing the first person's relaxed form on the bed to a wider shot including all three individuals, emphasizing the contrast between the initial quiet calm and the later vibrant interaction.</scene>
+<transcript>[SPEAKER_1] Samyang! Harus apa nih?</transcript>
+    
+  
+
+</segment>

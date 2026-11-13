@@ -1,0 +1,102 @@
+<example>
+	<input>
+		<duration>
+			30
+		</duration>
+		<creator>
+			Daniel Hentschel
+		</creator>
+		<topic>
+			Education
+		</topic>
+		<title>
+			under standing the B as ic soft imem an agement
+		</title>
+	</input>
+	<output>
+		<segments>
+<segment><start>
+			0.0
+		</start>
+		<end>
+			5.0
+		</end>
+		<duration>
+			5.0
+		</duration>
+		<scene>
+			The video starts with a medium shot of d an iel he ntsc he l in a cozy, well-lit study filled with book she lves and a desk. he smile s warm ly at the camera, in troduc in g the topic of time management. The background is soft ly blurred to keep focus on him.
+		</scene>
+		<transcript>
+			[SPEAKER_1]Hieveryone! Today we're going to talk about under standing the b as ic soft ime management.
+		</transcript>
+		</segment>
+		<segment><start>
+			5.0
+		</start>
+		<end>
+			10.0
+		</end>
+		<duration>
+			5.0
+		</duration>
+		<scene>
+			The camera zoom s in slightly on d an iel a she gestures to wards awh it eboard filled with notes. The scene tr an s it i on s to the wh it eboardw here keypo in ts about pri or it iz in gt as ks are written.
+		</scene>
+		<transcript>
+			[SPEAKERS_1]First, it'scrucial to pri or it ize your tasks. Not everyth in g is equ all y important.
+		</transcript>
+		<audio>
+			basic thumbnail
+		</audio>
+		</segment>
+		<segment><duration>
+				5.0">The scene shifts back to Daniel speaking with enthusiasm, his expressions conveying passion about the subject.
+			</scene>>
+		<start>
+			10.0
+		</start>
+		<end>
+			15.0
+		</end>
+		<transcript>
+			[SPEAKER1]You mustident if ywh at m at ters most to you and all oc at e your time accordingly.
+		</transcript>
+		</segment>
+		<segment><< <duration>
+				5.0>The video cuts to a split screen showing Daniel on one side and a calendar on the other, illustrating a visual of a scheduled day.
+			</scene>
+			[SPEAKERR_1]Using a calendar can help you visualize your schedule and stay organized.
+		</transcript><start>
+			15.0
+		</start>
+		<end>
+			20.0
+		</end>
+		<audio>
+			telephone, tele phone be llr in g in g
+		</audio>
+	</segment>
+	<segment><< <duration>
+			=5.0>The scene returns to Daniel, now holding a planner, emphasizing the importance of writing down goals.
+		</scene>
+		[SPEAKRR_1]Don't forget to write down your goals; this helps you stay focused.
+	</transcript>
+		<start>
+			20.0
+		</start>
+		<end>
+			5
+		</end>
+</segment>
+<segment>
+		<start>
+			25.0
+		</start></segment>
+<end>
+	30.0
+</end>
+</segment>
+</segments>
+</output>
+</example>

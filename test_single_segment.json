@@ -1,0 +1,26 @@
+{
+  "input": {
+    "sources": [],
+    "duration": 10,
+    "creator": "Test",
+    "topic": "Test",
+    "title": "Test Video"
+  },
+  "output": {
+    "segments": [
+      {
+        "start_time": 0.0,
+        "end_time": 10.0,
+        "scene_description": "Close-up of person typing on smartphone",
+        "ui_elements_html": "<div class=\"pos-top-left style-white\">Message 1</div>\n<div class=\"pos-top-left style-white\">Message 2</div>\n<div class=\"pos-top-left style-white\">Message 3</div>\n<div class=\"pos-top-right style-bold\">12:47 PM</div>\n<div class=\"pos-top-right style-white\">Battery 80%</div>",
+        "transcript": "Hello, this is a test message.",
+        "duration": 10.0
+      }
+    ]
+  },
+  "metadata": {
+    "video_id": "test123",
+    "upload_date": "2024-01-01",
+    "view_count": 0
+  }
+}

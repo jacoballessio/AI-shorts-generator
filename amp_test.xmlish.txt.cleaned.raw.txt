@@ -1,0 +1,78 @@
+<example>
+	<input>
+		<duration>
+			12
+		</duration>
+		<creator>
+			Daniel Hentschel
+		</creator>
+		<topic>
+			Film &amp;Animation
+		</topic>
+		<title>
+			expl or in g the ar to fs to pmoti on
+		</title>
+	</input>
+	<output>
+		<segments>
+<segment><start>
+			0.0
+		</start>
+		<end>
+			3.0
+		</end>
+		<duration>
+			3.0
+		</duration>
+		<scene>
+			the video be g in s with a close-up shot of acol or fuls to pmoti on setup, fe at ur in gvarious clay characterspos it i one d on a small stage with a backdrop of apa in ted sky and wooden set pieces. The camera slowlyp an s across the scene, highlight in g the in tric at e detail soft he characters' face s and costumes.
+		</scene>
+		</segment>
+		<segment><start>
+			3.0
+		</start>
+		<end>
+			6.0
+		</end>
+		<duration>
+			3.0
+		</duration>
+		<scene>
+			" the camera zoom s in on one character as it is gently moved frame by frame, show c as in g them eticulous process of cre at in gs to pmoti on animation. The light in gch an ges slightly to emp has ize the text ure of the clay, while a soft background music plays."
+		</scene>
+		<audio>
+			keywords music, microphone, microphone
+		</audio>
+		</segment>
+		<start>
+			6.0
+		</start>
+		<end>
+			9.0
+		</end>
+		<duration>
+			3.0
+		</duration>
+		"The camera shifts to a hand holding tools like scissors and sculpting knives, demonstrating how to trim the edges of the clay to achieve perfect form.The focus narrows down to the skilled movements of the artist's fingers."
+	</scene>
+</segment>
+<start>
+	9.0
+</start>
+<end>
+	12.0
+</end>
+<duration>
+	3.5
+</duration>
+"Finally, the scene transitions to a time-lapse of multiple frames being shot, with the camera clicking rapidly.The on-screen text reads'Creating Movement' as the sequence comes together, showcasing the final product of the stop motion process.'
+</scene>
+<transcript>
+	the camera an glessh if ts to a wider view, reveal in g the entireset up in clud in g the lights and the characters in action.
+</transcript>
+<transcript>
+	[SPEAKER_1]Welcome to the w or ld of s to pmoti on animation!
+</transcript>
+</segments>
+</output>
+</example>

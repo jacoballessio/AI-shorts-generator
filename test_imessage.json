@@ -1,0 +1,34 @@
+{
+  "input": {
+    "sources": [],
+    "duration": 18,
+    "creator": "Test",
+    "topic": "Test",
+    "title": "Test iMessage"
+  },
+  "output": {
+    "segments": [
+      {
+        "start_time": 0.0,
+        "end_time": 12.0,
+        "scene_description": "Close-up of person typing on smartphone in coffee shop",
+        "ui_elements_html": "<div class=\"pos-top-left style-white\">12:47</div>\n<div class=\"pos-top-left style-white\">iMessage</div>\n<div class=\"pos-top-left style-white\">@</div>\n<div class=\"pos-top-left style-white\">Hi</div>\n<div class=\"pos-bottom style-bold\">Hi</div>\n<div class=\"pos-top-left style-white\">hi</div>",
+        "transcript": "",
+        "duration": 12.0
+      },
+      {
+        "start_time": 14.0,
+        "end_time": 20.0,
+        "scene_description": "Close-up of person typing on smartphone in coffee shop",
+        "ui_elements_html": "<div class=\"pos-top-left style-white\">in message</div>\n<span class=\"icon pos-top-left\" aria-label=\"magnifying glass\"></span>\n<span class=\"icon pos-top-right\" aria-label=\"bell\"></span>\n<div class=\"pos-bottom style-white\">Hey</div>\n<div class=\"pos-top-left style-white\">Hello!</div>\n<div class=\"pos-bottom style-bold\">I'm</div>",
+        "transcript": "",
+        "duration": 6.0
+      }
+    ]
+  },
+  "metadata": {
+    "video_id": "test_imessage",
+    "upload_date": "2024-01-01",
+    "view_count": 0
+  }
+}

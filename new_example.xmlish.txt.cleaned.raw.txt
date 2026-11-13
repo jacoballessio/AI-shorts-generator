@@ -1,0 +1,84 @@
+<example>
+	<input>
+		<duration>
+			45
+		</duration>
+		<creator>
+			Daniel Hentschel
+		</creator>
+		<topic>
+			Comedy
+		</topic>
+		<title>
+			them is adventures of a clumsyc he f
+		</title>
+	</input>
+	<output>
+		<segments>
+<segment><start>
+			0.0
+		</start>
+		<end>
+			10.0
+		</end>
+		<duration>
+			10.0
+		</duration>
+		<scene>
+			Ak it c he n scene with a clumsyc he f in a wh it eapr on spill in gfl our all over himself whiletry in g to prep are a dish. He looks surpr is ed and embarr as sed as the fl our cloud surrounds him, with ahum or ous expression on his face.
+		</scene>
+		<transcript>
+			[SPEAKER_1]Oops! Not again!
+		</transcript>
+		</segment>
+		<segment>
+			<start>
+				10.0s>
+		<end>
+			20.0
+		</end>
+		<duration>
+			10.0
+		</duration>
+		<scene>
+			"The c he f at tempts to crack an egg, but its lips from his hand and spl at ters on the floor. He looks down in d is be lief, the n at the camera with a comical grimace."
+		</scene>
+		<transcript>
+			[SPEAKER_{1}]Well, that'so new ay to make an omelette!
+		</transcript>
+			</segment>
+			<segment>
+				<start>
+					20.0
+		<end>
+			30.0
+		</end></segment>
+				<segment>
+					<start>
+						30.0<end>
+			35.0
+		</end>
+		<duration>
+			5.0
+		</duration>
+					</segment>
+					s>
+					<segment>
+						a chef trying to pour a pot of boiling water into a bowl but misjudges the angle, splashing water everywhere.He jumps back dramatically, shaking his hands.
+					</scene><transcript>
+			[SPEAKERS_1]Hot stuffcom in g through!
+		</transcript>
+		<audio>
+			keywords splash, splashboard
+		</audio>
+				</segment>
+				a>
+				<segment>
+					the chef stands in front of a burnt dish, looking defeated.He shrugs and gives a playful smile to the camera, holding up a charred spoon.
+				</scene>
+				[SPEAKES_1]I think I need a cooking class!
+			</transcript>
+		</segment>
+	</segments>
+</output>
+</example>

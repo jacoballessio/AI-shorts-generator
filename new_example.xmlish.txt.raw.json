@@ -1,0 +1,31 @@
+{
+  "input": {
+    "sources": [],
+    "duration": 12.08,
+    "creator": "HasanAbi",
+    "topic": "News &Politics",
+    "title": "Senator tackles veteran for protesting the war"
+  },
+  "output": {
+    "segments": [
+      {
+        "start_time": 0.0,
+        "end_time": 7.14,
+        "duration": 7.14,
+        "scene_description": "a split-screen view: the top half shows an indoor legislative chamber with warm lighting, rows of wooden desks, and other people seated behind; a man in a dark suit stands at a podium speaking into a microphone, gesturing emphatically with his hands while looking down to read from notes. The bottom half displays a social media post from 'Alan He' dated January 19, 2023, featuring a still image of Capitol Police officers lifting up and ejecting anti-war protester Brian McGinnis from a SASC subcommittee hearing—McGinnis is a Green Party candidate running for Senate in NH, and the post includes a caption detailing the event. At 1s, large bold red text appears over the man at the podium reading \" SENIOR SHEEHY: SINCE YOU'RE PROTESTING THE WAR, I'M GOING TO EJECT YOU! \" as he continues speaking, his expression intense and focused. At 3s, a woman speaks in a calm, professional tone saying \" Sorry, I'm just trying to get a good shot. \" At 5s, she asks again \" Uh, any chance I could get a better photo? \" The camera remains static throughout both panels, maintaining focus on the speaker's passionate delivery and the social media post's detailed account.",
+        "ui_elements_html": "",
+        "transcript": "[SPEAKER_1]This is your lobbyist, your Democrat lobbyist. Since you're protesting the war, I'm going to eject you.",
+        "audio_description": "tools"
+      },
+      {
+        "start_time": 7.14,
+        "end_time": 12.08,
+        "duration": 4.94,
+        "scene_description": "a split-screenview against a black background. On the left, a man with dark hair, glasses, and a beard wearing a brown jacket sits at a wooden desk labeled 'MR. HEYER'; he looks slightly to his right with a concerned expression. On the right, a still photograph from January 19,2023 shows three people sitting around a table in a room adorned with framed pictures, posters, and a blue banner featuring white text. The camera remains static throughout the clip. At 1s,. At 2s,. At 3s,. At 4s., and throughout the sequence, the man on the left speaks in a calm but firm tone, saying \" Sorry, I just need to make sure that I understand this correctly. \" His voice carries a sense of caution and slight confusion as he asks about the removal of Brian McGinnis. The person on the right responds with a direct, matter-of-fact voice, stating \" Yes, you were asked to leave. \" The atmosphere shifts from casual curiosity to tense anticipation, driven by the contrast between the initial calm interaction and the sudden mention of removal.",
+        "ui_elements_html": "",
+        "transcript": "[SPEAKERS_1]Sorry, I'm sorry. I just need to make sue I understand this correctly. Yes, you were asked to be left.",
+        "audio_description": "keywords vocalization"
+      }
+    ]
+  }
+}

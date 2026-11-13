@@ -1,0 +1,55 @@
+<example>
+<input>
+<duration>42</duration>
+<creator>Daniel Hentschel</creator>
+<topic>Comedy</topic>
+<title>The amazing reason he's red.</title>
+</input>
+<output>
+<segments>
+<segment>
+<start>0.0</start>
+<end>5.0</end>
+<duration>5.0</duration>
+<scene>a medium shot of a bald man standing indoors against a plain light-colored wall; to his left, a doorway leads into another room, and soft indoor lighting casts gentle shadows that highlight his vivid red skin.He wears a bright red t-shirt adorned with a large white arrow pointing right, and white text reading "THE REDDEST MAN ALIVE" appears above him.The camera remains stationary throughout the clip.At 1s, he raises both arms high above his head, flexing them widely while maintaining an energetic posture.At 2s, he bends forward slightly then straightens up again, continuing to gesture expressively with his hands moving up and down.His face shows a wide-eyed, excited expression, and his mouth is open as if speaking enthusiastically.The scene maintains its lively atmosphere from start to finish, driven by his dynamic movements and the vibrant setting.</scene>
+<transcript></transcript>
+<audio>telephone, ringtone</audio>
+</segment>
+<segment> 
+<duration>.96</duration>
+<transcript>[SPEAKER_1]I'm on the phone!</transcript>
+<audio>telephone, ring tone</audio>
+ 
+
+<segment><start>5.0</start>
+<end>10.0</end>
+<duration>5</duration>
+<scene>a close-up selfie-style shot showing a bald man with bright red skin wearing a white collared shirt smiling broadly at the camera; behind him, a simple indoor hallway features a door frame to the right and soft warm lighting that highlights his cheerful expression.The watermark 'THE REDDESTMAN ALIVE' appears in large white capital letters over his chest, and the word 'SMILE' is displayed in large white capital letters below it.The camera remains static throughout the clip.At 1s, he gives a thumbs-up gesture while maintaining his joyful smile, then lowers his hand slightly before raising it again.At 3s, he says "Hey!" in an enthusiastic tone filled with genuine excitement, his voice clear and direct as if addressing someone directly.The scene retains its lighthearted mood from start to finish, with no additional dialogue beyond his single line, allowing the visual elements and his expressive gestures to carry the narrative's playful energy.</scene>
+<transcript>[SPEAKER_1] Hey!</transcript> <audio>generic impact sounds, slap</audio>
+</segment>
+<segment> <start>10.04</start>
+<end>15.0</end>
+<duration>4.96</duration> <transcript>[SPEAKER_1]Don't slap my smile!</transcript>
+<audio>keywords wood, chop</audio>
+</segment>
+<segment><start>15.03</start>
+<end>19.8</end> <duration>4.77</duration>
+<scene>the camera angle shifts slightly to show more of his profile as he turns his head to look off-camera, maintaining his animated expression; the'THE REDDEST GUY ALIVE' graphic remains visible throughout, and the camera stays steady, focusing on him from the side.</scene>
+<transcript>"[SPEAKER_2] You can't chop down this tree."</transcript>
+</segment> <segment>
+<start>19.8</start>
+<end>25.0</end>
+<duration>5.2</duration> <transcript>[SPEAKER_2] I can chip this board.</transcript>
+</segment> <segment> <start>25.04</start>
+<end>29.5</end>
+<duration>4.46</duration> <scene>he brings a small hammer into view, striking the board repeatedly while looking down at it; the camera zooms in slightly to focus on his hands and the board, capturing the forceful yet playful motion of each strike, and the word'HIT' appears in large white letters over the action.</scene>
+<transcript>[SPEAKER_2] Hammer doesn't work either!</transcript>
+<audio>key words telephone, ringtone</audio>
+</segment>
+    
+  
+
+</segment>
+</segments>
+</output>
+</example>

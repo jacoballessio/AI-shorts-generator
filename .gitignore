@@ -1,2 +1,12 @@
 experimental/example_videos
 .env
+*.mp4
+__pycache__
+__pycache__/*
+.tmp_*
+data
+data/*
+cache
+output
+output/*
+models

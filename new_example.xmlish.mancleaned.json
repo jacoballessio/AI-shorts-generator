@@ -1,0 +1,64 @@
+{
+  "input": {
+    "sources": [],
+    "duration": 42,
+    "creator": "Daniel Hentschel",
+    "topic": "Education",
+    "title": "What is going on with my penis?"
+  },
+  "output": {
+    "segments": [
+      {
+        "start_time": 0.0,
+        "end_time": 5.76,
+        "scene_description": "a close-up static shot of a bald man standing indoors against a neutral wall with vertical lines resembling Venetian blinds; he wears a white shirt and has dark skin, mustache, and a serious expression.",
+        "ui_elements_html": "<div class=\"overlay caption\">Sexual position for what?</div>\n<div class=\"overlay caption\">Go to</div>",
+        "transcript": "[SPEAKER_1]What's up man? What's up? I just wanna fuck you bro.",
+        "duration": 5.76
+      },
+      {
+        "start_time": 5.76,
+        "end_time": 20.76,
+        "scene_description": "a 360-degree panoramic view from inside a car's driver seat looking out at a sunlit urban street lined with multi-story buildings, concrete sidewalks, parked cars including a white sedan, and dense leafy trees under clear skies; warm sunlight bathes the scene, casting soft shadows that enhance its lively atmosphere. A bald man wearing a light gray suit jacket over a black shirt sits relaxed yet engaged in the front passenger seat, smiling warmly as he looks toward the camera while gesturing expressively with his hands outside the window. the bottom half displays an empty space with the social media handles '@Xbox, @Dankhnen, @Hoyee' visible. The camera remains stationary throughout the clip, capturing both the man's upper body and the vibrant outdoor environment. . laughing",
+        "ui_elements_html": "<div class=\"overlay caption\">This suit was</div>\n<div class=\"overlay caption\">Make me cry like</div>",
+        "transcript": "[SPEAKER_1][calm, conversational tone] This suit was made by... ",
+        "duration": 15.0,
+        "audio_description": "The audio then transitions into a series of loud, high-pitched, comically exaggerated giggles and laughs from another person, creating a humorous contrast between the initial serious tone and the absurd audio. giggle"
+      },
+      {
+        "start_time": 20.76,
+        "end_time": 21.76,
+        "scene_description": "a 4x4 grid layout displaying six YouTube videos against a gray backdrop; the top row features three people including two men and one woman all smiling broadly at the camera, while the bottom row shows three others with neutral expressions-one person in each quadrant. The video on the left plays a golden-framed clip of a young girl with long blonde hair wearing a headband and white shirt smiling warmly, her eyes crinkling with joy. At 1s, the scene shifts to another indoor space where a bald man with a beard stands behind a wooden desk holding a gold cup aloft with both hands, his face lit up with excitement as he looks directly into the camera. The background here is also adorned with greenery and festive decor like a Christmas tree, enhancing the cheerful mood. The camera alternates between these two settings, maintaining focus on the characters' expressive reactions and the objects they hold.",
+        "ui_elements_html": "",
+        "transcript": "",
+        "duration": 1.0
+      },
+      {
+        "start_time": 21.76,
+        "end_time": 26.88,
+        "scene_description": "a 23-second static shot of a bald, bearded man wearing a dark suit jacket over a black collared shirt standing against a simple out-of-focus interior wall with horizontal stripes; he holds a small rectangular card labeled 'BASIC MODE' above his head, looks directly at the camera with an intense expression, and has a serious demeanor. At 2s, the scene transitions to a medium close-up of a bald, beaded man wearing a dark suit coat over a black shirt, standing against a softly lit indoor backdrop with subtle decor including a small item hanging on the right side of his chest; he looks down and to the left with a thoughtful expression before turning slightly toward the camera, then turns fully around facing the lens with a slight smile, and finally looks up and smiles widely showing his teeth. The camera remains steady throughout these shots, focusing on the characters' upper bodies and faces to highlight their emotional states.",
+        "ui_elements_html": "<div class=\"overlay caption\">I got an idea</div>",
+        "transcript": "",
+        "duration": 5.12
+      },
+      {
+        "start_time": 26.88,
+        "end_time": 35,
+        "scene_description": "a 69-year-old man with prostate cancer sitting in a car's backseat wearing a black leather jacket, gray sweater, brown pants, and a black hat, looking forward with a serious expression; he holds a red-and-white 'RIM' sign close to his chest. The car's interior features tan seats, a sun visor, overhead controls, and natural daylight streaming through the windows, creating a calm, enclosed atmosphere. At 1s, the camera shifts to a close-up of his face-he raises both hands to form peace signs near his eyes, then brings them down to gesture expressively while speaking animatedly, his mouth moving rapidly as if sharing an enthusiastic thought. He continues gesturing energetically, moving his arms up and down, his expression shifting from thoughtful to lively as he engages the viewer. At 3s, the scene transitions abruptly to a wider shot revealing another person sitting in a similar position across from him-this individual wears a black cap backward, a dark t-shirt emblazoned with 'Fuck Trending Picks,' headphones, and a hoodie, resting their chin on their hand with a pensive look. The camera stays static here, capturing the quiet interaction between the two men against the car's neutral backdrop.",
+        "ui_elements_html": "<div class=\"overlay caption\">What did I do,</div>\n<div class=\"overlay caption\">To my dick?</div>",
+        "transcript": "[SPEAKER_2][horrified, screaming] What did I do to my fucking dick? Why are you doing this? You want to go?",
+        "duration": 9,
+        "audio_description": ""
+      },
+      {
+        "start_time": 35,
+        "end_time": 42.0,
+        "scene_description": "a 5x4 grid of six YouTube thumbnails arranged vertically against a dark backdrop; each thumbnail features an animated character in distinctive poses like waving hands, making peace signs, raising fists, or smiling broadly, set within colorful, stylized environments that include a neon-signed building, a sunlit landscape, a dimly lit room, a tropical beach, and a snowy landscape. The top left corner shows the username '@xbox Live,' while. The camera stays fixed on the grid throughout, maintaining focus on the evolving visuals without any additional movement or changes in angle. <|en|> a capella",
+        "ui_elements_html": "<div class=\"overlay caption\">You will pay!</div>",
+        "transcript": "[SPEAKER_1][firm, demanding tone] You will pay!",
+        "duration": 7,
+        "audio_description": ""
+      }
+    ]
+  }
+}

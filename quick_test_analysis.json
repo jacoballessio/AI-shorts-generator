@@ -1,0 +1,490 @@
+{
+  "video_path": "example.mp4",
+  "duration": 257.28,
+  "fps": 29.97002997002997,
+  "resolution": [
+    1280,
+    720
+  ],
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_time": 0,
+      "end_time": 4.0040000000000004,
+      "duration": 4.0040000000000004,
+      "description": "The Sam Altman-backed nuclear energy startup Oklo announced it will go public Tuesday.. {\n    \"description\": \"a man in a blue shirt sits at a table with a mug and a graphics card\",\n    \"objects\": [\n        \"a mug\",\n        \"a graphics card\",\n        \"a poster\",\n        \"a coffee table\" The Sam Altman-backed nuclear energy startup Oklo announced it will go public Tuesday",
+      "transcript": "",
+      "key_frames": [
+        {
+          "frame_number": 0,
+          "timestamp": 0.0,
+          "description": "{\n    \"description\": \"a man in a blue shirt sits at a table with a mug and a graphics card\",\n    \"objects\": [\n        \"a mug\",\n        \"a graphics card\",\n        \"a poster\",\n        \"a coffee table\"\n ",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 120,
+          "timestamp": 4.0040000000000004,
+          "description": "The Sam Altman-backed nuclear energy startup Oklo announced it will go public Tuesday.",
+          "objects": [
+            "A man holding two cups of coffee",
+            "A man standing in front of a blurred background"
+          ],
+          "actions": [
+            "The Sam Altman-backed nuclear energy startup Oklo announced it will go public Tuesday.",
+            "July 11, 2021 at 1:13 PM CDT"
+          ],
+          "scene_type": "web page",
+          "mood": "angry",
+          "text_visible": "GETTY IMAGES"
+        }
+      ],
+      "dominant_objects": [
+        "A man standing in front of a blurred background",
+        "A man holding two cups of coffee"
+      ],
+      "actions_sequence": [
+        "The Sam Altman-backed nuclear energy startup Oklo announced it will go public Tuesday.",
+        "July 11, 2021 at 1:13 PM CDT"
+      ],
+      "scene_type": "web page",
+      "mood": "angry",
+      "keywords": [
+        "A man holding two cups of coffee",
+        "shirt",
+        "coffee",
+        "tuesday",
+        "tuesday..",
+        "table\"",
+        "card\",",
+        "energy",
+        "mug\",",
+        "startup"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.7
+    },
+    {
+      "segment_id": 1,
+      "start_time": 4.0040000000000004,
+      "end_time": 8.008000000000001,
+      "duration": 4.0040000000000004,
+      "description": "DeepSeek. The Sam Altman-backed nuclear energy startup Oklo announced it will go public Tuesday",
+      "transcript": "",
+      "key_frames": [
+        {
+          "frame_number": 120,
+          "timestamp": 4.0040000000000004,
+          "description": "The Sam Altman-backed nuclear energy startup Oklo announced it will go public Tuesday.",
+          "objects": [
+            "A man holding two cups of coffee",
+            "A man standing in front of a blurred background"
+          ],
+          "actions": [
+            "The Sam Altman-backed nuclear energy startup Oklo announced it will go public Tuesday.",
+            "July 11, 2021 at 1:13 PM CDT"
+          ],
+          "scene_type": "web page",
+          "mood": "angry",
+          "text_visible": "GETTY IMAGES"
+        },
+        {
+          "frame_number": 240,
+          "timestamp": 8.008000000000001,
+          "description": "DeepSeek",
+          "objects": [
+            "Into the unknown"
+          ],
+          "actions": [
+            "Start Now",
+            "Get DeepSeek App"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "Into the unknown"
+        }
+      ],
+      "dominant_objects": [
+        "A man standing in front of a blurred background",
+        "Into the unknown",
+        "A man holding two cups of coffee"
+      ],
+      "actions_sequence": [
+        "The Sam Altman-backed nuclear energy startup Oklo announced it will go public Tuesday.",
+        "July 11, 2021 at 1:13 PM CDT",
+        "Start Now",
+        "Get DeepSeek App"
+      ],
+      "scene_type": "web page",
+      "mood": "neutral",
+      "keywords": [
+        "altman-backed",
+        "Get DeepSeek App",
+        "deepseek.",
+        "public",
+        "A man holding two cups of coffee",
+        "nuclear",
+        "startup",
+        "Start Now",
+        "A man standing in front of a blurred background",
+        "July 11, 2021 at 1:13 PM CDT"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.7
+    },
+    {
+      "segment_id": 2,
+      "start_time": 8.008000000000001,
+      "end_time": 12.012,
+      "duration": 4.004,
+      "description": "Winnie-the-Pooh is a fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928.. Winnie-the-Pooh is a fictional character created by A He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928",
+      "transcript": "",
+      "key_frames": [
+        {
+          "frame_number": 240,
+          "timestamp": 8.008000000000001,
+          "description": "DeepSeek",
+          "objects": [
+            "Into the unknown"
+          ],
+          "actions": [
+            "Start Now",
+            "Get DeepSeek App"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "Into the unknown"
+        },
+        {
+          "frame_number": 360,
+          "timestamp": 12.012,
+          "description": "Winnie-the-Pooh is a fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928.",
+          "objects": [
+            "Winnie-the-Pooh"
+          ],
+          "actions": [
+            "Winnie-the-Pooh is a fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928.",
+            "Winnie-the-Pooh is a fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928.",
+            "Winnie-the-Pooh is a fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928."
+          ],
+          "scene_type": "screen",
+          "mood": "neutral",
+          "text_visible": "Winnie-the-Pooh is a fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928."
+        }
+      ],
+      "dominant_objects": [
+        "Winnie-the-Pooh",
+        "Into the unknown"
+      ],
+      "actions_sequence": [
+        "Start Now",
+        "Get DeepSeek App",
+        "Winnie-the-Pooh is a fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928.",
+        "Winnie-the-Pooh is a fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928.",
+        "Winnie-the-Pooh is a fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928."
+      ],
+      "scene_type": "screen",
+      "mood": "neutral",
+      "keywords": [
+        "followed",
+        "Winnie-the-Pooh",
+        "appeared",
+        "fictional",
+        "Get DeepSeek App",
+        "Winnie-the-Pooh is a fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928.",
+        "created",
+        "house",
+        "published",
+        "character"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.7
+    },
+    {
+      "segment_id": 3,
+      "start_time": 12.012,
+      "end_time": 16.016000000000002,
+      "duration": 4.004000000000001,
+      "description": "{\n    \"description\": \"AME 2024\",\n    \"objects\": [\n        \"DeepSeek-R1\",\n        \"OpenAI-a-o-1-1217\",\n        \"DeepSeek-R1-32B\",\n        \"DeepSeek-V3\",\n        \"OpenAI-o-1-minIi\",\n        \"DeepSeek-R1. Winnie-the-Pooh is a fictional character created by A He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928",
+      "transcript": "",
+      "key_frames": [
+        {
+          "frame_number": 360,
+          "timestamp": 12.012,
+          "description": "Winnie-the-Pooh is a fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928.",
+          "objects": [
+            "Winnie-the-Pooh"
+          ],
+          "actions": [
+            "Winnie-the-Pooh is a fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928.",
+            "Winnie-the-Pooh is a fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928.",
+            "Winnie-the-Pooh is a fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928."
+          ],
+          "scene_type": "screen",
+          "mood": "neutral",
+          "text_visible": "Winnie-the-Pooh is a fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928."
+        },
+        {
+          "frame_number": 480,
+          "timestamp": 16.016000000000002,
+          "description": "{\n    \"description\": \"AME 2024\",\n    \"objects\": [\n        \"DeepSeek-R1\",\n        \"OpenAI-a-o-1-1217\",\n        \"DeepSeek-R1-32B\",\n        \"DeepSeek-V3\",\n        \"OpenAI-o-1-minIi\",\n        \"DeepSeek-R1",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        }
+      ],
+      "dominant_objects": [
+        "Winnie-the-Pooh"
+      ],
+      "actions_sequence": [
+        "Winnie-the-Pooh is a fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928.",
+        "Winnie-the-Pooh is a fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928.",
+        "Winnie-the-Pooh is a fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928."
+      ],
+      "scene_type": "screen",
+      "mood": "neutral",
+      "keywords": [
+        "\"openai-o-1-minii\",",
+        "followed",
+        "Winnie-the-Pooh",
+        "appeared",
+        "fictional",
+        "Winnie-the-Pooh is a fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928.",
+        "\"deepseek-r1.",
+        "\"deepseek-r1\",",
+        "created",
+        "house"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.7
+    },
+    {
+      "segment_id": 4,
+      "start_time": 16.016000000000002,
+      "end_time": 28.028000000000002,
+      "duration": 12.012,
+      "description": "{\n    \"description\": \"Iron Man\",\n    \"objects\": [\n        \"man\",\n        \"man\",\n        \"person\",\n        \"person\",\n        \"person\",\n        \"person\",\n        \"person\",\n        \"person\",\n        \"per. {\n    \"description\": \"AME 2024\",\n    \"objects\": [\n        \"DeepSeek-R1\",\n        \"OpenAI-a-o-1-1217\",\n        \"DeepSeek-R1-32B\",\n        \"DeepSeek-V3\",\n        \"OpenAI-o-1-minIi\",\n        \"DeepSeek-R1 {\n    \"description\": \"What is DeepSeek why is it disrupting the AI sector?\",\n    \"objects\": [\n        \"reuters\",\n        \"www",
+      "transcript": "",
+      "key_frames": [
+        {
+          "frame_number": 480,
+          "timestamp": 16.016000000000002,
+          "description": "{\n    \"description\": \"AME 2024\",\n    \"objects\": [\n        \"DeepSeek-R1\",\n        \"OpenAI-a-o-1-1217\",\n        \"DeepSeek-R1-32B\",\n        \"DeepSeek-V3\",\n        \"OpenAI-o-1-minIi\",\n        \"DeepSeek-R1",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 600,
+          "timestamp": 20.02,
+          "description": "{\n    \"description\": \"What is DeepSeek why is it disrupting the AI sector?\",\n    \"objects\": [\n        \"reuters\",\n        \"www.reuters.com/technology/artificial-intelligence/what-is-deep-seek\",\n       ",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 720,
+          "timestamp": 24.024,
+          "description": "{\n    \"description\": \"Iron Man\",\n    \"objects\": [\n        \"man\",\n        \"man\",\n        \"person\",\n        \"person\",\n        \"person\",\n        \"person\",\n        \"person\",\n        \"person\",\n        \"per",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 840,
+          "timestamp": 28.028000000000002,
+          "description": "a man is talking in front of a poster",
+          "objects": [
+            "a mug",
+            "a computer graphics card",
+            "a poster"
+          ],
+          "actions": [
+            "gesturing"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "To Victory!"
+        }
+      ],
+      "dominant_objects": [
+        "a mug",
+        "a computer graphics card",
+        "a poster"
+      ],
+      "actions_sequence": [
+        "gesturing"
+      ],
+      "scene_type": "indoor",
+      "mood": "neutral",
+      "keywords": [
+        "\"openai-o-1-minii\",",
+        "\"reuters\",",
+        "a poster",
+        "\"person\",",
+        "\"man\",",
+        "\"deepseek-r1\",",
+        "a mug",
+        "\"deepseek-r1",
+        "\"description\":",
+        "sector?\","
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "segment_id": 5,
+      "start_time": 28.028000000000002,
+      "end_time": 32.032000000000004,
+      "duration": 4.004000000000001,
+      "description": "{\n    \"description\": \"a man sitting at a desk with a poster behind him\",\n    \"objects\": [\n        \"a coffee mug\",\n        \"a poster\",\n        \"a graphics card\",\n        \"a small electronic device\"\n   . a man is talking in front of a poster {\n    \"description\": \"a man sitting at a desk with a poster behind him\",\n    \"objects\": [\n        \"a coffee mug\",\n        \"a poster\",\n        \"a graphics card\",\n        \"a small electronic device\"",
+      "transcript": "",
+      "key_frames": [
+        {
+          "frame_number": 840,
+          "timestamp": 28.028000000000002,
+          "description": "a man is talking in front of a poster",
+          "objects": [
+            "a mug",
+            "a computer graphics card",
+            "a poster"
+          ],
+          "actions": [
+            "gesturing"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "To Victory!"
+        },
+        {
+          "frame_number": 960,
+          "timestamp": 32.032000000000004,
+          "description": "{\n    \"description\": \"a man sitting at a desk with a poster behind him\",\n    \"objects\": [\n        \"a coffee mug\",\n        \"a poster\",\n        \"a graphics card\",\n        \"a small electronic device\"\n   ",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        }
+      ],
+      "dominant_objects": [
+        "a mug",
+        "a computer graphics card",
+        "a poster"
+      ],
+      "actions_sequence": [
+        "gesturing"
+      ],
+      "scene_type": "indoor",
+      "mood": "neutral",
+      "keywords": [
+        "coffee",
+        "poster",
+        "behind",
+        "card\",",
+        "sitting",
+        "mug\",",
+        "him\",",
+        "graphics",
+        "a poster",
+        "a mug"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.7
+    },
+    {
+      "segment_id": 6,
+      "start_time": 32.032000000000004,
+      "end_time": 257.28,
+      "duration": 225.24799999999996,
+      "description": "{\n    \"description\": \"so V3 is a leading edge ood?...\",\n    \"objects\": [\n        \"text\",\n        \"paragraph\"\n    ],\n    \"actions\": [\n        \"mouseover\"\n    ],\n    \"scene_type\": \"indoor\",\n    \"mood\": . {\n    \"description\": \"a man sitting at a desk with a poster behind him\",\n    \"objects\": [\n        \"a coffee mug\",\n        \"a poster\",\n        \"a graphics card\",\n        \"a small electronic device\" {\n    \"description\": \"so V3 is a leading edge ood?",
+      "transcript": "",
+      "key_frames": [
+        {
+          "frame_number": 960,
+          "timestamp": 32.032000000000004,
+          "description": "{\n    \"description\": \"a man sitting at a desk with a poster behind him\",\n    \"objects\": [\n        \"a coffee mug\",\n        \"a poster\",\n        \"a graphics card\",\n        \"a small electronic device\"\n   ",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 1080,
+          "timestamp": 36.036,
+          "description": "{\n    \"description\": \"so V3 is a leading edge ood?...\",\n    \"objects\": [\n        \"text\",\n        \"paragraph\"\n    ],\n    \"actions\": [\n        \"mouseover\"\n    ],\n    \"scene_type\": \"indoor\",\n    \"mood\": ",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        }
+      ],
+      "dominant_objects": [],
+      "actions_sequence": [],
+      "scene_type": null,
+      "mood": null,
+      "keywords": [
+        "leading",
+        "coffee",
+        "poster",
+        "behind",
+        "\"paragraph\"",
+        "card\",",
+        "sitting",
+        "mug\",",
+        "him\",",
+        "graphics"
+      ],
+      "tags": [],
+      "clip_worthy": false,
+      "quality_score": 0.5
+    }
+  ],
+  "full_transcript": "",
+  "transcript_segments": [],
+  "summary": "User:<row_1_col_1><row_1_col_2><row_1_col_3><row_1_col_4>\n<row_2_col_1><row_2_col_2><row_2_col_3><row_2_col_4>\n<row_3_col_1><row_3_col_2><row_3_col_3><row_3_col_4>\n<row_4_col_1><row_4_col_2><row_4_col_3><row_4_col_4>\n\n<global-img>Summarize this video in 2-3 sentences based on the following segments:\n\n- The Sam Altman-backed nuclear energy startup Oklo announced it will go public Tuesday.. {\n    \"description\": \"a man in a blue shirt sits at a table with a mug and a graphics card\",\n    \"objects\": [\n        \"a mug\",\n        \"a graphics card\",\n        \"a poster\",\n        \"a coffee table\" The Sam Altman-backed nuclear energy startup Oklo announced it will go public Tuesday (4.0s)\n- DeepSeek. The Sam Altman-backed nuclear energy startup Oklo announced it will go public Tuesday (4.0s)\n- Winnie-the-Pooh is a fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928.. Winnie-the-Pooh is a fictional character created by A He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928 (4.0s)\n- {\n    \"description\": \"AME 2024\",\n    \"objects\": [\n        \"DeepSeek-R1\",\n        \"OpenAI-a-o-1-1217\",\n        \"DeepSeek-R1-32B\",\n        \"DeepSeek-V3\",\n        \"OpenAI-o-1-minIi\",\n        \"DeepSeek-R1. Winnie-the-Pooh is a fictional character created by A He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928 (4.0s)\n- {\n    \"description\": \"Iron Man\",\n    \"objects\": [\n        \"man\",\n        \"man\",\n        \"person\",\n        \"person\",\n        \"person\",\n        \"person\",\n        \"person\",\n        \"person\",\n        \"per. {\n    \"description\": \"AME 2024\",\n    \"objects\": [\n        \"DeepSeek-R1\",\n        \"OpenAI-a-o-1-1217\",\n        \"DeepSeek-R1-32B\",\n        \"DeepSeek-V3\",\n        \"OpenAI-o-1-minIi\",\n        \"DeepSeek-R1 {\n    \"description\": \"What is DeepSeek why is it disrupting the AI sector?\",\n    \"objects\": [\n        \"reuters\",\n        \"www (12.0s)\n- {\n    \"description\": \"a man sitting at a desk with a poster behind him\",\n    \"objects\": [\n        \"a coffee mug\",\n        \"a poster\",\n        \"a graphics card\",\n        \"a small electronic device\"\n   . a man is talking in front of a poster {\n    \"description\": \"a man sitting at a desk with a poster behind him\",\n    \"objects\": [\n        \"a coffee mug\",\n        \"a poster\",\n        \"a graphics card\",\n        \"a small electronic device\" (4.0s)\n- {\n    \"description\": \"so V3 is a leading edge ood?...\",\n    \"objects\": [\n        \"text\",\n        \"paragraph\"\n    ],\n    \"actions\": [\n        \"mouseover\"\n    ],\n    \"scene_type\": \"indoor\",\n    \"mood\": . {\n    \"description\": \"a man sitting at a desk with a poster behind him\",\n    \"objects\": [\n        \"a coffee mug\",\n        \"a poster\",\n        \"a graphics card\",\n        \"a small electronic device\" {\n    \"description\": \"so V3 is a leading edge ood? (225.2s)\n\nTranscript: ...\n\nProvide a concise, engaging summary.\nAssistant: Sam Altman-backed nuclear energy startup Oklo announced it will go public.",
+  "global_keywords": [
+    "A man holding two cups of coffee",
+    "followed",
+    "shirt",
+    "coffee",
+    "Winnie-the-Pooh",
+    "appeared",
+    "\"openai-o-1-minii\",",
+    "tuesday",
+    "tuesday..",
+    "poster",
+    "leading",
+    "table\"",
+    "behind",
+    "\"paragraph\"",
+    "energy",
+    "card\",",
+    "fictional",
+    "sitting",
+    "Get DeepSeek App",
+    "Winnie-the-Pooh is a fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928."
+  ],
+  "global_tags": [],
+  "total_frames_analyzed": 10,
+  "analysis_duration": 165.03942155838013
+}

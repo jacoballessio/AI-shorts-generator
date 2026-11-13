@@ -1,0 +1,29 @@
+<example>
+<input>
+<duration>12</duration>
+<creator>Daniel Hentschel</creator>
+<topic>Film &amp;Animation</topic>
+<title>Exploring the Art of Stop Motion</title>
+</input>
+<output>
+<segments>
+<segment>
+<start>0.0</start>
+<end>3.0</end>
+<duration>3.0</duration>
+<scene>The video begins with a close-up shot of a colorful stop motion setup, featuring various clay characters positioned on a small stage with a backdrop of a painted sky and wooden set pieces.The camera slowly pans across the scene, highlighting the intricate details of the characters' faces and costumes.</scene>
+<transcript></transcript>
+</segment>
+<segment> <start>3.0</start> <end>6.0</end> <duration>3.0 </duration>
+<scene>"The camera zooms in on one character as it is gently moved frame by frame, showcasing the meticulous process of creating stop motion animation.The lighting changes slightly to emphasize the texture of the clay, while a soft background music plays."</scene>
+<transcription></transcript>
+<audio>keywords music, microphone, microphone</audio>
+</segment> <start>6.0</start> <end>9.0</end> <duration>3.0</duration>
+"The camera shifts to a hand holding tools like scissors and sculpting knives, demonstrating how to trim the edges of the clay to achieve perfect form.The focus narrows down to the skilled movements of the artist's fingers."</scene>
+</segment> <start>9.0</start> <end>12.0</end> <duration>3.5</duration>
+"Finally, the scene transitions to a time-lapse of multiple frames being shot, with the camera clicking rapidly.The on-screen text reads 'Creating Movement' as the sequence comes together, showcasing the final product of the stop motion process.'</scene>
+<transition>the camera angles shifts to a wider view, revealing the entire setup including the lights and the characters in action.</transition>
+<transcript>[SPEAKER_1]Welcome to the world of stop motion animation!</transcript>
+</segments>
+</output>
+</example>

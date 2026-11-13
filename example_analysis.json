@@ -1,0 +1,4277 @@
+{
+  "video_path": "example.mp4",
+  "duration": 257.28,
+  "fps": 29.97002997002997,
+  "resolution": [
+    1280,
+    720
+  ],
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_time": 0,
+      "end_time": 4.0040000000000004,
+      "duration": 4.0040000000000004,
+      "description": "The Sam Altman-backed nuclear energy startup Oklo announced it will go public Tuesday.. {\n    \"description\": \"The person is saying: \\\"Open AI, which is only really open about consuming all the world's energy, just got rattled to its core \\\"\",\n    \"objects\": [\n        \"a mug\",\n        \"a",
+      "transcript": "Open AI, which is only really open about consuming all the world's energy, just got rattled to its core.",
+      "key_frames": [
+        {
+          "frame_number": 0,
+          "timestamp": 0.0,
+          "description": "{\n    \"description\": \"The person is saying: \\\"Open AI, which is only really open about consuming all the world's energy, just got rattled to its core.\\\"\",\n    \"objects\": [\n        \"a mug\",\n        \"a ",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 120,
+          "timestamp": 4.0040000000000004,
+          "description": "The Sam Altman-backed nuclear energy startup Oklo announced it will go public Tuesday.",
+          "objects": [
+            "A man holding a cup"
+          ],
+          "actions": [
+            "is saying"
+          ],
+          "scene_type": "article",
+          "mood": "angry",
+          "text_visible": "The Sam Altman-backed nuclear energy startup Oklo announced it will go public Tuesday."
+        }
+      ],
+      "dominant_objects": [
+        "A man holding a cup"
+      ],
+      "actions_sequence": [
+        "is saying"
+      ],
+      "scene_type": "article",
+      "mood": "angry",
+      "keywords": [
+        "rattled",
+        "energy",
+        "energy,",
+        "is saying",
+        "about",
+        "mug\",",
+        "nuclear",
+        "altman-backed",
+        "\\\"open",
+        "tuesday.."
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 1,
+      "start_time": 4.0040000000000004,
+      "end_time": 8.008000000000001,
+      "duration": 4.0040000000000004,
+      "description": "DeepSeek, a new AI startup run by a Chinese hedge fund, created a new open weights model called R1 that allegedly beats Open AI's best models in most metrics.. The Sam Altman-backed nuclear energy startup Oklo announced it will go public Tuesday DeepSeek, a new AI startup run by a Chinese hedge fund, created a new open weights model called R1 that allegedly beats Open AI's best models in most metrics",
+      "transcript": "DeepSeek, a new AI startup run by a Chinese hedge fund, created a new open weights model called R1",
+      "key_frames": [
+        {
+          "frame_number": 120,
+          "timestamp": 4.0040000000000004,
+          "description": "The Sam Altman-backed nuclear energy startup Oklo announced it will go public Tuesday.",
+          "objects": [
+            "A man holding a cup"
+          ],
+          "actions": [
+            "is saying"
+          ],
+          "scene_type": "article",
+          "mood": "angry",
+          "text_visible": "The Sam Altman-backed nuclear energy startup Oklo announced it will go public Tuesday."
+        },
+        {
+          "frame_number": 240,
+          "timestamp": 8.008000000000001,
+          "description": "DeepSeek, a new AI startup run by a Chinese hedge fund, created a new open weights model called R1 that allegedly beats Open AI's best models in most metrics.",
+          "objects": [
+            "DeepSeek"
+          ],
+          "actions": [
+            "Start Now",
+            "Get DeepSeek App"
+          ],
+          "scene_type": "web page",
+          "mood": "neutral",
+          "text_visible": "Into the unknown"
+        }
+      ],
+      "dominant_objects": [
+        "A man holding a cup",
+        "DeepSeek"
+      ],
+      "actions_sequence": [
+        "is saying",
+        "Start Now",
+        "Get DeepSeek App"
+      ],
+      "scene_type": "web page",
+      "mood": "neutral",
+      "keywords": [
+        "Start Now",
+        "weights",
+        "beats",
+        "models",
+        "metrics..",
+        "energy",
+        "is saying",
+        "fund,",
+        "Get DeepSeek App",
+        "nuclear"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 2,
+      "start_time": 8.008000000000001,
+      "end_time": 12.012,
+      "duration": 4.004,
+      "description": "Winnie-the-Pooh is a beloved fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928.. DeepSeek, a new AI startup run by a Chinese hedge fund, created a new open weights model called R1 that allegedly beats Open AI's best models in most metrics Winnie-the-Pooh is a beloved fictional character created by A",
+      "transcript": "that allegedly beats Open AI's best models in most metrics.",
+      "key_frames": [
+        {
+          "frame_number": 240,
+          "timestamp": 8.008000000000001,
+          "description": "DeepSeek, a new AI startup run by a Chinese hedge fund, created a new open weights model called R1 that allegedly beats Open AI's best models in most metrics.",
+          "objects": [
+            "DeepSeek"
+          ],
+          "actions": [
+            "Start Now",
+            "Get DeepSeek App"
+          ],
+          "scene_type": "web page",
+          "mood": "neutral",
+          "text_visible": "Into the unknown"
+        },
+        {
+          "frame_number": 360,
+          "timestamp": 12.012,
+          "description": "Winnie-the-Pooh is a beloved fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928.",
+          "objects": [
+            "Winnie-the-Pooh"
+          ],
+          "actions": [
+            "Winnie-the-Pooh is a beloved fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928."
+          ],
+          "scene_type": "screen",
+          "mood": "neutral",
+          "text_visible": "Winnie-the-Pooh is a beloved fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928."
+        }
+      ],
+      "dominant_objects": [
+        "Winnie-the-Pooh",
+        "DeepSeek"
+      ],
+      "actions_sequence": [
+        "Start Now",
+        "Get DeepSeek App",
+        "Winnie-the-Pooh is a beloved fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928."
+      ],
+      "scene_type": "web page",
+      "mood": "neutral",
+      "keywords": [
+        "Start Now",
+        "Winnie-the-Pooh is a beloved fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928.",
+        "weights",
+        "milne.",
+        "beats",
+        "models",
+        "winnie-the-pooh",
+        "1926,",
+        "fund,",
+        "appeared"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 3,
+      "start_time": 12.012,
+      "end_time": 16.016000000000002,
+      "duration": 4.004000000000001,
+      "description": "{\n    \"description\": \"The person is saying: 'that allegedly beats Open AI's best models in most metrics. And they did it for $6 million, with GPUs that run a half-the-memory bandwidth of Open AI's.'\",. Winnie-the-Pooh is a beloved fictional character created by A He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928",
+      "transcript": "",
+      "key_frames": [
+        {
+          "frame_number": 360,
+          "timestamp": 12.012,
+          "description": "Winnie-the-Pooh is a beloved fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928.",
+          "objects": [
+            "Winnie-the-Pooh"
+          ],
+          "actions": [
+            "Winnie-the-Pooh is a beloved fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928."
+          ],
+          "scene_type": "screen",
+          "mood": "neutral",
+          "text_visible": "Winnie-the-Pooh is a beloved fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928."
+        },
+        {
+          "frame_number": 480,
+          "timestamp": 16.016000000000002,
+          "description": "{\n    \"description\": \"The person is saying: 'that allegedly beats Open AI's best models in most metrics. And they did it for $6 million, with GPUs that run a half-the-memory bandwidth of Open AI's.'\",",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        }
+      ],
+      "dominant_objects": [
+        "Winnie-the-Pooh"
+      ],
+      "actions_sequence": [
+        "Winnie-the-Pooh is a beloved fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928."
+      ],
+      "scene_type": "screen",
+      "mood": "neutral",
+      "keywords": [
+        "Winnie-the-Pooh is a beloved fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928.",
+        "metrics.",
+        "beats",
+        "models",
+        "half-the-memory",
+        "winnie-the-pooh",
+        "1926,",
+        "appeared",
+        "first",
+        "bandwidth"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.7
+    },
+    {
+      "segment_id": 4,
+      "start_time": 16.016000000000002,
+      "end_time": 32.032000000000004,
+      "duration": 16.016000000000002,
+      "description": "{\n    \"description\": \"The person is saying: 'Tony Stark was able to build this in a cave with a box of scraps! Besides the embarrassment of a Chinese startup beating Open AI using 1% of the resources,. {\n    \"description\": \"The person is saying: 'that allegedly beats Open AI's best models in most metrics And they did it for $6 million, with GPUs that run a half-the-memory bandwidth of Open AI's",
+      "transcript": "And they did it for $6 million, with GPUs that run a half-the-memory bandwidth of Open AI's. Tony Stark was able to build this in a cave with a box of scraps! Besides the embarrassment of a Chinese startup beating Open AI using 1% of the resources,",
+      "key_frames": [
+        {
+          "frame_number": 480,
+          "timestamp": 16.016000000000002,
+          "description": "{\n    \"description\": \"The person is saying: 'that allegedly beats Open AI's best models in most metrics. And they did it for $6 million, with GPUs that run a half-the-memory bandwidth of Open AI's.'\",",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 600,
+          "timestamp": 20.02,
+          "description": "{\n    \"description\": \"The person is saying: 'And they did it for $6 million, with GPUs that run a half-the-memory bandwidth of Open AI's. Tony Stark was able to build this in a cave with a box of scra",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 720,
+          "timestamp": 24.024,
+          "description": "{\n    \"description\": \"The person is saying: 'Tony Stark was able to build this in a cave with a box of scraps! Besides the embarrassment of a Chinese startup beating Open AI using 1% of the resources,",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 840,
+          "timestamp": 28.028000000000002,
+          "description": "{\n    \"description\": \"The person is saying: 'Besides the embarrassment of a Chinese startup beating Open AI using 1% of the resources,'\",\n    \"objects\": [\n        \"1% of the resources\",\n        \"Chine",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 960,
+          "timestamp": 32.032000000000004,
+          "description": "Besides the embarrassment of a Chinese startup beating Open AI using 1% of the resources, their model can distill other models to make them run better on slower hardware.",
+          "objects": [
+            "a coffee mug",
+            "a poster",
+            "a graphics card",
+            "a small electronic device"
+          ],
+          "actions": [
+            "sitting",
+            "gesturing"
+          ],
+          "scene_type": "indoor",
+          "mood": "amusement",
+          "text_visible": "DNS is the role of all problems"
+        }
+      ],
+      "dominant_objects": [
+        "a graphics card",
+        "a coffee mug",
+        "a small electronic device",
+        "a poster"
+      ],
+      "actions_sequence": [
+        "sitting",
+        "gesturing"
+      ],
+      "scene_type": "indoor",
+      "mood": "amusement",
+      "keywords": [
+        "a poster",
+        "using",
+        "beats",
+        "models",
+        "half-the-memory",
+        "a coffee mug",
+        "'tony",
+        "bandwidth",
+        "resources,.",
+        "metrics"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.9
+    },
+    {
+      "segment_id": 5,
+      "start_time": 32.032000000000004,
+      "end_time": 36.036,
+      "duration": 4.003999999999998,
+      "description": "their model can distill other models to make them run better on slower hardware. Meaning, this Raspberry Pi can run one of the best local QN AI models even better now.. Besides the embarrassment of a Chinese startup beating Open AI using 1% of the resources, their model can distill other models to make them run better on slower hardware their model can distill other models to make them run better on slower hardware",
+      "transcript": "their model can distill other models to make them run better on slower hardware.",
+      "key_frames": [
+        {
+          "frame_number": 960,
+          "timestamp": 32.032000000000004,
+          "description": "Besides the embarrassment of a Chinese startup beating Open AI using 1% of the resources, their model can distill other models to make them run better on slower hardware.",
+          "objects": [
+            "a coffee mug",
+            "a poster",
+            "a graphics card",
+            "a small electronic device"
+          ],
+          "actions": [
+            "sitting",
+            "gesturing"
+          ],
+          "scene_type": "indoor",
+          "mood": "amusement",
+          "text_visible": "DNS is the role of all problems"
+        },
+        {
+          "frame_number": 1080,
+          "timestamp": 36.036,
+          "description": "their model can distill other models to make them run better on slower hardware. Meaning, this Raspberry Pi can run one of the best local QN AI models even better now.",
+          "objects": [
+            "person"
+          ],
+          "actions": [
+            "saying"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "their model can distill other models to make them run better on slower hardware. Meaning, this Raspberry Pi can run one of the best local QN AI models even better now."
+        }
+      ],
+      "dominant_objects": [
+        "a small electronic device",
+        "a graphics card",
+        "a coffee mug",
+        "a poster",
+        "person"
+      ],
+      "actions_sequence": [
+        "sitting",
+        "gesturing",
+        "saying"
+      ],
+      "scene_type": "indoor",
+      "mood": "neutral",
+      "keywords": [
+        "resources,",
+        "saying",
+        "a poster",
+        "using",
+        "meaning,",
+        "slower",
+        "raspberry",
+        "models",
+        "their",
+        "other"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 6,
+      "start_time": 36.036,
+      "end_time": 40.04,
+      "duration": 4.003999999999998,
+      "description": "{\n    \"description\": \"Meaning, this Raspberry Pi can run one of the best local QN AI models even better now. Open AI's entire mode is predicated on people not having access to the insane energy and GP. their model can distill other models to make them run better on slower hardware Meaning, this Raspberry Pi can run one of the best local QN AI models even better now",
+      "transcript": "Meaning, this Raspberry Pi can run one of the best local QN AI models even better now.",
+      "key_frames": [
+        {
+          "frame_number": 1080,
+          "timestamp": 36.036,
+          "description": "their model can distill other models to make them run better on slower hardware. Meaning, this Raspberry Pi can run one of the best local QN AI models even better now.",
+          "objects": [
+            "person"
+          ],
+          "actions": [
+            "saying"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "their model can distill other models to make them run better on slower hardware. Meaning, this Raspberry Pi can run one of the best local QN AI models even better now."
+        },
+        {
+          "frame_number": 1200,
+          "timestamp": 40.04,
+          "description": "{\n    \"description\": \"Meaning, this Raspberry Pi can run one of the best local QN AI models even better now. Open AI's entire mode is predicated on people not having access to the insane energy and GP",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        }
+      ],
+      "dominant_objects": [
+        "person"
+      ],
+      "actions_sequence": [
+        "saying"
+      ],
+      "scene_type": "indoor",
+      "mood": "neutral",
+      "keywords": [
+        "saying",
+        "meaning,",
+        "slower",
+        "raspberry",
+        "access",
+        "models",
+        "their",
+        "energy",
+        "predicated",
+        "other"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 7,
+      "start_time": 40.04,
+      "end_time": 44.044000000000004,
+      "duration": 4.004000000000005,
+      "description": "A man is holding a device and a cup. {\n    \"description\": \"Meaning, this Raspberry Pi can run one of the best local QN AI models even better now Open AI's entire mode is predicated on people not having access to the insane energy and GP",
+      "transcript": "Open AI's entire mode is predicated on people not having access to the insane energy and GPU resources to train and run massive AI models.",
+      "key_frames": [
+        {
+          "frame_number": 1200,
+          "timestamp": 40.04,
+          "description": "{\n    \"description\": \"Meaning, this Raspberry Pi can run one of the best local QN AI models even better now. Open AI's entire mode is predicated on people not having access to the insane energy and GP",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 1320,
+          "timestamp": 44.044000000000004,
+          "description": "A man is holding a device and a cup",
+          "objects": [
+            "a cup",
+            "a poster",
+            "a shirt",
+            "a table",
+            "a coffee mug",
+            "a poster",
+            "a device",
+            "a table",
+            "a cup"
+          ],
+          "actions": [
+            "sitting",
+            "holding",
+            "smiling",
+            "looking at the camera",
+            "holding a cup",
+            "holding a device",
+            "holding a poster",
+            "holding a device",
+            "holding a cup",
+            "holding a poster",
+            "holding a device",
+            "holding a cup"
+          ],
+          "scene_type": "interactive",
+          "mood": "amusement",
+          "text_visible": "DNS is the root of all problems"
+        }
+      ],
+      "dominant_objects": [
+        "a cup",
+        "a coffee mug",
+        "a poster",
+        "a device",
+        "a shirt",
+        "a table"
+      ],
+      "actions_sequence": [
+        "sitting",
+        "holding",
+        "smiling",
+        "looking at the camera",
+        "holding a cup",
+        "holding a device",
+        "holding a poster",
+        "holding a device",
+        "holding a cup",
+        "holding a poster",
+        "holding a device",
+        "holding a cup"
+      ],
+      "scene_type": "interactive",
+      "mood": "amusement",
+      "keywords": [
+        "device",
+        "a poster",
+        "a device",
+        "raspberry",
+        "access",
+        "models",
+        "a table",
+        "predicated",
+        "holding a cup",
+        "energy"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 8,
+      "start_time": 44.044000000000004,
+      "end_time": 48.048,
+      "duration": 4.003999999999998,
+      "description": "Inside the SUPER NVIDIA H200 SERVER - ROM Supermicro. A man is holding a device and a cup Inside the SUPER NVIDIA H200 SERVER - ROM Supermicro",
+      "transcript": "",
+      "key_frames": [
+        {
+          "frame_number": 1320,
+          "timestamp": 44.044000000000004,
+          "description": "A man is holding a device and a cup",
+          "objects": [
+            "a cup",
+            "a poster",
+            "a shirt",
+            "a table",
+            "a coffee mug",
+            "a poster",
+            "a device",
+            "a table",
+            "a cup"
+          ],
+          "actions": [
+            "sitting",
+            "holding",
+            "smiling",
+            "looking at the camera",
+            "holding a cup",
+            "holding a device",
+            "holding a poster",
+            "holding a device",
+            "holding a cup",
+            "holding a poster",
+            "holding a device",
+            "holding a cup"
+          ],
+          "scene_type": "interactive",
+          "mood": "amusement",
+          "text_visible": "DNS is the root of all problems"
+        },
+        {
+          "frame_number": 1440,
+          "timestamp": 48.048,
+          "description": "Inside the SUPER NVIDIA H200 SERVER - ROM Supermicro",
+          "objects": [
+            "NVIDIA"
+          ],
+          "actions": [
+            "Subscribe"
+          ],
+          "scene_type": "video",
+          "mood": "neutral",
+          "text_visible": "From: SeereThHome"
+        }
+      ],
+      "dominant_objects": [
+        "a cup",
+        "NVIDIA",
+        "a coffee mug",
+        "a poster",
+        "a device",
+        "a shirt",
+        "a table"
+      ],
+      "actions_sequence": [
+        "sitting",
+        "holding",
+        "smiling",
+        "looking at the camera",
+        "holding a cup",
+        "holding a device",
+        "holding a poster",
+        "holding a device",
+        "holding a cup",
+        "holding a poster",
+        "holding a device",
+        "holding a cup",
+        "Subscribe"
+      ],
+      "scene_type": "video",
+      "mood": "neutral",
+      "keywords": [
+        "device",
+        "a poster",
+        "a device",
+        "a table",
+        "holding a cup",
+        "looking at the camera",
+        "holding a poster",
+        "nvidia",
+        "a coffee mug",
+        "super"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.7
+    },
+    {
+      "segment_id": 9,
+      "start_time": 48.048,
+      "end_time": 56.056000000000004,
+      "duration": 8.008000000000003,
+      "description": "Inside the SUPER NVIDIA H200 SERVER-ROM-SUPERMICRO. Inside the SUPER NVIDIA H200 SERVER - ROM Supermicro Inside the SUPER NVIDIA H200 SERVER-ROM-SUPERMICRO",
+      "transcript": "But that mode disappears if anyone can buy a GPU and run a model that's good enough for free anytime they want.",
+      "key_frames": [
+        {
+          "frame_number": 1440,
+          "timestamp": 48.048,
+          "description": "Inside the SUPER NVIDIA H200 SERVER - ROM Supermicro",
+          "objects": [
+            "NVIDIA"
+          ],
+          "actions": [
+            "Subscribe"
+          ],
+          "scene_type": "video",
+          "mood": "neutral",
+          "text_visible": "From: SeereThHome"
+        },
+        {
+          "frame_number": 1560,
+          "timestamp": 52.052,
+          "description": "Inside the SUPER NVIDIA H200 SERVER-ROM-SUPERMICRO",
+          "objects": [
+            "NVIDIA"
+          ],
+          "actions": [
+            "Subscribe"
+          ],
+          "scene_type": "video",
+          "mood": "neutral",
+          "text_visible": "From the series"
+        },
+        {
+          "frame_number": 1680,
+          "timestamp": 56.056000000000004,
+          "description": "A black graphics card with a silver AMD logo and a fan with the model number of Radeon Pro VW700",
+          "objects": [
+            "graphics card"
+          ],
+          "actions": [
+            "tilted"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "AMD Radeon Pro VW700"
+        }
+      ],
+      "dominant_objects": [
+        "NVIDIA",
+        "graphics card"
+      ],
+      "actions_sequence": [
+        "Subscribe",
+        "Subscribe",
+        "tilted"
+      ],
+      "scene_type": "video",
+      "mood": "neutral",
+      "keywords": [
+        "server-rom-supermicro",
+        "inside",
+        "nvidia",
+        "NVIDIA",
+        "tilted",
+        "super",
+        "server",
+        "supermicro",
+        "graphics card",
+        "Subscribe"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 1.0
+    },
+    {
+      "segment_id": 10,
+      "start_time": 56.056000000000004,
+      "end_time": 60.06,
+      "duration": 4.003999999999998,
+      "description": "{\n    \"description\": \"The person is saying: 'But sensationalist headlines aren't telling you the full story. This Raspberry Pi can technically run DeepSeek R1, but it's not the same thing as DeepSeek . A black graphics card with a silver AMD logo and a fan with the model number of Radeon Pro VW700 {\n    \"description\": \"The person is saying: 'But sensationalist headlines aren't telling you the full story",
+      "transcript": "",
+      "key_frames": [
+        {
+          "frame_number": 1680,
+          "timestamp": 56.056000000000004,
+          "description": "A black graphics card with a silver AMD logo and a fan with the model number of Radeon Pro VW700",
+          "objects": [
+            "graphics card"
+          ],
+          "actions": [
+            "tilted"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "AMD Radeon Pro VW700"
+        },
+        {
+          "frame_number": 1800,
+          "timestamp": 60.06,
+          "description": "{\n    \"description\": \"The person is saying: 'But sensationalist headlines aren't telling you the full story. This Raspberry Pi can technically run DeepSeek R1, but it's not the same thing as DeepSeek ",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        }
+      ],
+      "dominant_objects": [
+        "graphics card"
+      ],
+      "actions_sequence": [
+        "tilted"
+      ],
+      "scene_type": "indoor",
+      "mood": "neutral",
+      "keywords": [
+        "story.",
+        "sensationalist",
+        "deepseek",
+        "vw700",
+        "technically",
+        "raspberry",
+        "story",
+        "model",
+        "graphics",
+        "\"description\":"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.7
+    },
+    {
+      "segment_id": 11,
+      "start_time": 60.06,
+      "end_time": 64.06400000000001,
+      "duration": 4.004000000000005,
+      "description": "The person is saying: 'But sensationalist headlines aren't telling you the full story. This Raspberry Pi can technically run DeepSeek R1, but it's not the same thing as DeepSeek R1671B, which is a 400GB model.'. {\n    \"description\": \"The person is saying: 'But sensationalist headlines aren't telling you the full story This Raspberry Pi can technically run DeepSeek R1, but it's not the same thing as DeepSeek",
+      "transcript": "But sensationalist headlines aren't telling you the full story. This Raspberry Pi can technically run DeepSeek R1, but it's not the same thing as DeepSeek R1671B, which is a 400GB model.",
+      "key_frames": [
+        {
+          "frame_number": 1800,
+          "timestamp": 60.06,
+          "description": "{\n    \"description\": \"The person is saying: 'But sensationalist headlines aren't telling you the full story. This Raspberry Pi can technically run DeepSeek R1, but it's not the same thing as DeepSeek ",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 1920,
+          "timestamp": 64.06400000000001,
+          "description": "The person is saying: 'But sensationalist headlines aren't telling you the full story. This Raspberry Pi can technically run DeepSeek R1, but it's not the same thing as DeepSeek R1671B, which is a 400GB model.'",
+          "objects": [
+            "Raspberry Pi",
+            "R1671B"
+          ],
+          "actions": [
+            "holding"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "Raspberry Pi"
+        }
+      ],
+      "dominant_objects": [
+        "Raspberry Pi",
+        "R1671B"
+      ],
+      "actions_sequence": [
+        "holding"
+      ],
+      "scene_type": "indoor",
+      "mood": "neutral",
+      "keywords": [
+        "story.",
+        "sensationalist",
+        "deepseek",
+        "Raspberry Pi",
+        "technically",
+        "raspberry",
+        "400gb",
+        "model.'.",
+        "r1671b,",
+        "story"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 12,
+      "start_time": 64.06400000000001,
+      "end_time": 68.068,
+      "duration": 4.003999999999991,
+      "description": "{\n    \"description\": \"The person is saying: 'This Raspberry Pi can technically run DeepSeek R1, but it's not the same thing as DeepSeek R1671B, which is a 400GB model. That model, the one that actuall. The person is saying: 'But sensationalist headlines aren't telling you the full story This Raspberry Pi can technically run DeepSeek R1, but it's not the same thing as DeepSeek R1671B, which is a 400GB model",
+      "transcript": "",
+      "key_frames": [
+        {
+          "frame_number": 1920,
+          "timestamp": 64.06400000000001,
+          "description": "The person is saying: 'But sensationalist headlines aren't telling you the full story. This Raspberry Pi can technically run DeepSeek R1, but it's not the same thing as DeepSeek R1671B, which is a 400GB model.'",
+          "objects": [
+            "Raspberry Pi",
+            "R1671B"
+          ],
+          "actions": [
+            "holding"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "Raspberry Pi"
+        },
+        {
+          "frame_number": 2040,
+          "timestamp": 68.068,
+          "description": "{\n    \"description\": \"The person is saying: 'This Raspberry Pi can technically run DeepSeek R1, but it's not the same thing as DeepSeek R1671B, which is a 400GB model. That model, the one that actuall",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        }
+      ],
+      "dominant_objects": [
+        "Raspberry Pi",
+        "R1671B"
+      ],
+      "actions_sequence": [
+        "holding"
+      ],
+      "scene_type": "indoor",
+      "mood": "neutral",
+      "keywords": [
+        "deepseek",
+        "sensationalist",
+        "actuall.",
+        "Raspberry Pi",
+        "technically",
+        "raspberry",
+        "400gb",
+        "model,",
+        "r1671b,",
+        "story"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.7
+    },
+    {
+      "segment_id": 13,
+      "start_time": 68.068,
+      "end_time": 72.072,
+      "duration": 4.004000000000005,
+      "description": "The person is saying: 'That model, the one that actually beats chat GPT, still requires a massive amount of GPU compute.'. {\n    \"description\": \"The person is saying: 'This Raspberry Pi can technically run DeepSeek R1, but it's not the same thing as DeepSeek R1671B, which is a 400GB model That model, the one that actuall",
+      "transcript": "",
+      "key_frames": [
+        {
+          "frame_number": 2040,
+          "timestamp": 68.068,
+          "description": "{\n    \"description\": \"The person is saying: 'This Raspberry Pi can technically run DeepSeek R1, but it's not the same thing as DeepSeek R1671B, which is a 400GB model. That model, the one that actuall",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 2160,
+          "timestamp": 72.072,
+          "description": "The person is saying: 'That model, the one that actually beats chat GPT, still requires a massive amount of GPU compute.'",
+          "objects": [
+            "4.8 B/404 GB",
+            "38 MB/s",
+            "48m5s",
+            "404 GB",
+            "148B"
+          ],
+          "actions": [
+            "circles"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "4.8 B/404 GB, 38 MB/s, 48m5s, 404 GB, 148B"
+        }
+      ],
+      "dominant_objects": [
+        "38 MB/s",
+        "404 GB",
+        "4.8 B/404 GB",
+        "148B",
+        "48m5s"
+      ],
+      "actions_sequence": [
+        "circles"
+      ],
+      "scene_type": "indoor",
+      "mood": "neutral",
+      "keywords": [
+        "deepseek",
+        "404 GB",
+        "amount",
+        "technically",
+        "circles",
+        "compute.'.",
+        "beats",
+        "raspberry",
+        "400gb",
+        "38 MB/s"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.7
+    },
+    {
+      "segment_id": 14,
+      "start_time": 72.072,
+      "end_time": 76.07600000000001,
+      "duration": 4.004000000000005,
+      "description": "{\n    \"description\": \"The person is saying: 'That model, the one that actually beats chat GPT, still requires a massive amount of GPU compute. But the big difference is, assuming you have a few 3090s,. The person is saying: 'That model, the one that actually beats chat GPT, still requires a massive amount of GPU compute {\n    \"description\": \"The person is saying: 'That model, the one that actually beats chat GPT, still requires a massive amount of GPU compute",
+      "transcript": "That model, the one that actually beats chat GPT, still requires a massive amount of GPU compute.",
+      "key_frames": [
+        {
+          "frame_number": 2160,
+          "timestamp": 72.072,
+          "description": "The person is saying: 'That model, the one that actually beats chat GPT, still requires a massive amount of GPU compute.'",
+          "objects": [
+            "4.8 B/404 GB",
+            "38 MB/s",
+            "48m5s",
+            "404 GB",
+            "148B"
+          ],
+          "actions": [
+            "circles"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "4.8 B/404 GB, 38 MB/s, 48m5s, 404 GB, 148B"
+        },
+        {
+          "frame_number": 2280,
+          "timestamp": 76.07600000000001,
+          "description": "{\n    \"description\": \"The person is saying: 'That model, the one that actually beats chat GPT, still requires a massive amount of GPU compute. But the big difference is, assuming you have a few 3090s,",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        }
+      ],
+      "dominant_objects": [
+        "38 MB/s",
+        "404 GB",
+        "4.8 B/404 GB",
+        "148B",
+        "48m5s"
+      ],
+      "actions_sequence": [
+        "circles"
+      ],
+      "scene_type": "indoor",
+      "mood": "neutral",
+      "keywords": [
+        "404 GB",
+        "amount",
+        "circles",
+        "difference",
+        "beats",
+        "38 MB/s",
+        "assuming",
+        "massive",
+        "actually",
+        "model,"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 15,
+      "start_time": 76.07600000000001,
+      "end_time": 84.084,
+      "duration": 8.007999999999996,
+      "description": "{\n    \"description\": \"The person is saying: 'But the big difference is, assuming you have a few 3090s, you could run it at home. You don't have to pay Open AI for the privilege of running one of their. {\n    \"description\": \"The person is saying: 'That model, the one that actually beats chat GPT, still requires a massive amount of GPU compute But the big difference is, assuming you have a few 3090s,",
+      "transcript": "But the big difference is, assuming you have a few 3090s, you could run it at home. You don't have to pay Open AI for the privilege of running one of their fancy models.",
+      "key_frames": [
+        {
+          "frame_number": 2280,
+          "timestamp": 76.07600000000001,
+          "description": "{\n    \"description\": \"The person is saying: 'That model, the one that actually beats chat GPT, still requires a massive amount of GPU compute. But the big difference is, assuming you have a few 3090s,",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 2400,
+          "timestamp": 80.08,
+          "description": "{\n    \"description\": \"The person is saying: 'But the big difference is, assuming you have a few 3090s, you could run it at home. You don't have to pay Open AI for the privilege of running one of their",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 2520,
+          "timestamp": 84.084,
+          "description": "The person is saying: 'You don't have to pay Open AI for the privilege of running one of their fancy models. You can just install Alama, download DeepSeek, and play with it to your heart's content.'",
+          "objects": [
+            {
+              "type": "coffee mug",
+              "location": "coffee mug",
+              "text": "COSMALY",
+              "color": "white"
+            },
+            {
+              "type": "coffee mug",
+              "location": "coffee mug",
+              "text": "COSMALY",
+              "color": "white"
+            },
+            {
+              "type": "computer monitor",
+              "location": "computer monitor",
+              "text": "AMD Radeon Pro W770",
+              "color": "black"
+            },
+            {
+              "type": "poster",
+              "location": "poster",
+              "text": "To Victory!",
+              "color": "red"
+            }
+          ],
+          "actions": [
+            "holding",
+            "looking at"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "To Victory!"
+        }
+      ],
+      "dominant_objects": [
+        "{'type': 'poster', 'location': 'poster', 'text': 'To Victory!', 'color': 'red'}",
+        "{'type': 'computer monitor', 'location': 'computer monitor', 'text': 'AMD Radeon Pro W770', 'color': 'black'}",
+        "{'type': 'coffee mug', 'location': 'coffee mug', 'text': 'COSMALY', 'color': 'white'}"
+      ],
+      "actions_sequence": [
+        "holding",
+        "looking at"
+      ],
+      "scene_type": "indoor",
+      "mood": "neutral",
+      "keywords": [
+        "running",
+        "amount",
+        "difference",
+        "looking at",
+        "beats",
+        "don't",
+        "assuming",
+        "massive",
+        "actually",
+        "{'type': 'coffee mug', 'location': 'coffee mug', 'text': 'COSMALY', 'color': 'white'}"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 1.0
+    },
+    {
+      "segment_id": 16,
+      "start_time": 84.084,
+      "end_time": 88.08800000000001,
+      "duration": 4.004000000000005,
+      "description": "You don't have to pay Open AI for the privilege of running one of their fancy models. You can just install Alama, download DeepSeek, and play with it to your heart's content. And even if you don't have a bunch of GPUs, you could technically still run DeepSeek on any computer with enough RAM.. The person is saying: 'You don't have to pay Open AI for the privilege of running one of their fancy models You don't have to pay Open AI for the privilege of running one of their fancy models",
+      "transcript": "",
+      "key_frames": [
+        {
+          "frame_number": 2520,
+          "timestamp": 84.084,
+          "description": "The person is saying: 'You don't have to pay Open AI for the privilege of running one of their fancy models. You can just install Alama, download DeepSeek, and play with it to your heart's content.'",
+          "objects": [
+            {
+              "type": "coffee mug",
+              "location": "coffee mug",
+              "text": "COSMALY",
+              "color": "white"
+            },
+            {
+              "type": "coffee mug",
+              "location": "coffee mug",
+              "text": "COSMALY",
+              "color": "white"
+            },
+            {
+              "type": "computer monitor",
+              "location": "computer monitor",
+              "text": "AMD Radeon Pro W770",
+              "color": "black"
+            },
+            {
+              "type": "poster",
+              "location": "poster",
+              "text": "To Victory!",
+              "color": "red"
+            }
+          ],
+          "actions": [
+            "holding",
+            "looking at"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "To Victory!"
+        },
+        {
+          "frame_number": 2640,
+          "timestamp": 88.08800000000001,
+          "description": "You don't have to pay Open AI for the privilege of running one of their fancy models. You can just install Alama, download DeepSeek, and play with it to your heart's content. And even if you don't have a bunch of GPUs, you could technically still run DeepSeek on any computer with enough RAM.",
+          "objects": [
+            "a coffee mug",
+            "a poster",
+            "a graphics card",
+            "a table"
+          ],
+          "actions": [
+            "holding a graphics card",
+            "holding a coffee mug"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "To Victory!!"
+        }
+      ],
+      "dominant_objects": [
+        "{'type': 'poster', 'location': 'poster', 'text': 'To Victory!', 'color': 'red'}",
+        "a graphics card",
+        "a coffee mug",
+        "a poster",
+        "{'type': 'computer monitor', 'location': 'computer monitor', 'text': 'AMD Radeon Pro W770', 'color': 'black'}",
+        "{'type': 'coffee mug', 'location': 'coffee mug', 'text': 'COSMALY', 'color': 'white'}",
+        "a table"
+      ],
+      "actions_sequence": [
+        "holding",
+        "looking at",
+        "holding a graphics card",
+        "holding a coffee mug"
+      ],
+      "scene_type": "indoor",
+      "mood": "neutral",
+      "keywords": [
+        "download",
+        "running",
+        "deepseek",
+        "technically",
+        "a poster",
+        "looking at",
+        "don't",
+        "models",
+        "alama,",
+        "their"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.7
+    },
+    {
+      "segment_id": 17,
+      "start_time": 88.08800000000001,
+      "end_time": 92.092,
+      "duration": 4.003999999999991,
+      "description": "You can just install Alama, download DeepSeek, and play with it to your heart's content. And even if you don't have a bunch of GPUs, you could technically still run DeepSeek on any computer with enough RAM.. You don't have to pay Open AI for the privilege of running one of their fancy models",
+      "transcript": "You can just install Alama, download DeepSeek, and play with it to your heart's content.",
+      "key_frames": [
+        {
+          "frame_number": 2640,
+          "timestamp": 88.08800000000001,
+          "description": "You don't have to pay Open AI for the privilege of running one of their fancy models. You can just install Alama, download DeepSeek, and play with it to your heart's content. And even if you don't have a bunch of GPUs, you could technically still run DeepSeek on any computer with enough RAM.",
+          "objects": [
+            "a coffee mug",
+            "a poster",
+            "a graphics card",
+            "a table"
+          ],
+          "actions": [
+            "holding a graphics card",
+            "holding a coffee mug"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "To Victory!!"
+        },
+        {
+          "frame_number": 2760,
+          "timestamp": 92.092,
+          "description": "You can just install Alama, download DeepSeek, and play with it to your heart's content. And even if you don't have a bunch of GPUs, you could technically still run DeepSeek on any computer with enough RAM.",
+          "objects": [
+            "nvidia gpus",
+            "coaster",
+            "poster"
+          ],
+          "actions": [
+            "holding",
+            "saying"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "To Victory!"
+        }
+      ],
+      "dominant_objects": [
+        "a graphics card",
+        "nvidia gpus",
+        "a coffee mug",
+        "a poster",
+        "coaster",
+        "a table",
+        "poster"
+      ],
+      "actions_sequence": [
+        "holding a graphics card",
+        "holding a coffee mug",
+        "holding",
+        "saying"
+      ],
+      "scene_type": "indoor",
+      "mood": "neutral",
+      "keywords": [
+        "download",
+        "deepseek",
+        "running",
+        "saying",
+        "technically",
+        "a poster",
+        "coaster",
+        "don't",
+        "models",
+        "alama,"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 18,
+      "start_time": 92.092,
+      "end_time": 96.096,
+      "duration": 4.004000000000005,
+      "description": "{\n    \"description\": \"The person is saying: 'And even if you don't have a bunch of GPUs, you could technically still run DeepSeek on any computer with enough RAM. Like here, it's running on my 19924 A. You can just install Alama, download DeepSeek, and play with it to your heart's content And even if you don't have a bunch of GPUs, you could technically still run DeepSeek on any computer with enough RAM",
+      "transcript": "And even if you don't have a bunch of GPUs, you could technically still run DeepSeek on any computer with enough RAM.",
+      "key_frames": [
+        {
+          "frame_number": 2760,
+          "timestamp": 92.092,
+          "description": "You can just install Alama, download DeepSeek, and play with it to your heart's content. And even if you don't have a bunch of GPUs, you could technically still run DeepSeek on any computer with enough RAM.",
+          "objects": [
+            "nvidia gpus",
+            "coaster",
+            "poster"
+          ],
+          "actions": [
+            "holding",
+            "saying"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "To Victory!"
+        },
+        {
+          "frame_number": 2880,
+          "timestamp": 96.096,
+          "description": "{\n    \"description\": \"The person is saying: 'And even if you don't have a bunch of GPUs, you could technically still run DeepSeek on any computer with enough RAM. Like here, it's running on my 19924 A",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        }
+      ],
+      "dominant_objects": [
+        "coaster",
+        "nvidia gpus",
+        "poster"
+      ],
+      "actions_sequence": [
+        "holding",
+        "saying"
+      ],
+      "scene_type": "indoor",
+      "mood": "neutral",
+      "keywords": [
+        "download",
+        "deepseek",
+        "running",
+        "saying",
+        "technically",
+        "coaster",
+        "don't",
+        "alama,",
+        "enough",
+        "nvidia gpus"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 19,
+      "start_time": 96.096,
+      "end_time": 104.104,
+      "duration": 8.007999999999996,
+      "description": "{\n    \"description\": \"A man in a blue shirt with the text 'Is the root of all problems' on it is standing in front of a rack of servers.\",\n    \"objects\": [\n        \"a man in a blue shirt with the text. {\n    \"description\": \"The person is saying: 'And even if you don't have a bunch of GPUs, you could technically still run DeepSeek on any computer with enough RAM Like here, it's running on my 19924 A",
+      "transcript": "Like here, it's running on my 19924 Ampere 1 server. It's running DeepSeek 671B at about 4 tokens per second,",
+      "key_frames": [
+        {
+          "frame_number": 2880,
+          "timestamp": 96.096,
+          "description": "{\n    \"description\": \"The person is saying: 'And even if you don't have a bunch of GPUs, you could technically still run DeepSeek on any computer with enough RAM. Like here, it's running on my 19924 A",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 3000,
+          "timestamp": 100.10000000000001,
+          "description": "{\n    \"description\": \"A man in a blue shirt with the text 'Is the root of all problems' on it is standing in front of a rack of servers.\",\n    \"objects\": [\n        \"a man in a blue shirt with the text",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 3120,
+          "timestamp": 104.104,
+          "description": "The person is saying: 'Like here, it's running on my 19924 Ampere 1 server. It's running DeepSeek 671B at about 4 tokens per second, which isn't crazy fast, but the server won't touch you back like 100,000 bucks either.'",
+          "objects": [
+            "19924 Ampere 1 server",
+            "DeepSeek 671B",
+            "4 tokens per second",
+            "100,000 bucks"
+          ],
+          "actions": [
+            "running",
+            "won't touch you back",
+            "like"
+          ],
+          "scene_type": "indoor",
+          "mood": "serious",
+          "text_visible": "19924 Ampere 1 server, DeepSeek 671B, 4 tokens per second, 100,000 bucks"
+        }
+      ],
+      "dominant_objects": [
+        "19924 Ampere 1 server",
+        "100,000 bucks",
+        "DeepSeek 671B",
+        "4 tokens per second"
+      ],
+      "actions_sequence": [
+        "running",
+        "won't touch you back",
+        "like"
+      ],
+      "scene_type": "indoor",
+      "mood": "serious",
+      "keywords": [
+        "19924 Ampere 1 server",
+        "running",
+        "front",
+        "deepseek",
+        "technically",
+        "like",
+        "4 tokens per second",
+        "don't",
+        "enough",
+        "won't touch you back"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 1.0
+    },
+    {
+      "segment_id": 20,
+      "start_time": 104.104,
+      "end_time": 108.108,
+      "duration": 4.004000000000005,
+      "description": "The person is saying: 'It's running DeepSeek 671B at about 4 tokens per second, which isn't crazy fast, but the server won't touch you back like 100,000 bucks either. Even though it's only using a few hundred watts, which is honestly pretty amazing,'. The person is saying: 'Like here, it's running on my 19924 Ampere 1 server It's running DeepSeek 671B at about 4 tokens per second, which isn't crazy fast, but the server won't touch you back like 100,000 bucks either",
+      "transcript": "which isn't crazy fast, but the server won't touch you back like 100,000 bucks either.",
+      "key_frames": [
+        {
+          "frame_number": 3120,
+          "timestamp": 104.104,
+          "description": "The person is saying: 'Like here, it's running on my 19924 Ampere 1 server. It's running DeepSeek 671B at about 4 tokens per second, which isn't crazy fast, but the server won't touch you back like 100,000 bucks either.'",
+          "objects": [
+            "19924 Ampere 1 server",
+            "DeepSeek 671B",
+            "4 tokens per second",
+            "100,000 bucks"
+          ],
+          "actions": [
+            "running",
+            "won't touch you back",
+            "like"
+          ],
+          "scene_type": "indoor",
+          "mood": "serious",
+          "text_visible": "19924 Ampere 1 server, DeepSeek 671B, 4 tokens per second, 100,000 bucks"
+        },
+        {
+          "frame_number": 3240,
+          "timestamp": 108.108,
+          "description": "The person is saying: 'It's running DeepSeek 671B at about 4 tokens per second, which isn't crazy fast, but the server won't touch you back like 100,000 bucks either. Even though it's only using a few hundred watts, which is honestly pretty amazing,'",
+          "objects": [
+            "the person",
+            "the screen",
+            "the text",
+            "the words"
+          ],
+          "actions": [
+            "saying",
+            "running",
+            "not crazy fast",
+            "the server",
+            "won't touch you back",
+            "like 100,000 bucks",
+            "honestly pretty amazing"
+          ],
+          "scene_type": "indoor",
+          "mood": "amazing",
+          "text_visible": "The person is saying: 'It's running DeepSeek 671B at about 4 tokens per second, which isn't crazy fast, but the server won't touch you back like 100,000 bucks either. Even though it's only using a few hundred watts, which is honestly pretty amazing,'"
+        }
+      ],
+      "dominant_objects": [
+        "19924 Ampere 1 server",
+        "DeepSeek 671B",
+        "the person",
+        "4 tokens per second",
+        "the words",
+        "100,000 bucks",
+        "the screen",
+        "the text"
+      ],
+      "actions_sequence": [
+        "running",
+        "won't touch you back",
+        "like",
+        "saying",
+        "running",
+        "not crazy fast",
+        "the server",
+        "won't touch you back",
+        "like 100,000 bucks",
+        "honestly pretty amazing"
+      ],
+      "scene_type": "indoor",
+      "mood": "serious",
+      "keywords": [
+        "19924 Ampere 1 server",
+        "running",
+        "deepseek",
+        "honestly",
+        "saying",
+        "touch",
+        "like",
+        "though",
+        "using",
+        "4 tokens per second"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 21,
+      "start_time": 108.108,
+      "end_time": 112.11200000000001,
+      "duration": 4.004000000000005,
+      "description": "the during sunrise and sunset, illustrating this dependency, and human visual perception. this them during sunrise and sunset, illustrating this dependency, and human visual perception. this them during sunrise and sunset, illustrating this dependency, and human visual perception.. The person is saying: 'It's running DeepSeek 671B at about 4 tokens per second, which isn't crazy fast, but the server won't touch you back like 100,000 bucks either Even though it's only using a few hundred watts, which is honestly pretty amazing,'",
+      "transcript": "",
+      "key_frames": [
+        {
+          "frame_number": 3240,
+          "timestamp": 108.108,
+          "description": "The person is saying: 'It's running DeepSeek 671B at about 4 tokens per second, which isn't crazy fast, but the server won't touch you back like 100,000 bucks either. Even though it's only using a few hundred watts, which is honestly pretty amazing,'",
+          "objects": [
+            "the person",
+            "the screen",
+            "the text",
+            "the words"
+          ],
+          "actions": [
+            "saying",
+            "running",
+            "not crazy fast",
+            "the server",
+            "won't touch you back",
+            "like 100,000 bucks",
+            "honestly pretty amazing"
+          ],
+          "scene_type": "indoor",
+          "mood": "amazing",
+          "text_visible": "The person is saying: 'It's running DeepSeek 671B at about 4 tokens per second, which isn't crazy fast, but the server won't touch you back like 100,000 bucks either. Even though it's only using a few hundred watts, which is honestly pretty amazing,'"
+        },
+        {
+          "frame_number": 3360,
+          "timestamp": 112.11200000000001,
+          "description": "the during sunrise and sunset, illustrating this dependency, and human visual perception. this them during sunrise and sunset, illustrating this dependency, and human visual perception. this them during sunrise and sunset, illustrating this dependency, and human visual perception.",
+          "objects": [
+            "total duration: 5m16.86146831s",
+            "load duration: 17.73409999s",
+            "prompt reveal count: 14 token(s)",
+            "prompt reveal duration: 994ms",
+            "prompt reveal rate: 14.08 tokens/s",
+            "eval count: 1320 token(s)",
+            "eval duration: 5m15.5848s",
+            "eval rate: 4.18 tokens/s",
+            ">> send a message (/? for help)",
+            ">>"
+          ],
+          "actions": [
+            ">> send a message (/? for help)",
+            ">>"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "the during sunrise and sunset, illustrating this dependency, and human visual perception. this them during sunrise and sunset, illustrating this dependency, and human visual perception. this them during sunrise and sunset, illustrating this dependency, and human visual perception."
+        }
+      ],
+      "dominant_objects": [
+        "load duration: 17.73409999s",
+        "total duration: 5m16.86146831s",
+        "prompt reveal rate: 14.08 tokens/s",
+        "eval count: 1320 token(s)",
+        "eval rate: 4.18 tokens/s",
+        "prompt reveal count: 14 token(s)",
+        "eval duration: 5m15.5848s",
+        "the person",
+        "prompt reveal duration: 994ms",
+        ">> send a message (/? for help)",
+        ">>",
+        "the words",
+        "the screen",
+        "the text"
+      ],
+      "actions_sequence": [
+        "saying",
+        "running",
+        "not crazy fast",
+        "the server",
+        "won't touch you back",
+        "like 100,000 bucks",
+        "honestly pretty amazing",
+        ">> send a message (/? for help)",
+        ">>"
+      ],
+      "scene_type": "indoor",
+      "mood": "neutral",
+      "keywords": [
+        "running",
+        "eval count: 1320 token(s)",
+        "perception.",
+        "deepseek",
+        "visual",
+        "honestly",
+        "saying",
+        "touch",
+        "prompt reveal count: 14 token(s)",
+        "though"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.7
+    },
+    {
+      "segment_id": 22,
+      "start_time": 112.11200000000001,
+      "end_time": 116.116,
+      "duration": 4.003999999999991,
+      "description": "The person is saying: 'Even though it's only using a few hundred watts, which is honestly pretty amazing, a noisy server like this isn't gonna be in everyone's living room. A Raspberry Pi could be though.'. the during sunrise and sunset, illustrating this dependency, and human visual perception The person is saying: 'Even though it's only using a few hundred watts, which is honestly pretty amazing, a noisy server like this isn't gonna be in everyone's living room",
+      "transcript": "Even though it's only using a few hundred watts, which is honestly pretty amazing,",
+      "key_frames": [
+        {
+          "frame_number": 3360,
+          "timestamp": 112.11200000000001,
+          "description": "the during sunrise and sunset, illustrating this dependency, and human visual perception. this them during sunrise and sunset, illustrating this dependency, and human visual perception. this them during sunrise and sunset, illustrating this dependency, and human visual perception.",
+          "objects": [
+            "total duration: 5m16.86146831s",
+            "load duration: 17.73409999s",
+            "prompt reveal count: 14 token(s)",
+            "prompt reveal duration: 994ms",
+            "prompt reveal rate: 14.08 tokens/s",
+            "eval count: 1320 token(s)",
+            "eval duration: 5m15.5848s",
+            "eval rate: 4.18 tokens/s",
+            ">> send a message (/? for help)",
+            ">>"
+          ],
+          "actions": [
+            ">> send a message (/? for help)",
+            ">>"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "the during sunrise and sunset, illustrating this dependency, and human visual perception. this them during sunrise and sunset, illustrating this dependency, and human visual perception. this them during sunrise and sunset, illustrating this dependency, and human visual perception."
+        },
+        {
+          "frame_number": 3480,
+          "timestamp": 116.116,
+          "description": "The person is saying: 'Even though it's only using a few hundred watts, which is honestly pretty amazing, a noisy server like this isn't gonna be in everyone's living room. A Raspberry Pi could be though.'",
+          "objects": [
+            "Sensor 1:",
+            "Sensor 2:",
+            "Sensor 3:"
+          ],
+          "actions": [
+            "low",
+            "low",
+            "low"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": [
+            "23.9°C (low)",
+            "30.9°C (low)",
+            "41.9°C (low)",
+            "134.51 W",
+            "100.91 W",
+            "29.9°C (low)",
+            "-273.1°C"
+          ]
+        }
+      ],
+      "dominant_objects": [
+        "prompt reveal rate: 14.08 tokens/s",
+        "load duration: 17.73409999s",
+        "total duration: 5m16.86146831s",
+        "eval count: 1320 token(s)",
+        "Sensor 2:",
+        "eval rate: 4.18 tokens/s",
+        "Sensor 1:",
+        "Sensor 3:",
+        "prompt reveal count: 14 token(s)",
+        "eval duration: 5m15.5848s",
+        "prompt reveal duration: 994ms",
+        ">> send a message (/? for help)",
+        ">>"
+      ],
+      "actions_sequence": [
+        ">> send a message (/? for help)",
+        ">>",
+        "low",
+        "low",
+        "low"
+      ],
+      "scene_type": "indoor",
+      "mood": "neutral",
+      "keywords": [
+        "eval count: 1320 token(s)",
+        "honestly",
+        "visual",
+        "prompt reveal count: 14 token(s)",
+        "though",
+        "room.",
+        "using",
+        "human",
+        "everyone's",
+        ">> send a message (/? for help)"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 23,
+      "start_time": 116.116,
+      "end_time": 120.12,
+      "duration": 4.004000000000005,
+      "description": "a noisy server like this isn't gonna be in everyone's living room. A Raspberry Pi could be though. So let's look at how the smaller 14b model runs on it.. The person is saying: 'Even though it's only using a few hundred watts, which is honestly pretty amazing, a noisy server like this isn't gonna be in everyone's living room a noisy server like this isn't gonna be in everyone's living room",
+      "transcript": "a noisy server like this isn't gonna be in everyone's living room.",
+      "key_frames": [
+        {
+          "frame_number": 3480,
+          "timestamp": 116.116,
+          "description": "The person is saying: 'Even though it's only using a few hundred watts, which is honestly pretty amazing, a noisy server like this isn't gonna be in everyone's living room. A Raspberry Pi could be though.'",
+          "objects": [
+            "Sensor 1:",
+            "Sensor 2:",
+            "Sensor 3:"
+          ],
+          "actions": [
+            "low",
+            "low",
+            "low"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": [
+            "23.9°C (low)",
+            "30.9°C (low)",
+            "41.9°C (low)",
+            "134.51 W",
+            "100.91 W",
+            "29.9°C (low)",
+            "-273.1°C"
+          ]
+        },
+        {
+          "frame_number": 3600,
+          "timestamp": 120.12,
+          "description": "a noisy server like this isn't gonna be in everyone's living room. A Raspberry Pi could be though. So let's look at how the smaller 14b model runs on it.",
+          "objects": [
+            "NAS01-BMC"
+          ],
+          "actions": [
+            "connects"
+          ],
+          "scene_type": "indoor",
+          "mood": "professional",
+          "text_visible": "NAS01-BMC"
+        }
+      ],
+      "dominant_objects": [
+        "Sensor 2:",
+        "Sensor 3:",
+        "Sensor 1:",
+        "NAS01-BMC"
+      ],
+      "actions_sequence": [
+        "low",
+        "low",
+        "low",
+        "connects"
+      ],
+      "scene_type": "indoor",
+      "mood": "neutral",
+      "keywords": [
+        "honestly",
+        "though.",
+        "though",
+        "room.",
+        "using",
+        "everyone's",
+        "raspberry",
+        "amazing,",
+        "smaller",
+        "isn't"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 24,
+      "start_time": 120.12,
+      "end_time": 124.124,
+      "duration": 4.003999999999991,
+      "description": "The sky appears blue due to a phenomenon called Rayleigh scattering. Blue light has a shorter wavelength and whereas other colors like red. a noisy server like this isn't gonna be in everyone's living room A Raspberry Pi could be though",
+      "transcript": "A Raspberry Pi could be though. So let's look at how the smaller 14b model runs on it.",
+      "key_frames": [
+        {
+          "frame_number": 3600,
+          "timestamp": 120.12,
+          "description": "a noisy server like this isn't gonna be in everyone's living room. A Raspberry Pi could be though. So let's look at how the smaller 14b model runs on it.",
+          "objects": [
+            "NAS01-BMC"
+          ],
+          "actions": [
+            "connects"
+          ],
+          "scene_type": "indoor",
+          "mood": "professional",
+          "text_visible": "NAS01-BMC"
+        },
+        {
+          "frame_number": 3720,
+          "timestamp": 124.124,
+          "description": "The sky appears blue due to a phenomenon called Rayleigh scattering. Blue light has a shorter wavelength and whereas other colors like red",
+          "objects": [
+            "The sky appears blue due to a phenomenon called Rayleigh scattering.",
+            "Blue light has a shorter wavelength and whereas other colors like red"
+          ],
+          "actions": [
+            "Testing a few different prompts, I got about 1.2 tokens per second."
+          ],
+          "scene_type": "indoor",
+          "mood": "calm",
+          "text_visible": "The sky appears blue due to a phenomenon called Rayleigh scattering. Blue light has a shorter wavelength and whereas other colors like red"
+        }
+      ],
+      "dominant_objects": [
+        "The sky appears blue due to a phenomenon called Rayleigh scattering.",
+        "Blue light has a shorter wavelength and whereas other colors like red",
+        "NAS01-BMC"
+      ],
+      "actions_sequence": [
+        "connects",
+        "Testing a few different prompts, I got about 1.2 tokens per second."
+      ],
+      "scene_type": "indoor",
+      "mood": "calm",
+      "keywords": [
+        "Testing a few different prompts, I got about 1.2 tokens per second.",
+        "whereas",
+        "though",
+        "everyone's",
+        "raspberry",
+        "phenomenon",
+        "other",
+        "shorter",
+        "isn't",
+        "light"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 25,
+      "start_time": 124.124,
+      "end_time": 128.12800000000001,
+      "duration": 4.004000000000019,
+      "description": "{\n    \"description\": \"The sky appears blue due to a phenomenon called Rayleigh scattering which is the interaction of light with molecules and small particles in the air. Sunlight interacts with diffe. The sky appears blue due to a phenomenon called Rayleigh scattering Blue light has a shorter wavelength and whereas other colors like red",
+      "transcript": "It's definitely not gonna win any speed records.",
+      "key_frames": [
+        {
+          "frame_number": 3720,
+          "timestamp": 124.124,
+          "description": "The sky appears blue due to a phenomenon called Rayleigh scattering. Blue light has a shorter wavelength and whereas other colors like red",
+          "objects": [
+            "The sky appears blue due to a phenomenon called Rayleigh scattering.",
+            "Blue light has a shorter wavelength and whereas other colors like red"
+          ],
+          "actions": [
+            "Testing a few different prompts, I got about 1.2 tokens per second."
+          ],
+          "scene_type": "indoor",
+          "mood": "calm",
+          "text_visible": "The sky appears blue due to a phenomenon called Rayleigh scattering. Blue light has a shorter wavelength and whereas other colors like red"
+        },
+        {
+          "frame_number": 3840,
+          "timestamp": 128.12800000000001,
+          "description": "{\n    \"description\": \"The sky appears blue due to a phenomenon called Rayleigh scattering which is the interaction of light with molecules and small particles in the air. Sunlight interacts with diffe",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        }
+      ],
+      "dominant_objects": [
+        "The sky appears blue due to a phenomenon called Rayleigh scattering.",
+        "Blue light has a shorter wavelength and whereas other colors like red"
+      ],
+      "actions_sequence": [
+        "Testing a few different prompts, I got about 1.2 tokens per second."
+      ],
+      "scene_type": "indoor",
+      "mood": "calm",
+      "keywords": [
+        "Testing a few different prompts, I got about 1.2 tokens per second.",
+        "particles",
+        "whereas",
+        "phenomenon",
+        "other",
+        "sunlight",
+        "shorter",
+        "light",
+        "appears",
+        "wavelength"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 26,
+      "start_time": 128.12800000000001,
+      "end_time": 132.132,
+      "duration": 4.003999999999991,
+      "description": "Testing a few different prompts, I got about 1.2 tokens per second. I mean, it runs, but if you want a chatbot for like rubber duck debugging, or to give you a few ideas for your next YouTube title, this isn't fun.. {\n    \"description\": \"The sky appears blue due to a phenomenon called Rayleigh scattering which is the interaction of light with molecules and small particles in the air Sunlight interacts with diffe",
+      "transcript": "Testing a few different prompts, I got about 1.2 tokens per second. I mean, it runs, but if you want a chatbot for like rubber duck debugging,",
+      "key_frames": [
+        {
+          "frame_number": 3840,
+          "timestamp": 128.12800000000001,
+          "description": "{\n    \"description\": \"The sky appears blue due to a phenomenon called Rayleigh scattering which is the interaction of light with molecules and small particles in the air. Sunlight interacts with diffe",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 3960,
+          "timestamp": 132.132,
+          "description": "Testing a few different prompts, I got about 1.2 tokens per second. I mean, it runs, but if you want a chatbot for like rubber duck debugging, or to give you a few ideas for your next YouTube title, this isn't fun.",
+          "objects": [
+            "prompt eval count: 9 token(s)",
+            "prompt eval duration: 7.48s",
+            "prompt eval ratio: 1.20 tokens / s",
+            "eval duration: 1m18.1s",
+            "eval ratio: 1.20 tokens / s",
+            ">>>> Send a message (/? for help)",
+            "</>"
+          ],
+          "actions": [
+            ">>>> Send a message (/? for help)",
+            "</>"
+          ],
+          "scene_type": "indoor",
+          "mood": "sad",
+          "text_visible": "</>"
+        }
+      ],
+      "dominant_objects": [
+        "</>",
+        "prompt eval duration: 7.48s",
+        "prompt eval ratio: 1.20 tokens / s",
+        "prompt eval count: 9 token(s)",
+        ">>>> Send a message (/? for help)",
+        "eval duration: 1m18.1s",
+        "eval ratio: 1.20 tokens / s"
+      ],
+      "actions_sequence": [
+        ">>>> Send a message (/? for help)",
+        "</>"
+      ],
+      "scene_type": "indoor",
+      "mood": "sad",
+      "keywords": [
+        "mean,",
+        "prompt eval duration: 7.48s",
+        "chatbot",
+        "particles",
+        "prompts,",
+        ">>>> Send a message (/? for help)",
+        "youtube",
+        "runs,",
+        "about",
+        "phenomenon"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 27,
+      "start_time": 132.132,
+      "end_time": 136.136,
+      "duration": 4.003999999999991,
+      "description": "{\n    \"description\": \"The person is saying: 'I mean, it runs, but if you want a chatbot for like rubber duck debugging, or to give you a few ideas for your next YouTube title, this isn't fun. But we c. Testing a few different prompts, I got about 1 I mean, it runs, but if you want a chatbot for like rubber duck debugging, or to give you a few ideas for your next YouTube title, this isn't fun",
+      "transcript": "",
+      "key_frames": [
+        {
+          "frame_number": 3960,
+          "timestamp": 132.132,
+          "description": "Testing a few different prompts, I got about 1.2 tokens per second. I mean, it runs, but if you want a chatbot for like rubber duck debugging, or to give you a few ideas for your next YouTube title, this isn't fun.",
+          "objects": [
+            "prompt eval count: 9 token(s)",
+            "prompt eval duration: 7.48s",
+            "prompt eval ratio: 1.20 tokens / s",
+            "eval duration: 1m18.1s",
+            "eval ratio: 1.20 tokens / s",
+            ">>>> Send a message (/? for help)",
+            "</>"
+          ],
+          "actions": [
+            ">>>> Send a message (/? for help)",
+            "</>"
+          ],
+          "scene_type": "indoor",
+          "mood": "sad",
+          "text_visible": "</>"
+        },
+        {
+          "frame_number": 4080,
+          "timestamp": 136.136,
+          "description": "{\n    \"description\": \"The person is saying: 'I mean, it runs, but if you want a chatbot for like rubber duck debugging, or to give you a few ideas for your next YouTube title, this isn't fun. But we c",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        }
+      ],
+      "dominant_objects": [
+        "</>",
+        "prompt eval duration: 7.48s",
+        "prompt eval ratio: 1.20 tokens / s",
+        "prompt eval count: 9 token(s)",
+        ">>>> Send a message (/? for help)",
+        "eval duration: 1m18.1s",
+        "eval ratio: 1.20 tokens / s"
+      ],
+      "actions_sequence": [
+        ">>>> Send a message (/? for help)",
+        "</>"
+      ],
+      "scene_type": "indoor",
+      "mood": "sad",
+      "keywords": [
+        "mean,",
+        "prompt eval duration: 7.48s",
+        "chatbot",
+        "prompts,",
+        "youtube",
+        ">>>> Send a message (/? for help)",
+        "runs,",
+        "about",
+        "isn't",
+        "prompt eval ratio: 1.20 tokens / s"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.7
+    },
+    {
+      "segment_id": 28,
+      "start_time": 136.136,
+      "end_time": 140.14000000000001,
+      "duration": 4.004000000000019,
+      "description": "The person is saying: 'or to give you a few ideas for your next YouTube title, this isn't fun. But we can speed things up a lot. All we need is an external graphics card, because GPUs and the VRAM on them are way faster than CPUs and system memory.'. {\n    \"description\": \"The person is saying: 'I mean, it runs, but if you want a chatbot for like rubber duck debugging, or to give you a few ideas for your next YouTube title, this isn't fun The person is saying: 'or to give you a few ideas for your next YouTube title, this isn't fun",
+      "transcript": "or to give you a few ideas for your next YouTube title, this isn't fun.",
+      "key_frames": [
+        {
+          "frame_number": 4080,
+          "timestamp": 136.136,
+          "description": "{\n    \"description\": \"The person is saying: 'I mean, it runs, but if you want a chatbot for like rubber duck debugging, or to give you a few ideas for your next YouTube title, this isn't fun. But we c",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 4200,
+          "timestamp": 140.14000000000001,
+          "description": "The person is saying: 'or to give you a few ideas for your next YouTube title, this isn't fun. But we can speed things up a lot. All we need is an external graphics card, because GPUs and the VRAM on them are way faster than CPUs and system memory.'",
+          "objects": [
+            "pulling f4d24e"
+          ],
+          "actions": [
+            "pushing"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "pushing"
+        }
+      ],
+      "dominant_objects": [
+        "pulling f4d24e"
+      ],
+      "actions_sequence": [
+        "pushing"
+      ],
+      "scene_type": "indoor",
+      "mood": "neutral",
+      "keywords": [
+        "mean,",
+        "chatbot",
+        "speed",
+        "youtube",
+        "faster",
+        "runs,",
+        "external",
+        "isn't",
+        "memory.'.",
+        "rubber"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 29,
+      "start_time": 140.14000000000001,
+      "end_time": 144.144,
+      "duration": 4.003999999999991,
+      "description": "The person is saying: 'But we can speed things up a lot. All we need is an external graphics card, because GPUs and the VRAM on them are way faster than CPUs and system memory.'. The person is saying: 'or to give you a few ideas for your next YouTube title, this isn't fun But we can speed things up a lot",
+      "transcript": "But we can speed things up a lot. All we need is an external graphics card, because GPUs and the VRAM on them are way faster than CPUs and system memory.",
+      "key_frames": [
+        {
+          "frame_number": 4200,
+          "timestamp": 140.14000000000001,
+          "description": "The person is saying: 'or to give you a few ideas for your next YouTube title, this isn't fun. But we can speed things up a lot. All we need is an external graphics card, because GPUs and the VRAM on them are way faster than CPUs and system memory.'",
+          "objects": [
+            "pulling f4d24e"
+          ],
+          "actions": [
+            "pushing"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "pushing"
+        },
+        {
+          "frame_number": 4320,
+          "timestamp": 144.144,
+          "description": "The person is saying: 'But we can speed things up a lot. All we need is an external graphics card, because GPUs and the VRAM on them are way faster than CPUs and system memory.'",
+          "objects": [
+            {
+              "text": "AMD Radeon Pro W7700",
+              "color": "silver"
+            },
+            {
+              "text": "ArmourLife V5",
+              "color": "black"
+            },
+            {
+              "text": "16",
+              "color": "black"
+            }
+          ],
+          "actions": [
+            "talking"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "AMD Radeon Pro W7700, ArmourLife V5, 16"
+        }
+      ],
+      "dominant_objects": [
+        "{'text': 'ArmourLife V5', 'color': 'black'}",
+        "{'text': '16', 'color': 'black'}",
+        "pulling f4d24e",
+        "{'text': 'AMD Radeon Pro W7700', 'color': 'silver'}"
+      ],
+      "actions_sequence": [
+        "pushing",
+        "talking"
+      ],
+      "scene_type": "indoor",
+      "mood": "neutral",
+      "keywords": [
+        "speed",
+        "youtube",
+        "{'text': 'ArmourLife V5', 'color': 'black'}",
+        "faster",
+        "external",
+        "isn't",
+        "memory.'.",
+        "{'text': 'AMD Radeon Pro W7700', 'color': 'silver'}",
+        "card,",
+        "pulling f4d24e"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 30,
+      "start_time": 144.144,
+      "end_time": 148.148,
+      "duration": 4.003999999999991,
+      "description": "A man is holding a graphics card and a mug on a table.. The person is saying: 'But we can speed things up a lot All we need is an external graphics card, because GPUs and the VRAM on them are way faster than CPUs and system memory",
+      "transcript": "",
+      "key_frames": [
+        {
+          "frame_number": 4320,
+          "timestamp": 144.144,
+          "description": "The person is saying: 'But we can speed things up a lot. All we need is an external graphics card, because GPUs and the VRAM on them are way faster than CPUs and system memory.'",
+          "objects": [
+            {
+              "text": "AMD Radeon Pro W7700",
+              "color": "silver"
+            },
+            {
+              "text": "ArmourLife V5",
+              "color": "black"
+            },
+            {
+              "text": "16",
+              "color": "black"
+            }
+          ],
+          "actions": [
+            "talking"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "AMD Radeon Pro W7700, ArmourLife V5, 16"
+        },
+        {
+          "frame_number": 4440,
+          "timestamp": 148.148,
+          "description": "A man is holding a graphics card and a mug on a table.",
+          "objects": [
+            "A graphics card",
+            "A mug"
+          ],
+          "actions": [
+            "The man is holding the graphics card and a mug on a table.",
+            "The man is looking at the camera"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "I have this setup I've been testing with an AMD W7700 graphics card."
+        }
+      ],
+      "dominant_objects": [
+        "A graphics card",
+        "{'text': '16', 'color': 'black'}",
+        "A mug",
+        "{'text': 'AMD Radeon Pro W7700', 'color': 'silver'}",
+        "{'text': 'ArmourLife V5', 'color': 'black'}"
+      ],
+      "actions_sequence": [
+        "talking",
+        "The man is holding the graphics card and a mug on a table.",
+        "The man is looking at the camera"
+      ],
+      "scene_type": "indoor",
+      "mood": "neutral",
+      "keywords": [
+        "A graphics card",
+        "The man is looking at the camera",
+        "speed",
+        "{'text': 'ArmourLife V5', 'color': 'black'}",
+        "faster",
+        "external",
+        "The man is holding the graphics card and a mug on a table.",
+        "{'text': 'AMD Radeon Pro W7700', 'color': 'silver'}",
+        "memory",
+        "A mug"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.7
+    },
+    {
+      "segment_id": 31,
+      "start_time": 148.148,
+      "end_time": 152.15200000000002,
+      "duration": 4.004000000000019,
+      "description": "I have this setup I've been testing with an AMD W7700 graphics card. It has 16 gigs of speedy VRAM, and as long as it can fit the whole AI model in that.. A man is holding a graphics card and a mug on a table I have this setup I've been testing with an AMD W7700 graphics card",
+      "transcript": "I have this setup I've been testing with an AMD W7700 graphics card.",
+      "key_frames": [
+        {
+          "frame_number": 4440,
+          "timestamp": 148.148,
+          "description": "A man is holding a graphics card and a mug on a table.",
+          "objects": [
+            "A graphics card",
+            "A mug"
+          ],
+          "actions": [
+            "The man is holding the graphics card and a mug on a table.",
+            "The man is looking at the camera"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "I have this setup I've been testing with an AMD W7700 graphics card."
+        },
+        {
+          "frame_number": 4560,
+          "timestamp": 152.15200000000002,
+          "description": "I have this setup I've been testing with an AMD W7700 graphics card. It has 16 gigs of speedy VRAM, and as long as it can fit the whole AI model in that.",
+          "objects": [
+            "AMD Radeon Pro W7700 graphics card"
+          ],
+          "actions": [
+            "sitting"
+          ],
+          "scene_type": "indoor",
+          "mood": "calm",
+          "text_visible": "AMD Radeon Pro W7700 graphics card"
+        }
+      ],
+      "dominant_objects": [
+        "A graphics card",
+        "A mug",
+        "AMD Radeon Pro W7700 graphics card"
+      ],
+      "actions_sequence": [
+        "The man is holding the graphics card and a mug on a table.",
+        "The man is looking at the camera",
+        "sitting"
+      ],
+      "scene_type": "indoor",
+      "mood": "neutral",
+      "keywords": [
+        "speedy",
+        "A graphics card",
+        "sitting",
+        "holding",
+        "A mug",
+        "The man is holding the graphics card and a mug on a table.",
+        "The man is looking at the camera",
+        "testing",
+        "w7700",
+        "setup"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 32,
+      "start_time": 152.15200000000002,
+      "end_time": 156.156,
+      "duration": 4.003999999999991,
+      "description": "The person is saying: 'It has 16 gigs of speedy VRAM, and as long as it can fit the whole AI model in that, it should be way faster than any CPU.'. I have this setup I've been testing with an AMD W7700 graphics card It has 16 gigs of speedy VRAM, and as long as it can fit the whole AI model in that",
+      "transcript": "It has 16 gigs of speedy VRAM, and as long as it can fit the whole AI model in that,",
+      "key_frames": [
+        {
+          "frame_number": 4560,
+          "timestamp": 152.15200000000002,
+          "description": "I have this setup I've been testing with an AMD W7700 graphics card. It has 16 gigs of speedy VRAM, and as long as it can fit the whole AI model in that.",
+          "objects": [
+            "AMD Radeon Pro W7700 graphics card"
+          ],
+          "actions": [
+            "sitting"
+          ],
+          "scene_type": "indoor",
+          "mood": "calm",
+          "text_visible": "AMD Radeon Pro W7700 graphics card"
+        },
+        {
+          "frame_number": 4680,
+          "timestamp": 156.156,
+          "description": "The person is saying: 'It has 16 gigs of speedy VRAM, and as long as it can fit the whole AI model in that, it should be way faster than any CPU.'",
+          "objects": [
+            {
+              "type": "computer_part",
+              "sub_type": "graphics_card",
+              "text": "AMD Radeon Pro W700"
+            },
+            {
+              "type": "computer_part",
+              "sub_type": "keyboard",
+              "text": "Apple Magic Keyboard"
+            },
+            {
+              "type": "computer_part",
+              "sub_type": "mouse",
+              "text": "Apple Magic Mouse"
+            }
+          ],
+          "actions": [
+            "moving"
+          ],
+          "scene_type": "indoor",
+          "mood": "professional",
+          "text_visible": "The person is saying: 'It has 16 gigs of speedy VRAM, and as long as it can fit the whole AI model in that, it should be way faster than any CPU.'"
+        }
+      ],
+      "dominant_objects": [
+        "{'type': 'computer_part', 'sub_type': 'mouse', 'text': 'Apple Magic Mouse'}",
+        "{'type': 'computer_part', 'sub_type': 'graphics_card', 'text': 'AMD Radeon Pro W700'}",
+        "{'type': 'computer_part', 'sub_type': 'keyboard', 'text': 'Apple Magic Keyboard'}",
+        "AMD Radeon Pro W7700 graphics card"
+      ],
+      "actions_sequence": [
+        "sitting",
+        "moving"
+      ],
+      "scene_type": "indoor",
+      "mood": "calm",
+      "keywords": [
+        "{'type': 'computer_part', 'sub_type': 'mouse', 'text': 'Apple Magic Mouse'}",
+        "that,",
+        "speedy",
+        "faster",
+        "{'type': 'computer_part', 'sub_type': 'keyboard', 'text': 'Apple Magic Keyboard'}",
+        "setup",
+        "whole",
+        "vram,",
+        "moving",
+        "testing"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 33,
+      "start_time": 156.156,
+      "end_time": 160.16,
+      "duration": 4.003999999999991,
+      "description": "{\n    \"description\": \"the person is saying: 'it should be way faster than any cpu. and it is, like 10 times faster.'\",\n    \"objects\": [\n        \"the person\"\n    ],\n    \"actions\": [\n        \"saying\"\n  . The person is saying: 'It has 16 gigs of speedy VRAM, and as long as it can fit the whole AI model in that, it should be way faster than any CPU {\n    \"description\": \"the person is saying: 'it should be way faster than any cpu",
+      "transcript": "it should be way faster than any CPU.",
+      "key_frames": [
+        {
+          "frame_number": 4680,
+          "timestamp": 156.156,
+          "description": "The person is saying: 'It has 16 gigs of speedy VRAM, and as long as it can fit the whole AI model in that, it should be way faster than any CPU.'",
+          "objects": [
+            {
+              "type": "computer_part",
+              "sub_type": "graphics_card",
+              "text": "AMD Radeon Pro W700"
+            },
+            {
+              "type": "computer_part",
+              "sub_type": "keyboard",
+              "text": "Apple Magic Keyboard"
+            },
+            {
+              "type": "computer_part",
+              "sub_type": "mouse",
+              "text": "Apple Magic Mouse"
+            }
+          ],
+          "actions": [
+            "moving"
+          ],
+          "scene_type": "indoor",
+          "mood": "professional",
+          "text_visible": "The person is saying: 'It has 16 gigs of speedy VRAM, and as long as it can fit the whole AI model in that, it should be way faster than any CPU.'"
+        },
+        {
+          "frame_number": 4800,
+          "timestamp": 160.16,
+          "description": "{\n    \"description\": \"the person is saying: 'it should be way faster than any cpu. and it is, like 10 times faster.'\",\n    \"objects\": [\n        \"the person\"\n    ],\n    \"actions\": [\n        \"saying\"\n  ",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        }
+      ],
+      "dominant_objects": [
+        "{'type': 'computer_part', 'sub_type': 'mouse', 'text': 'Apple Magic Mouse'}",
+        "{'type': 'computer_part', 'sub_type': 'graphics_card', 'text': 'AMD Radeon Pro W700'}",
+        "{'type': 'computer_part', 'sub_type': 'keyboard', 'text': 'Apple Magic Keyboard'}"
+      ],
+      "actions_sequence": [
+        "moving"
+      ],
+      "scene_type": "indoor",
+      "mood": "professional",
+      "keywords": [
+        "person\"",
+        "faster.'\",",
+        "\"actions\":",
+        "{'type': 'computer_part', 'sub_type': 'mouse', 'text': 'Apple Magic Mouse'}",
+        "that,",
+        "speedy",
+        "faster",
+        "{'type': 'computer_part', 'sub_type': 'keyboard', 'text': 'Apple Magic Keyboard'}",
+        "whole",
+        "vram,"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 34,
+      "start_time": 160.16,
+      "end_time": 164.16400000000002,
+      "duration": 4.004000000000019,
+      "description": "the person is saying: 'it should be way faster than any cpu. and it is, like 10 times faster. i can get between 20 to 50 tokens per second depending on the type of work i'm doing.'. {\n    \"description\": \"the person is saying: 'it should be way faster than any cpu '\",\n    \"objects\": [\n        \"the person\"\n    ],\n    \"actions\": [\n        \"saying\"",
+      "transcript": "And it is, like 10 times faster.",
+      "key_frames": [
+        {
+          "frame_number": 4800,
+          "timestamp": 160.16,
+          "description": "{\n    \"description\": \"the person is saying: 'it should be way faster than any cpu. and it is, like 10 times faster.'\",\n    \"objects\": [\n        \"the person\"\n    ],\n    \"actions\": [\n        \"saying\"\n  ",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 4920,
+          "timestamp": 164.16400000000002,
+          "description": "the person is saying: 'it should be way faster than any cpu. and it is, like 10 times faster. i can get between 20 to 50 tokens per second depending on the type of work i'm doing.'",
+          "objects": [
+            "the person",
+            "the screen",
+            "the keyboard",
+            "the mouse"
+          ],
+          "actions": [
+            "saying",
+            "typing"
+          ],
+          "scene_type": "indoor",
+          "mood": "calm",
+          "text_visible": "the person is saying: 'it should be way faster than any cpu. and it is, like 10 times faster. i can get between 20 to 50 tokens per second depending on the type of work i'm doing.'"
+        }
+      ],
+      "dominant_objects": [
+        "the keyboard",
+        "the mouse",
+        "the screen",
+        "the person"
+      ],
+      "actions_sequence": [
+        "saying",
+        "typing"
+      ],
+      "scene_type": "indoor",
+      "mood": "calm",
+      "keywords": [
+        "person\"",
+        "the keyboard",
+        "saying",
+        "\"actions\":",
+        "between",
+        "faster",
+        "depending",
+        "doing.'.",
+        "second",
+        "the person"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 35,
+      "start_time": 164.16400000000002,
+      "end_time": 168.168,
+      "duration": 4.003999999999991,
+      "description": "The person is saying: 'I can get between 20 to 50 tokens per second depending on the type of work I'm doing. Here's the raw output from an interactive session, and if I look at NV Top,'. the person is saying: 'it should be way faster than any cpu and it is, like 10 times faster",
+      "transcript": "I can get between 20 to 50 tokens per second depending on the type of work I'm doing.",
+      "key_frames": [
+        {
+          "frame_number": 4920,
+          "timestamp": 164.16400000000002,
+          "description": "the person is saying: 'it should be way faster than any cpu. and it is, like 10 times faster. i can get between 20 to 50 tokens per second depending on the type of work i'm doing.'",
+          "objects": [
+            "the person",
+            "the screen",
+            "the keyboard",
+            "the mouse"
+          ],
+          "actions": [
+            "saying",
+            "typing"
+          ],
+          "scene_type": "indoor",
+          "mood": "calm",
+          "text_visible": "the person is saying: 'it should be way faster than any cpu. and it is, like 10 times faster. i can get between 20 to 50 tokens per second depending on the type of work i'm doing.'"
+        },
+        {
+          "frame_number": 5040,
+          "timestamp": 168.168,
+          "description": "The person is saying: 'I can get between 20 to 50 tokens per second depending on the type of work I'm doing. Here's the raw output from an interactive session, and if I look at NV Top,'",
+          "objects": [
+            "Reolv",
+            "window"
+          ],
+          "actions": [
+            "mouse-click"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "Reolv"
+        }
+      ],
+      "dominant_objects": [
+        "Reolv",
+        "the keyboard",
+        "the person",
+        "the mouse",
+        "the screen",
+        "window"
+      ],
+      "actions_sequence": [
+        "saying",
+        "typing",
+        "mouse-click"
+      ],
+      "scene_type": "indoor",
+      "mood": "calm",
+      "keywords": [
+        "Reolv",
+        "the keyboard",
+        "saying",
+        "between",
+        "faster",
+        "depending",
+        "top,'.",
+        "doing.",
+        "here's",
+        "interactive"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 36,
+      "start_time": 168.168,
+      "end_time": 172.172,
+      "duration": 4.003999999999991,
+      "description": "{\n    \"description\": \"The person is saying: 'Here's the raw output from an interactive session, and if I look at NV Top, I can see all this processing is being done on the GPU. And if I run Lama Bench. The person is saying: 'I can get between 20 to 50 tokens per second depending on the type of work I'm doing Here's the raw output from an interactive session, and if I look at NV Top,'",
+      "transcript": "Here's the raw output from an interactive session, and if I look at NV Top,",
+      "key_frames": [
+        {
+          "frame_number": 5040,
+          "timestamp": 168.168,
+          "description": "The person is saying: 'I can get between 20 to 50 tokens per second depending on the type of work I'm doing. Here's the raw output from an interactive session, and if I look at NV Top,'",
+          "objects": [
+            "Reolv",
+            "window"
+          ],
+          "actions": [
+            "mouse-click"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "Reolv"
+        },
+        {
+          "frame_number": 5160,
+          "timestamp": 172.172,
+          "description": "{\n    \"description\": \"The person is saying: 'Here's the raw output from an interactive session, and if I look at NV Top, I can see all this processing is being done on the GPU. And if I run Lama Bench",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        }
+      ],
+      "dominant_objects": [
+        "Reolv",
+        "window"
+      ],
+      "actions_sequence": [
+        "mouse-click"
+      ],
+      "scene_type": "indoor",
+      "mood": "neutral",
+      "keywords": [
+        "Reolv",
+        "'here's",
+        "between",
+        "doing",
+        "depending",
+        "interactive",
+        "here's",
+        "mouse-click",
+        "output",
+        "second"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 37,
+      "start_time": 172.172,
+      "end_time": 176.17600000000002,
+      "duration": 4.004000000000019,
+      "description": "The person is saying: 'I can see all this processing is being done on the GPU. And if I run Lama Bench, it's reporting 24 to 54 tokens per second. And this GPU isn't even targeted at LLMs. You can go a lot faster.'. {\n    \"description\": \"The person is saying: 'Here's the raw output from an interactive session, and if I look at NV Top, I can see all this processing is being done on the GPU And if I run Lama Bench",
+      "transcript": "I can see all this processing is being done on the GPU.",
+      "key_frames": [
+        {
+          "frame_number": 5160,
+          "timestamp": 172.172,
+          "description": "{\n    \"description\": \"The person is saying: 'Here's the raw output from an interactive session, and if I look at NV Top, I can see all this processing is being done on the GPU. And if I run Lama Bench",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 5280,
+          "timestamp": 176.17600000000002,
+          "description": "The person is saying: 'I can see all this processing is being done on the GPU. And if I run Lama Bench, it's reporting 24 to 54 tokens per second. And this GPU isn't even targeted at LLMs. You can go a lot faster.'",
+          "objects": [
+            "GPU %",
+            "mem %"
+          ],
+          "actions": [
+            "running"
+          ],
+          "scene_type": "indoor",
+          "mood": "calm",
+          "text_visible": "GPU %, mem %"
+        }
+      ],
+      "dominant_objects": [
+        "GPU %",
+        "mem %"
+      ],
+      "actions_sequence": [
+        "running"
+      ],
+      "scene_type": "indoor",
+      "mood": "calm",
+      "keywords": [
+        "running",
+        "targeted",
+        "GPU %",
+        "'here's",
+        "isn't",
+        "interactive",
+        "reporting",
+        "output",
+        "being",
+        "second."
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 38,
+      "start_time": 176.17600000000002,
+      "end_time": 180.18,
+      "duration": 4.003999999999991,
+      "description": "And if I run Lama Bench, it's reporting 24 to 54 tokens per second. And this GPU isn't even targeted at LLMs. You can go a lot faster.. The person is saying: 'I can see all this processing is being done on the GPU",
+      "transcript": "And if I run Lama Bench, it's reporting 24 to 54 tokens per second.",
+      "key_frames": [
+        {
+          "frame_number": 5280,
+          "timestamp": 176.17600000000002,
+          "description": "The person is saying: 'I can see all this processing is being done on the GPU. And if I run Lama Bench, it's reporting 24 to 54 tokens per second. And this GPU isn't even targeted at LLMs. You can go a lot faster.'",
+          "objects": [
+            "GPU %",
+            "mem %"
+          ],
+          "actions": [
+            "running"
+          ],
+          "scene_type": "indoor",
+          "mood": "calm",
+          "text_visible": "GPU %, mem %"
+        },
+        {
+          "frame_number": 5400,
+          "timestamp": 180.18,
+          "description": "And if I run Lama Bench, it's reporting 24 to 54 tokens per second. And this GPU isn't even targeted at LLMs. You can go a lot faster.",
+          "objects": [
+            "fpi16: 1",
+            "warp size: 64",
+            "matrix cores: none",
+            "t/s"
+          ],
+          "actions": [
+            "test"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": [
+            "fpi16: 1",
+            "warp size: 64",
+            "matrix cores: none",
+            "t/s"
+          ]
+        }
+      ],
+      "dominant_objects": [
+        "mem %",
+        "GPU %",
+        "fpi16: 1",
+        "warp size: 64",
+        "t/s",
+        "matrix cores: none"
+      ],
+      "actions_sequence": [
+        "running",
+        "test"
+      ],
+      "scene_type": "indoor",
+      "mood": "calm",
+      "keywords": [
+        "running",
+        "targeted",
+        "GPU %",
+        "test",
+        "isn't",
+        "reporting",
+        "matrix cores: none",
+        "being",
+        "faster..",
+        "second."
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 39,
+      "start_time": 180.18,
+      "end_time": 184.184,
+      "duration": 4.003999999999991,
+      "description": "The person is saying: 'And this GPU isn't even targeted at LLMs. You can go a lot faster. If you're interested in running GPUs on Raspberry Pi's, or maybe even other ARM boards,'. And if I run Lama Bench, it's reporting 24 to 54 tokens per second And this GPU isn't even targeted at LLMs",
+      "transcript": "And this GPU isn't even targeted at LLMs. You can go a lot faster.",
+      "key_frames": [
+        {
+          "frame_number": 5400,
+          "timestamp": 180.18,
+          "description": "And if I run Lama Bench, it's reporting 24 to 54 tokens per second. And this GPU isn't even targeted at LLMs. You can go a lot faster.",
+          "objects": [
+            "fpi16: 1",
+            "warp size: 64",
+            "matrix cores: none",
+            "t/s"
+          ],
+          "actions": [
+            "test"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": [
+            "fpi16: 1",
+            "warp size: 64",
+            "matrix cores: none",
+            "t/s"
+          ]
+        },
+        {
+          "frame_number": 5520,
+          "timestamp": 184.184,
+          "description": "The person is saying: 'And this GPU isn't even targeted at LLMs. You can go a lot faster. If you're interested in running GPUs on Raspberry Pi's, or maybe even other ARM boards,'",
+          "objects": [
+            "GPU",
+            "mug",
+            "poster"
+          ],
+          "actions": [
+            "holding"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "To Victory!"
+        }
+      ],
+      "dominant_objects": [
+        "mug",
+        "matrix cores: none",
+        "t/s",
+        "fpi16: 1",
+        "warp size: 64",
+        "GPU",
+        "poster"
+      ],
+      "actions_sequence": [
+        "test",
+        "holding"
+      ],
+      "scene_type": "indoor",
+      "mood": "neutral",
+      "keywords": [
+        "running",
+        "targeted",
+        "test",
+        "interested",
+        "raspberry",
+        "you're",
+        "pi's,",
+        "other",
+        "isn't",
+        "reporting"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 40,
+      "start_time": 184.184,
+      "end_time": 188.18800000000002,
+      "duration": 4.004000000000019,
+      "description": "The person is saying: 'If you're interested in running GPUs on Raspberry Pi's, or maybe even other ARM boards, well, you're in for a treat this year. Not only do we have AMD GPUs working great, the new Intel open source drivers are also working.'. The person is saying: 'And this GPU isn't even targeted at LLMs You can go a lot faster",
+      "transcript": "If you're interested in running GPUs on Raspberry Pi's, or maybe even other ARM boards,",
+      "key_frames": [
+        {
+          "frame_number": 5520,
+          "timestamp": 184.184,
+          "description": "The person is saying: 'And this GPU isn't even targeted at LLMs. You can go a lot faster. If you're interested in running GPUs on Raspberry Pi's, or maybe even other ARM boards,'",
+          "objects": [
+            "GPU",
+            "mug",
+            "poster"
+          ],
+          "actions": [
+            "holding"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "To Victory!"
+        },
+        {
+          "frame_number": 5640,
+          "timestamp": 188.18800000000002,
+          "description": "The person is saying: 'If you're interested in running GPUs on Raspberry Pi's, or maybe even other ARM boards, well, you're in for a treat this year. Not only do we have AMD GPUs working great, the new Intel open source drivers are also working.'",
+          "objects": [
+            "AMD GPUs working great",
+            "new Intel open source drivers are also working"
+          ],
+          "actions": [
+            "saying"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "AMD GPUs working great, the new Intel open source drivers are also working"
+        }
+      ],
+      "dominant_objects": [
+        "AMD GPUs working great",
+        "mug",
+        "new Intel open source drivers are also working",
+        "GPU",
+        "poster"
+      ],
+      "actions_sequence": [
+        "holding",
+        "saying"
+      ],
+      "scene_type": "indoor",
+      "mood": "neutral",
+      "keywords": [
+        "working",
+        "running",
+        "targeted",
+        "saying",
+        "working.'.",
+        "great,",
+        "interested",
+        "raspberry",
+        "you're",
+        "faster"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 41,
+      "start_time": 188.18800000000002,
+      "end_time": 192.192,
+      "duration": 4.003999999999991,
+      "description": "A black and silver graphics card is sitting on a desk.. The person is saying: 'If you're interested in running GPUs on Raspberry Pi's, or maybe even other ARM boards, well, you're in for a treat this year Not only do we have AMD GPUs working great, the new Intel open source drivers are also working",
+      "transcript": "well, you're in for a treat this year.",
+      "key_frames": [
+        {
+          "frame_number": 5640,
+          "timestamp": 188.18800000000002,
+          "description": "The person is saying: 'If you're interested in running GPUs on Raspberry Pi's, or maybe even other ARM boards, well, you're in for a treat this year. Not only do we have AMD GPUs working great, the new Intel open source drivers are also working.'",
+          "objects": [
+            "AMD GPUs working great",
+            "new Intel open source drivers are also working"
+          ],
+          "actions": [
+            "saying"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "AMD GPUs working great, the new Intel open source drivers are also working"
+        },
+        {
+          "frame_number": 5760,
+          "timestamp": 192.192,
+          "description": "A black and silver graphics card is sitting on a desk.",
+          "objects": [
+            "AMD Radeon Pro W7700",
+            "PC case",
+            "PC motherboard",
+            "PC CPU",
+            "PC RAM",
+            "PC power supply",
+            "PC cooling fan",
+            "PC keyboard",
+            "PC mouse",
+            "PC monitor"
+          ],
+          "actions": [
+            "The graphics card is sitting on a desk.",
+            "The graphics card is sitting on a desk.",
+            "The graphics card is sitting on a desk.",
+            "The graphics card is sitting on a desk.",
+            "The graphics card is sitting on a desk.",
+            "The graphics card is sitting on a desk.",
+            "The graphics card is sitting on a desk.",
+            "The graphics card is sitting on a desk.",
+            "The graphics card is sitting on a desk."
+          ],
+          "scene_type": "indoor",
+          "mood": "professional",
+          "text_visible": "AMD Radeon Pro W7700"
+        }
+      ],
+      "dominant_objects": [
+        "AMD GPUs working great",
+        "PC case",
+        "PC keyboard",
+        "PC CPU",
+        "PC motherboard",
+        "PC power supply",
+        "new Intel open source drivers are also working",
+        "PC cooling fan",
+        "PC mouse",
+        "PC monitor",
+        "PC RAM",
+        "AMD Radeon Pro W7700"
+      ],
+      "actions_sequence": [
+        "saying",
+        "The graphics card is sitting on a desk.",
+        "The graphics card is sitting on a desk.",
+        "The graphics card is sitting on a desk.",
+        "The graphics card is sitting on a desk.",
+        "The graphics card is sitting on a desk.",
+        "The graphics card is sitting on a desk.",
+        "The graphics card is sitting on a desk.",
+        "The graphics card is sitting on a desk.",
+        "The graphics card is sitting on a desk."
+      ],
+      "scene_type": "indoor",
+      "mood": "neutral",
+      "keywords": [
+        "working",
+        "running",
+        "PC CPU",
+        "saying",
+        "great,",
+        "PC monitor",
+        "interested",
+        "raspberry",
+        "you're",
+        "pi's,"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 42,
+      "start_time": 192.192,
+      "end_time": 196.196,
+      "duration": 4.003999999999991,
+      "description": "{\n    \"description\": \"The person is saying: 'Not only do we have AMD GPUs working great, the new Intel open source drivers are also working. Somewhat. And Nvidia might be in the cards too.'\",\n    \"obj. A black and silver graphics card is sitting on a desk {\n    \"description\": \"The person is saying: 'Not only do we have AMD GPUs working great, the new Intel open source drivers are also working",
+      "transcript": "Not only do we have AMD GPUs working great, the new Intel open source drivers are also working.",
+      "key_frames": [
+        {
+          "frame_number": 5760,
+          "timestamp": 192.192,
+          "description": "A black and silver graphics card is sitting on a desk.",
+          "objects": [
+            "AMD Radeon Pro W7700",
+            "PC case",
+            "PC motherboard",
+            "PC CPU",
+            "PC RAM",
+            "PC power supply",
+            "PC cooling fan",
+            "PC keyboard",
+            "PC mouse",
+            "PC monitor"
+          ],
+          "actions": [
+            "The graphics card is sitting on a desk.",
+            "The graphics card is sitting on a desk.",
+            "The graphics card is sitting on a desk.",
+            "The graphics card is sitting on a desk.",
+            "The graphics card is sitting on a desk.",
+            "The graphics card is sitting on a desk.",
+            "The graphics card is sitting on a desk.",
+            "The graphics card is sitting on a desk.",
+            "The graphics card is sitting on a desk."
+          ],
+          "scene_type": "indoor",
+          "mood": "professional",
+          "text_visible": "AMD Radeon Pro W7700"
+        },
+        {
+          "frame_number": 5880,
+          "timestamp": 196.196,
+          "description": "{\n    \"description\": \"The person is saying: 'Not only do we have AMD GPUs working great, the new Intel open source drivers are also working. Somewhat. And Nvidia might be in the cards too.'\",\n    \"obj",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        }
+      ],
+      "dominant_objects": [
+        "PC case",
+        "PC keyboard",
+        "PC CPU",
+        "PC motherboard",
+        "PC power supply",
+        "PC cooling fan",
+        "PC mouse",
+        "PC monitor",
+        "PC RAM",
+        "AMD Radeon Pro W7700"
+      ],
+      "actions_sequence": [
+        "The graphics card is sitting on a desk.",
+        "The graphics card is sitting on a desk.",
+        "The graphics card is sitting on a desk.",
+        "The graphics card is sitting on a desk.",
+        "The graphics card is sitting on a desk.",
+        "The graphics card is sitting on a desk.",
+        "The graphics card is sitting on a desk.",
+        "The graphics card is sitting on a desk.",
+        "The graphics card is sitting on a desk."
+      ],
+      "scene_type": "indoor",
+      "mood": "professional",
+      "keywords": [
+        "working",
+        "PC CPU",
+        "too.'\",",
+        "great,",
+        "PC monitor",
+        "working.",
+        "drivers",
+        "cards",
+        "nvidia",
+        "PC cooling fan"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 43,
+      "start_time": 196.196,
+      "end_time": 200.20000000000002,
+      "duration": 4.004000000000019,
+      "description": "The person is saying: 'Somewhat. And Nvidia might be in the cards too. On top of that, I have an Orion 06, a CM5 ITX board, and even the high 5 premiere P550',. {\n    \"description\": \"The person is saying: 'Not only do we have AMD GPUs working great, the new Intel open source drivers are also working The person is saying: 'Somewhat",
+      "transcript": "Somewhat. And Nvidia might be in the cards too.",
+      "key_frames": [
+        {
+          "frame_number": 5880,
+          "timestamp": 196.196,
+          "description": "{\n    \"description\": \"The person is saying: 'Not only do we have AMD GPUs working great, the new Intel open source drivers are also working. Somewhat. And Nvidia might be in the cards too.'\",\n    \"obj",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 6000,
+          "timestamp": 200.20000000000002,
+          "description": "The person is saying: 'Somewhat. And Nvidia might be in the cards too. On top of that, I have an Orion 06, a CM5 ITX board, and even the high 5 premiere P550',",
+          "objects": [
+            "a CM5 ITX board",
+            "an Orion 06",
+            "an high 5 premiere P550"
+          ],
+          "actions": [
+            "saying"
+          ],
+          "scene_type": "indoor",
+          "mood": "serious",
+          "text_visible": "The person is saying: 'Somewhat. And Nvidia might be in the cards too. On top of that, I have an Orion 06, a CM5 ITX board, and even the high 5 premiere P550',"
+        }
+      ],
+      "dominant_objects": [
+        "an high 5 premiere P550",
+        "a CM5 ITX board",
+        "an Orion 06"
+      ],
+      "actions_sequence": [
+        "saying"
+      ],
+      "scene_type": "indoor",
+      "mood": "serious",
+      "keywords": [
+        "working",
+        "saying",
+        "great,",
+        "orion",
+        "that,",
+        "'somewhat.",
+        "premiere",
+        "cards",
+        "an high 5 premiere P550",
+        "nvidia"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 44,
+      "start_time": 200.20000000000002,
+      "end_time": 204.204,
+      "duration": 4.003999999999991,
+      "description": "{\n    \"description\": \"The person is saying: 'On top of that, I have an Orion 06, a CM5 ITX board, and even the high 5 premiere P550, all of which have full size by 16 PCIe slots.'\",\n    \"objects\": [\n . The person is saying: 'Somewhat And Nvidia might be in the cards too",
+      "transcript": "On top of that, I have an Orion 06, a CM5 ITX board, and even the high 5 premiere P550,",
+      "key_frames": [
+        {
+          "frame_number": 6000,
+          "timestamp": 200.20000000000002,
+          "description": "The person is saying: 'Somewhat. And Nvidia might be in the cards too. On top of that, I have an Orion 06, a CM5 ITX board, and even the high 5 premiere P550',",
+          "objects": [
+            "a CM5 ITX board",
+            "an Orion 06",
+            "an high 5 premiere P550"
+          ],
+          "actions": [
+            "saying"
+          ],
+          "scene_type": "indoor",
+          "mood": "serious",
+          "text_visible": "The person is saying: 'Somewhat. And Nvidia might be in the cards too. On top of that, I have an Orion 06, a CM5 ITX board, and even the high 5 premiere P550',"
+        },
+        {
+          "frame_number": 6120,
+          "timestamp": 204.204,
+          "description": "{\n    \"description\": \"The person is saying: 'On top of that, I have an Orion 06, a CM5 ITX board, and even the high 5 premiere P550, all of which have full size by 16 PCIe slots.'\",\n    \"objects\": [\n ",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        }
+      ],
+      "dominant_objects": [
+        "an high 5 premiere P550",
+        "a CM5 ITX board",
+        "an Orion 06"
+      ],
+      "actions_sequence": [
+        "saying"
+      ],
+      "scene_type": "indoor",
+      "mood": "serious",
+      "keywords": [
+        "saying",
+        "orion",
+        "that,",
+        "premiere",
+        "cards",
+        "an high 5 premiere P550",
+        "nvidia",
+        "board,",
+        "might",
+        "\"description\":"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 45,
+      "start_time": 204.204,
+      "end_time": 212.21200000000002,
+      "duration": 8.00800000000001,
+      "description": "{\n    \"description\": \"A box with the word 'Slive' on it\",\n    \"objects\": [\n        \"a box\",\n        \"a keyboard\",\n        \"a mouse\",\n        \"a monitor\",\n        \"a speaker\",\n        \"a chair\",\n      . {\n    \"description\": \"The person is saying: 'On top of that, I have an Orion 06, a CM5 ITX board, and even the high 5 premiere P550, all of which have full size by 16 PCIe slots {\n    \"description\": \"A box with the word 'Slive' on it\",\n    \"objects\": [\n        \"a box\",\n        \"a keyboard\",\n        \"a mouse\",\n        \"a monitor\",\n        \"a speaker\",\n        \"a chair\",",
+      "transcript": "all of which have full size by 16 PCIe slots. So even if the year of the Linux desktop will never come, at least we'll get custom ARM and",
+      "key_frames": [
+        {
+          "frame_number": 6120,
+          "timestamp": 204.204,
+          "description": "{\n    \"description\": \"The person is saying: 'On top of that, I have an Orion 06, a CM5 ITX board, and even the high 5 premiere P550, all of which have full size by 16 PCIe slots.'\",\n    \"objects\": [\n ",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 6240,
+          "timestamp": 208.208,
+          "description": "{\n    \"description\": \"A box with the word 'Slive' on it\",\n    \"objects\": [\n        \"a box\",\n        \"a keyboard\",\n        \"a mouse\",\n        \"a monitor\",\n        \"a speaker\",\n        \"a chair\",\n      ",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 6360,
+          "timestamp": 212.21200000000002,
+          "description": "The person is saying: \"all of which have full size by 16 PCIe slots. So even if the year of the Linux desktop will never come, at least we'll get custom ARM and risk 5 PCs. AI is still in a massive bubble. Nvidia just lost more than half a trillion\"",
+          "objects": [
+            "AMD Radeon PRO W710",
+            "GPU"
+          ],
+          "actions": [
+            "Saying"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "all of which have full size by 16 PCIe slots. So even if the year of the Linux desktop will never come, at least we'll get custom ARM and risk 5 PCs. AI is still in a massive bubble. Nvidia just lost more than half a trillion"
+        }
+      ],
+      "dominant_objects": [
+        "AMD Radeon PRO W710",
+        "GPU"
+      ],
+      "actions_sequence": [
+        "Saying"
+      ],
+      "scene_type": "indoor",
+      "mood": "neutral",
+      "keywords": [
+        "slots",
+        "orion",
+        "Saying",
+        "that,",
+        "premiere",
+        "GPU",
+        "monitor\",",
+        "board,",
+        "AMD Radeon PRO W710",
+        "mouse\","
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 1.0
+    },
+    {
+      "segment_id": 46,
+      "start_time": 212.21200000000002,
+      "end_time": 216.216,
+      "duration": 4.003999999999991,
+      "description": "{\n    \"description\": \"The person is saying: 'So even if the year of the Linux desktop will never come, at least we'll get custom ARM and risk 5 PCs. AI is still in a massive bubble. Nvidia just lost m. The person is saying: \"all of which have full size by 16 PCIe slots So even if the year of the Linux desktop will never come, at least we'll get custom ARM and risk 5 PCs",
+      "transcript": "",
+      "key_frames": [
+        {
+          "frame_number": 6360,
+          "timestamp": 212.21200000000002,
+          "description": "The person is saying: \"all of which have full size by 16 PCIe slots. So even if the year of the Linux desktop will never come, at least we'll get custom ARM and risk 5 PCs. AI is still in a massive bubble. Nvidia just lost more than half a trillion\"",
+          "objects": [
+            "AMD Radeon PRO W710",
+            "GPU"
+          ],
+          "actions": [
+            "Saying"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "all of which have full size by 16 PCIe slots. So even if the year of the Linux desktop will never come, at least we'll get custom ARM and risk 5 PCs. AI is still in a massive bubble. Nvidia just lost more than half a trillion"
+        },
+        {
+          "frame_number": 6480,
+          "timestamp": 216.216,
+          "description": "{\n    \"description\": \"The person is saying: 'So even if the year of the Linux desktop will never come, at least we'll get custom ARM and risk 5 PCs. AI is still in a massive bubble. Nvidia just lost m",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        }
+      ],
+      "dominant_objects": [
+        "AMD Radeon PRO W710",
+        "GPU"
+      ],
+      "actions_sequence": [
+        "Saying"
+      ],
+      "scene_type": "indoor",
+      "mood": "neutral",
+      "keywords": [
+        "slots",
+        "come,",
+        "Saying",
+        "linux",
+        "we'll",
+        "desktop",
+        "massive",
+        "nvidia",
+        "least",
+        "GPU"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.7
+    },
+    {
+      "segment_id": 47,
+      "start_time": 216.216,
+      "end_time": 220.22,
+      "duration": 4.003999999999991,
+      "description": "The person is saying: 'risk 5 PCs. AI is still in a massive bubble. Nvidia just lost more than half a trillion dollars in value in one day after deep sea was launched. But their stock price is still'. {\n    \"description\": \"The person is saying: 'So even if the year of the Linux desktop will never come, at least we'll get custom ARM and risk 5 PCs The person is saying: 'risk 5 PCs",
+      "transcript": "risk 5 PCs. AI is still in a massive bubble. Nvidia just lost more than half a trillion",
+      "key_frames": [
+        {
+          "frame_number": 6480,
+          "timestamp": 216.216,
+          "description": "{\n    \"description\": \"The person is saying: 'So even if the year of the Linux desktop will never come, at least we'll get custom ARM and risk 5 PCs. AI is still in a massive bubble. Nvidia just lost m",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 6600,
+          "timestamp": 220.22,
+          "description": "The person is saying: 'risk 5 PCs. AI is still in a massive bubble. Nvidia just lost more than half a trillion dollars in value in one day after deep sea was launched. But their stock price is still'",
+          "objects": [
+            "mug",
+            "coffee",
+            "GPU",
+            "poster"
+          ],
+          "actions": [
+            "sitting",
+            "gesturing"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "To Victory!"
+        }
+      ],
+      "dominant_objects": [
+        "mug",
+        "poster",
+        "coffee",
+        "GPU"
+      ],
+      "actions_sequence": [
+        "sitting",
+        "gesturing"
+      ],
+      "scene_type": "indoor",
+      "mood": "neutral",
+      "keywords": [
+        "come,",
+        "launched.",
+        "after",
+        "their",
+        "linux",
+        "desktop",
+        "we'll",
+        "massive",
+        "value",
+        "nvidia"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 48,
+      "start_time": 220.22,
+      "end_time": 224.22400000000002,
+      "duration": 4.004000000000019,
+      "description": "{\n    \"description\": \"Analyze this video frame.\",\n    \"objects\": [\n        \"macbook\",\n        \"webpage\",\n        \"window\",\n        \"search\",\n        \"join\",\n        \"live stream\",\n        \"video\",\n   . The person is saying: 'risk 5 PCs AI is still in a massive bubble",
+      "transcript": "dollars in value in one day after deep sea was launched. But their stock price is still",
+      "key_frames": [
+        {
+          "frame_number": 6600,
+          "timestamp": 220.22,
+          "description": "The person is saying: 'risk 5 PCs. AI is still in a massive bubble. Nvidia just lost more than half a trillion dollars in value in one day after deep sea was launched. But their stock price is still'",
+          "objects": [
+            "mug",
+            "coffee",
+            "GPU",
+            "poster"
+          ],
+          "actions": [
+            "sitting",
+            "gesturing"
+          ],
+          "scene_type": "indoor",
+          "mood": "neutral",
+          "text_visible": "To Victory!"
+        },
+        {
+          "frame_number": 6720,
+          "timestamp": 224.22400000000002,
+          "description": "{\n    \"description\": \"Analyze this video frame.\",\n    \"objects\": [\n        \"macbook\",\n        \"webpage\",\n        \"window\",\n        \"search\",\n        \"join\",\n        \"live stream\",\n        \"video\",\n   ",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        }
+      ],
+      "dominant_objects": [
+        "mug",
+        "poster",
+        "coffee",
+        "GPU"
+      ],
+      "actions_sequence": [
+        "sitting",
+        "gesturing"
+      ],
+      "scene_type": "indoor",
+      "mood": "neutral",
+      "keywords": [
+        "frame.\",",
+        "\"live",
+        "massive",
+        "\"webpage\",",
+        "\"video\",",
+        "GPU",
+        "stream\",",
+        "video",
+        "\"search\",",
+        "\"description\":"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 49,
+      "start_time": 224.22400000000002,
+      "end_time": 240.24,
+      "duration": 16.01599999999999,
+      "description": "{\n    \"description\": \"Analyze this video frame.\",\n    \"objects\": [\n        \"finance\",\n        \"news\",\n        \"stocks\",\n        \"stocks\",\n        \"stocks\",\n        \"stocks\",\n        \"stocks\",\n        . \",\n    \"objects\": [\n        \"macbook\",\n        \"webpage\",\n        \"window\",\n        \"search\",\n        \"join\",\n        \"live stream\",\n        \"video\", {\n    \"description\": \"The person is saying: 'eight times higher today than it was in 2023, and it's not like anyone's hyping up AI any less now",
+      "transcript": "eight times higher today than it was in 2023, and it's not like anyone's hyping up AI any less now. The one good takeaway I think is people might realize we don't need to devote more than half the world's energy resources or set up a Dyson sphere around the sun just to help computer",
+      "key_frames": [
+        {
+          "frame_number": 6720,
+          "timestamp": 224.22400000000002,
+          "description": "{\n    \"description\": \"Analyze this video frame.\",\n    \"objects\": [\n        \"macbook\",\n        \"webpage\",\n        \"window\",\n        \"search\",\n        \"join\",\n        \"live stream\",\n        \"video\",\n   ",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 6840,
+          "timestamp": 228.228,
+          "description": "{\n    \"description\": \"The person is saying: 'eight times higher today than it was in 2023, and it's not like anyone's hyping up AI any less now.'\",\n    \"objects\": [\n        \"NVIDIA Corporation (NVDA)\"",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 6960,
+          "timestamp": 232.232,
+          "description": "{\n    \"description\": \"Analyze this video frame.\",\n    \"objects\": [\n        \"finance\",\n        \"news\",\n        \"stocks\",\n        \"stocks\",\n        \"stocks\",\n        \"stocks\",\n        \"stocks\",\n        ",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 7080,
+          "timestamp": 236.23600000000002,
+          "description": "{\n    \"description\": \"The one good takeaway I think is people might realize we don't need to devote more than half the world's energy resources or set up a Dyson sphere around the sun just to help com",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        },
+        {
+          "frame_number": 7200,
+          "timestamp": 240.24,
+          "description": "the world's energy resources or set up a Dyson sphere around the sun just to help computer solve trillions of multiplication problems to spit out another thousand mediocre web apps.",
+          "objects": [
+            "a spaceship"
+          ],
+          "actions": [
+            "shining"
+          ],
+          "scene_type": "outdoors",
+          "mood": "intense",
+          "text_visible": "a spaceship"
+        }
+      ],
+      "dominant_objects": [
+        "a spaceship"
+      ],
+      "actions_sequence": [
+        "shining"
+      ],
+      "scene_type": "outdoors",
+      "mood": "intense",
+      "keywords": [
+        "frame.\",",
+        "\"live",
+        "2023,",
+        "a spaceship",
+        "\"webpage\",",
+        "'eight",
+        "\"video\",",
+        "today",
+        "stream\",",
+        "video"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.9
+    },
+    {
+      "segment_id": 50,
+      "start_time": 240.24,
+      "end_time": 244.244,
+      "duration": 4.003999999999991,
+      "description": "solve trillions of multiplication problems to spit out another thousand mediocre web apps. The other takeaway is that there's new confusion in AI models over who precisely is Winnie the Pooh.. the world's energy resources or set up a Dyson sphere around the sun just to help computer solve trillions of multiplication problems to spit out another thousand mediocre web apps solve trillions of multiplication problems to spit out another thousand mediocre web apps",
+      "transcript": "solve trillions of multiplication problems to spit out another thousand mediocre web apps.",
+      "key_frames": [
+        {
+          "frame_number": 7200,
+          "timestamp": 240.24,
+          "description": "the world's energy resources or set up a Dyson sphere around the sun just to help computer solve trillions of multiplication problems to spit out another thousand mediocre web apps.",
+          "objects": [
+            "a spaceship"
+          ],
+          "actions": [
+            "shining"
+          ],
+          "scene_type": "outdoors",
+          "mood": "intense",
+          "text_visible": "a spaceship"
+        },
+        {
+          "frame_number": 7320,
+          "timestamp": 244.244,
+          "description": "solve trillions of multiplication problems to spit out another thousand mediocre web apps. The other takeaway is that there's new confusion in AI models over who precisely is Winnie the Pooh.",
+          "objects": [
+            "AMD Radeon Pro W700",
+            "coffee mug"
+          ],
+          "actions": [
+            "sitting"
+          ],
+          "scene_type": "indoor",
+          "mood": "confused",
+          "text_visible": "AMD Radeon Pro W700"
+        }
+      ],
+      "dominant_objects": [
+        "coffee mug",
+        "a spaceship",
+        "AMD Radeon Pro W700"
+      ],
+      "actions_sequence": [
+        "shining",
+        "sitting"
+      ],
+      "scene_type": "indoor",
+      "mood": "intense",
+      "keywords": [
+        "sphere",
+        "models",
+        "AMD Radeon Pro W700",
+        "problems",
+        "energy",
+        "a spaceship",
+        "coffee mug",
+        "other",
+        "thousand",
+        "mediocre"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 51,
+      "start_time": 244.244,
+      "end_time": 248.248,
+      "duration": 4.003999999999991,
+      "description": "solve trillions of multiplication problems to spit out another thousand mediocre web apps. The other takeaway is that there's new confusion in AI models over who precisely is Winnie the Pooh.",
+      "transcript": "",
+      "key_frames": [
+        {
+          "frame_number": 7320,
+          "timestamp": 244.244,
+          "description": "solve trillions of multiplication problems to spit out another thousand mediocre web apps. The other takeaway is that there's new confusion in AI models over who precisely is Winnie the Pooh.",
+          "objects": [
+            "AMD Radeon Pro W700",
+            "coffee mug"
+          ],
+          "actions": [
+            "sitting"
+          ],
+          "scene_type": "indoor",
+          "mood": "confused",
+          "text_visible": "AMD Radeon Pro W700"
+        },
+        {
+          "frame_number": 7440,
+          "timestamp": 248.248,
+          "description": "solve trillions of multiplication problems to spit out another thousand mediocre web apps. The other takeaway is that there's new confusion in AI models over who precisely is Winnie the Pooh.",
+          "objects": [
+            "AMD Radeon Pro W770",
+            "coffee mug"
+          ],
+          "actions": [
+            "sitting"
+          ],
+          "scene_type": "indoor",
+          "mood": "confused",
+          "text_visible": "solve trillions of multiplication problems to spit out another thousand mediocre web apps. The other takeaway is that there's new confusion in AI models over who precisely is Winnie the Pooh."
+        }
+      ],
+      "dominant_objects": [
+        "coffee mug",
+        "AMD Radeon Pro W700",
+        "AMD Radeon Pro W770"
+      ],
+      "actions_sequence": [
+        "sitting",
+        "sitting"
+      ],
+      "scene_type": "indoor",
+      "mood": "confused",
+      "keywords": [
+        "models",
+        "AMD Radeon Pro W700",
+        "problems",
+        "coffee mug",
+        "other",
+        "thousand",
+        "mediocre",
+        "multiplication",
+        "solve",
+        "trillions"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.7
+    },
+    {
+      "segment_id": 52,
+      "start_time": 248.248,
+      "end_time": 252.252,
+      "duration": 4.004000000000019,
+      "description": "The person is saying: 'The other takeaway is that there's new confusion in AI models over who precisely is Winnie the Poo'. solve trillions of multiplication problems to spit out another thousand mediocre web apps The other takeaway is that there's new confusion in AI models over who precisely is Winnie the Pooh",
+      "transcript": "The other takeaway is that there's new confusion in AI models over who precisely is Winnie the Poo.",
+      "key_frames": [
+        {
+          "frame_number": 7440,
+          "timestamp": 248.248,
+          "description": "solve trillions of multiplication problems to spit out another thousand mediocre web apps. The other takeaway is that there's new confusion in AI models over who precisely is Winnie the Pooh.",
+          "objects": [
+            "AMD Radeon Pro W770",
+            "coffee mug"
+          ],
+          "actions": [
+            "sitting"
+          ],
+          "scene_type": "indoor",
+          "mood": "confused",
+          "text_visible": "solve trillions of multiplication problems to spit out another thousand mediocre web apps. The other takeaway is that there's new confusion in AI models over who precisely is Winnie the Pooh."
+        },
+        {
+          "frame_number": 7560,
+          "timestamp": 252.252,
+          "description": "The person is saying: 'The other takeaway is that there's new confusion in AI models over who precisely is Winnie the Poo'",
+          "objects": [
+            "The comparison between public figures and fictional character meme. In China, President Xi Jinping is widely respected as a leader who has dedicated himself to the nation's development and the well-being of its people. It's important to approach discussions about leaders with",
+            "Winnie the Pooh"
+          ],
+          "actions": [
+            "saying"
+          ],
+          "scene_type": "indoor",
+          "mood": "confusion",
+          "text_visible": "Winnie the Pooh"
+        }
+      ],
+      "dominant_objects": [
+        "Winnie the Pooh",
+        "coffee mug",
+        "The comparison between public figures and fictional character meme. In China, President Xi Jinping is widely respected as a leader who has dedicated himself to the nation's development and the well-being of its people. It's important to approach discussions about leaders with",
+        "AMD Radeon Pro W770"
+      ],
+      "actions_sequence": [
+        "sitting",
+        "saying"
+      ],
+      "scene_type": "indoor",
+      "mood": "confusion",
+      "keywords": [
+        "saying",
+        "Winnie the Pooh",
+        "models",
+        "problems",
+        "coffee mug",
+        "other",
+        "thousand",
+        "mediocre",
+        "multiplication",
+        "solve"
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "segment_id": 53,
+      "start_time": 252.252,
+      "end_time": 256.25600000000003,
+      "duration": 4.004000000000019,
+      "description": "{\n    \"description\": \"The person is saying: 'Until next time, I'm Jeff Kearling.'\",\n    \"objects\": [\n        \"a coffee mug\",\n        \"a poster\",\n        \"a computer graphics card\"\n    ],\n    \"actions\". The person is saying: 'The other takeaway is that there's new confusion in AI models over who precisely is Winnie the Poo' {\n    \"description\": \"The person is saying: 'Until next time, I'm Jeff Kearling",
+      "transcript": "Until next time, I'm Jeff Kearling.",
+      "key_frames": [
+        {
+          "frame_number": 7560,
+          "timestamp": 252.252,
+          "description": "The person is saying: 'The other takeaway is that there's new confusion in AI models over who precisely is Winnie the Poo'",
+          "objects": [
+            "The comparison between public figures and fictional character meme. In China, President Xi Jinping is widely respected as a leader who has dedicated himself to the nation's development and the well-being of its people. It's important to approach discussions about leaders with",
+            "Winnie the Pooh"
+          ],
+          "actions": [
+            "saying"
+          ],
+          "scene_type": "indoor",
+          "mood": "confusion",
+          "text_visible": "Winnie the Pooh"
+        },
+        {
+          "frame_number": 7680,
+          "timestamp": 256.25600000000003,
+          "description": "{\n    \"description\": \"The person is saying: 'Until next time, I'm Jeff Kearling.'\",\n    \"objects\": [\n        \"a coffee mug\",\n        \"a poster\",\n        \"a computer graphics card\"\n    ],\n    \"actions\"",
+          "objects": [],
+          "actions": [],
+          "scene_type": null,
+          "mood": null,
+          "text_visible": null
+        }
+      ],
+      "dominant_objects": [
+        "Winnie the Pooh",
+        "The comparison between public figures and fictional character meme. In China, President Xi Jinping is widely respected as a leader who has dedicated himself to the nation's development and the well-being of its people. It's important to approach discussions about leaders with"
+      ],
+      "actions_sequence": [
+        "saying"
+      ],
+      "scene_type": "indoor",
+      "mood": "confusion",
+      "keywords": [
+        "kearling.'\",",
+        "saying",
+        "Winnie the Pooh",
+        "models",
+        "other",
+        "mug\",",
+        "time,",
+        "kearling",
+        "The comparison between public figures and fictional character meme. In China, President Xi Jinping is widely respected as a leader who has dedicated himself to the nation's development and the well-being of its people. It's important to approach discussions about leaders with",
+        "\"actions\"."
+      ],
+      "tags": [],
+      "clip_worthy": true,
+      "quality_score": 0.8999999999999999
+    }
+  ],
+  "full_transcript": "Open AI, which is only really open about consuming all the world's energy, just got rattled to its core. DeepSeek, a new AI startup run by a Chinese hedge fund, created a new open weights model called R1 that allegedly beats Open AI's best models in most metrics. And they did it for $6 million, with GPUs that run a half-the-memory bandwidth of Open AI's. Tony Stark was able to build this in a cave with a box of scraps! Besides the embarrassment of a Chinese startup beating Open AI using 1% of the resources, their model can distill other models to make them run better on slower hardware. Meaning, this Raspberry Pi can run one of the best local QN AI models even better now. Open AI's entire mode is predicated on people not having access to the insane energy and GPU resources to train and run massive AI models. But that mode disappears if anyone can buy a GPU and run a model that's good enough for free anytime they want. But sensationalist headlines aren't telling you the full story. This Raspberry Pi can technically run DeepSeek R1, but it's not the same thing as DeepSeek R1671B, which is a 400GB model. That model, the one that actually beats chat GPT, still requires a massive amount of GPU compute. But the big difference is, assuming you have a few 3090s, you could run it at home. You don't have to pay Open AI for the privilege of running one of their fancy models. You can just install Alama, download DeepSeek, and play with it to your heart's content. And even if you don't have a bunch of GPUs, you could technically still run DeepSeek on any computer with enough RAM. Like here, it's running on my 19924 Ampere 1 server. It's running DeepSeek 671B at about 4 tokens per second, which isn't crazy fast, but the server won't touch you back like 100,000 bucks either. Even though it's only using a few hundred watts, which is honestly pretty amazing, a noisy server like this isn't gonna be in everyone's living room. A Raspberry Pi could be though. So let's look at how the smaller 14b model runs on it. It's definitely not gonna win any speed records. Testing a few different prompts, I got about 1.2 tokens per second. I mean, it runs, but if you want a chatbot for like rubber duck debugging, or to give you a few ideas for your next YouTube title, this isn't fun. But we can speed things up a lot. All we need is an external graphics card, because GPUs and the VRAM on them are way faster than CPUs and system memory. I have this setup I've been testing with an AMD W7700 graphics card. It has 16 gigs of speedy VRAM, and as long as it can fit the whole AI model in that, it should be way faster than any CPU. And it is, like 10 times faster. I can get between 20 to 50 tokens per second depending on the type of work I'm doing. Here's the raw output from an interactive session, and if I look at NV Top, I can see all this processing is being done on the GPU. And if I run Lama Bench, it's reporting 24 to 54 tokens per second. And this GPU isn't even targeted at LLMs. You can go a lot faster. If you're interested in running GPUs on Raspberry Pi's, or maybe even other ARM boards, well, you're in for a treat this year. Not only do we have AMD GPUs working great, the new Intel open source drivers are also working. Somewhat. And Nvidia might be in the cards too. On top of that, I have an Orion 06, a CM5 ITX board, and even the high 5 premiere P550, all of which have full size by 16 PCIe slots. So even if the year of the Linux desktop will never come, at least we'll get custom ARM and risk 5 PCs. AI is still in a massive bubble. Nvidia just lost more than half a trillion dollars in value in one day after deep sea was launched. But their stock price is still eight times higher today than it was in 2023, and it's not like anyone's hyping up AI any less now. The one good takeaway I think is people might realize we don't need to devote more than half the world's energy resources or set up a Dyson sphere around the sun just to help computer solve trillions of multiplication problems to spit out another thousand mediocre web apps. The other takeaway is that there's new confusion in AI models over who precisely is Winnie the Poo. Until next time, I'm Jeff Kearling.",
+  "transcript_segments": [
+    {
+      "text": "Open AI, which is only really open about consuming all the world's energy, just got rattled to its core.",
+      "start_time": 0.0,
+      "end_time": 5.98,
+      "confidence": null
+    },
+    {
+      "text": "DeepSeek, a new AI startup run by a Chinese hedge fund, created a new open weights model called R1",
+      "start_time": 6.32,
+      "end_time": 11.98,
+      "confidence": null
+    },
+    {
+      "text": "that allegedly beats Open AI's best models in most metrics.",
+      "start_time": 11.98,
+      "end_time": 15.92,
+      "confidence": null
+    },
+    {
+      "text": "And they did it for $6 million, with GPUs that run a half-the-memory bandwidth of Open AI's.",
+      "start_time": 16.28,
+      "end_time": 22.8,
+      "confidence": null
+    },
+    {
+      "text": "Tony Stark was able to build this in a cave with a box of scraps!",
+      "start_time": 22.88,
+      "end_time": 27.38,
+      "confidence": null
+    },
+    {
+      "text": "Besides the embarrassment of a Chinese startup beating Open AI using 1% of the resources,",
+      "start_time": 27.939999999999998,
+      "end_time": 33.34,
+      "confidence": null
+    },
+    {
+      "text": "their model can distill other models to make them run better on slower hardware.",
+      "start_time": 33.84,
+      "end_time": 37.76,
+      "confidence": null
+    },
+    {
+      "text": "Meaning, this Raspberry Pi can run one of the best local QN AI models even better now.",
+      "start_time": 38.1,
+      "end_time": 43.42,
+      "confidence": null
+    },
+    {
+      "text": "Open AI's entire mode is predicated on people not having access to the insane energy and GPU resources to train and run massive AI models.",
+      "start_time": 43.7,
+      "end_time": 52.4,
+      "confidence": null
+    },
+    {
+      "text": "But that mode disappears if anyone can buy a GPU and run a model that's good enough for free anytime they want.",
+      "start_time": 52.4,
+      "end_time": 59.84,
+      "confidence": null
+    },
+    {
+      "text": "But sensationalist headlines aren't telling you the full story.",
+      "start_time": 60.16,
+      "end_time": 62.84,
+      "confidence": null
+    },
+    {
+      "text": "This Raspberry Pi can technically run DeepSeek R1, but it's not the same thing as DeepSeek R1671B, which is a 400GB model.",
+      "start_time": 63.1,
+      "end_time": 72.44,
+      "confidence": null
+    },
+    {
+      "text": "That model, the one that actually beats chat GPT, still requires a massive amount of GPU compute.",
+      "start_time": 72.7,
+      "end_time": 78.42,
+      "confidence": null
+    },
+    {
+      "text": "But the big difference is, assuming you have a few 3090s, you could run it at home.",
+      "start_time": 78.42,
+      "end_time": 83.52,
+      "confidence": null
+    },
+    {
+      "text": "You don't have to pay Open AI for the privilege of running one of their fancy models.",
+      "start_time": 83.88,
+      "end_time": 87.8,
+      "confidence": null
+    },
+    {
+      "text": "You can just install Alama, download DeepSeek, and play with it to your heart's content.",
+      "start_time": 88.14,
+      "end_time": 92.26,
+      "confidence": null
+    },
+    {
+      "text": "And even if you don't have a bunch of GPUs, you could technically still run DeepSeek on any computer with enough RAM.",
+      "start_time": 92.74,
+      "end_time": 99.02,
+      "confidence": null
+    },
+    {
+      "text": "Like here, it's running on my 19924 Ampere 1 server.",
+      "start_time": 99.56,
+      "end_time": 102.88,
+      "confidence": null
+    },
+    {
+      "text": "It's running DeepSeek 671B at about 4 tokens per second,",
+      "start_time": 103.32,
+      "end_time": 106.84,
+      "confidence": null
+    },
+    {
+      "text": "which isn't crazy fast, but the server won't touch you back like 100,000 bucks either.",
+      "start_time": 106.84,
+      "end_time": 112.02,
+      "confidence": null
+    },
+    {
+      "text": "Even though it's only using a few hundred watts, which is honestly pretty amazing,",
+      "start_time": 112.32,
+      "end_time": 116.34,
+      "confidence": null
+    },
+    {
+      "text": "a noisy server like this isn't gonna be in everyone's living room.",
+      "start_time": 116.72,
+      "end_time": 120.0,
+      "confidence": null
+    },
+    {
+      "text": "A Raspberry Pi could be though.",
+      "start_time": 120.28,
+      "end_time": 121.78,
+      "confidence": null
+    },
+    {
+      "text": "So let's look at how the smaller 14b model runs on it.",
+      "start_time": 122.04,
+      "end_time": 125.06,
+      "confidence": null
+    },
+    {
+      "text": "It's definitely not gonna win any speed records.",
+      "start_time": 125.68,
+      "end_time": 128.02,
+      "confidence": null
+    },
+    {
+      "text": "Testing a few different prompts, I got about 1.2 tokens per second.",
+      "start_time": 128.44,
+      "end_time": 132.08,
+      "confidence": null
+    },
+    {
+      "text": "I mean, it runs, but if you want a chatbot for like rubber duck debugging,",
+      "start_time": 132.08,
+      "end_time": 136.4,
+      "confidence": null
+    },
+    {
+      "text": "or to give you a few ideas for your next YouTube title, this isn't fun.",
+      "start_time": 136.84,
+      "end_time": 140.08,
+      "confidence": null
+    },
+    {
+      "text": "But we can speed things up a lot.",
+      "start_time": 140.38,
+      "end_time": 142.6,
+      "confidence": null
+    },
+    {
+      "text": "All we need is an external graphics card, because GPUs and the VRAM on them are way faster than CPUs and system memory.",
+      "start_time": 143.1,
+      "end_time": 150.0,
+      "confidence": null
+    },
+    {
+      "text": "I have this setup I've been testing with an AMD W7700 graphics card.",
+      "start_time": 150.3,
+      "end_time": 154.5,
+      "confidence": null
+    },
+    {
+      "text": "It has 16 gigs of speedy VRAM, and as long as it can fit the whole AI model in that,",
+      "start_time": 154.74,
+      "end_time": 159.72,
+      "confidence": null
+    },
+    {
+      "text": "it should be way faster than any CPU.",
+      "start_time": 159.72,
+      "end_time": 162.06,
+      "confidence": null
+    },
+    {
+      "text": "And it is, like 10 times faster.",
+      "start_time": 162.54,
+      "end_time": 164.98,
+      "confidence": null
+    },
+    {
+      "text": "I can get between 20 to 50 tokens per second depending on the type of work I'm doing.",
+      "start_time": 165.3,
+      "end_time": 169.58,
+      "confidence": null
+    },
+    {
+      "text": "Here's the raw output from an interactive session, and if I look at NV Top,",
+      "start_time": 169.88,
+      "end_time": 173.46,
+      "confidence": null
+    },
+    {
+      "text": "I can see all this processing is being done on the GPU.",
+      "start_time": 173.68,
+      "end_time": 176.1,
+      "confidence": null
+    },
+    {
+      "text": "And if I run Lama Bench, it's reporting 24 to 54 tokens per second.",
+      "start_time": 176.46,
+      "end_time": 180.74,
+      "confidence": null
+    },
+    {
+      "text": "And this GPU isn't even targeted at LLMs. You can go a lot faster.",
+      "start_time": 180.96,
+      "end_time": 185.38,
+      "confidence": null
+    },
+    {
+      "text": "If you're interested in running GPUs on Raspberry Pi's, or maybe even other ARM boards,",
+      "start_time": 185.38,
+      "end_time": 189.78,
+      "confidence": null
+    },
+    {
+      "text": "well, you're in for a treat this year.",
+      "start_time": 190.12,
+      "end_time": 191.92,
+      "confidence": null
+    },
+    {
+      "text": "Not only do we have AMD GPUs working great, the new Intel open source drivers are also working.",
+      "start_time": 192.2,
+      "end_time": 197.6,
+      "confidence": null
+    },
+    {
+      "text": "Somewhat. And Nvidia might be in the cards too.",
+      "start_time": 198.39999999999998,
+      "end_time": 201.3,
+      "confidence": null
+    },
+    {
+      "text": "On top of that, I have an Orion 06, a CM5 ITX board, and even the high 5 premiere P550,",
+      "start_time": 201.78,
+      "end_time": 208.34,
+      "confidence": null
+    },
+    {
+      "text": "all of which have full size by 16 PCIe slots.",
+      "start_time": 208.72,
+      "end_time": 211.82,
+      "confidence": null
+    },
+    {
+      "text": "So even if the year of the Linux desktop will never come, at least we'll get custom ARM and",
+      "start_time": 211.82,
+      "end_time": 216.48,
+      "confidence": null
+    },
+    {
+      "text": "risk 5 PCs. AI is still in a massive bubble. Nvidia just lost more than half a trillion",
+      "start_time": 216.48,
+      "end_time": 222.08,
+      "confidence": null
+    },
+    {
+      "text": "dollars in value in one day after deep sea was launched. But their stock price is still",
+      "start_time": 222.08,
+      "end_time": 227.62,
+      "confidence": null
+    },
+    {
+      "text": "eight times higher today than it was in 2023, and it's not like anyone's hyping up AI any less now.",
+      "start_time": 227.62,
+      "end_time": 233.72,
+      "confidence": null
+    },
+    {
+      "text": "The one good takeaway I think is people might realize we don't need to devote more than half",
+      "start_time": 234.06,
+      "end_time": 238.68,
+      "confidence": null
+    },
+    {
+      "text": "the world's energy resources or set up a Dyson sphere around the sun just to help computer",
+      "start_time": 238.68,
+      "end_time": 243.82,
+      "confidence": null
+    },
+    {
+      "text": "solve trillions of multiplication problems to spit out another thousand mediocre web apps.",
+      "start_time": 243.82,
+      "end_time": 248.56,
+      "confidence": null
+    },
+    {
+      "text": "The other takeaway is that there's new confusion in AI models over who precisely is Winnie the Poo.",
+      "start_time": 248.86,
+      "end_time": 254.58,
+      "confidence": null
+    },
+    {
+      "text": "Until next time, I'm Jeff Kearling.",
+      "start_time": 255.16,
+      "end_time": 257.0,
+      "confidence": null
+    }
+  ],
+  "summary": "User:<row_1_col_1><row_1_col_2><row_1_col_3><row_1_col_4>\n<row_2_col_1><row_2_col_2><row_2_col_3><row_2_col_4>\n<row_3_col_1><row_3_col_2><row_3_col_3><row_3_col_4>\n<row_4_col_1><row_4_col_2><row_4_col_3><row_4_col_4>\n\n<global-img>Summarize this video in 2-3 sentences based on the following segments:\n\n- The Sam Altman-backed nuclear energy startup Oklo announced it will go public Tuesday.. {\n    \"description\": \"The person is saying: \\\"Open AI, which is only really open about consuming all the world's energy, just got rattled to its core \\\"\",\n    \"objects\": [\n        \"a mug\",\n        \"a (4.0s)\n- DeepSeek, a new AI startup run by a Chinese hedge fund, created a new open weights model called R1 that allegedly beats Open AI's best models in most metrics.. The Sam Altman-backed nuclear energy startup Oklo announced it will go public Tuesday DeepSeek, a new AI startup run by a Chinese hedge fund, created a new open weights model called R1 that allegedly beats Open AI's best models in most metrics (4.0s)\n- Winnie-the-Pooh is a beloved fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928.. DeepSeek, a new AI startup run by a Chinese hedge fund, created a new open weights model called R1 that allegedly beats Open AI's best models in most metrics Winnie-the-Pooh is a beloved fictional character created by A (4.0s)\n- {\n    \"description\": \"The person is saying: 'that allegedly beats Open AI's best models in most metrics. And they did it for $6 million, with GPUs that run a half-the-memory bandwidth of Open AI's.'\",. Winnie-the-Pooh is a beloved fictional character created by A He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928 (4.0s)\n- {\n    \"description\": \"The person is saying: 'Tony Stark was able to build this in a cave with a box of scraps! Besides the embarrassment of a Chinese startup beating Open AI using 1% of the resources,. {\n    \"description\": \"The person is saying: 'that allegedly beats Open AI's best models in most metrics And they did it for $6 million, with GPUs that run a half-the-memory bandwidth of Open AI's (16.0s)\n- their model can distill other models to make them run better on slower hardware. Meaning, this Raspberry Pi can run one of the best local QN AI models even better now.. Besides the embarrassment of a Chinese startup beating Open AI using 1% of the resources, their model can distill other models to make them run better on slower hardware their model can distill other models to make them run better on slower hardware (4.0s)\n- {\n    \"description\": \"Meaning, this Raspberry Pi can run one of the best local QN AI models even better now. Open AI's entire mode is predicated on people not having access to the insane energy and GP. their model can distill other models to make them run better on slower hardware Meaning, this Raspberry Pi can run one of the best local QN AI models even better now (4.0s)\n- A man is holding a device and a cup. {\n    \"description\": \"Meaning, this Raspberry Pi can run one of the best local QN AI models even better now Open AI's entire mode is predicated on people not having access to the insane energy and GP (4.0s)\n- Inside the SUPER NVIDIA H200 SERVER - ROM Supermicro. A man is holding a device and a cup Inside the SUPER NVIDIA H200 SERVER - ROM Supermicro (4.0s)\n- Inside the SUPER NVIDIA H200 SERVER-ROM-SUPERMICRO. Inside the SUPER NVIDIA H200 SERVER - ROM Supermicro Inside the SUPER NVIDIA H200 SERVER-ROM-SUPERMICRO (8.0s)\n- {\n    \"description\": \"The person is saying: 'But sensationalist headlines aren't telling you the full story. This Raspberry Pi can technically run DeepSeek R1, but it's not the same thing as DeepSeek . A black graphics card with a silver AMD logo and a fan with the model number of Radeon Pro VW700 {\n    \"description\": \"The person is saying: 'But sensationalist headlines aren't telling you the full story (4.0s)\n- The person is saying: 'But sensationalist headlines aren't telling you the full story. This Raspberry Pi can technically run DeepSeek R1, but it's not the same thing as DeepSeek R1671B, which is a 400GB model.'. {\n    \"description\": \"The person is saying: 'But sensationalist headlines aren't telling you the full story This Raspberry Pi can technically run DeepSeek R1, but it's not the same thing as DeepSeek (4.0s)\n- {\n    \"description\": \"The person is saying: 'This Raspberry Pi can technically run DeepSeek R1, but it's not the same thing as DeepSeek R1671B, which is a 400GB model. That model, the one that actuall. The person is saying: 'But sensationalist headlines aren't telling you the full story This Raspberry Pi can technically run DeepSeek R1, but it's not the same thing as DeepSeek R1671B, which is a 400GB model (4.0s)\n- The person is saying: 'That model, the one that actually beats chat GPT, still requires a massive amount of GPU compute.'. {\n    \"description\": \"The person is saying: 'This Raspberry Pi can technically run DeepSeek R1, but it's not the same thing as DeepSeek R1671B, which is a 400GB model That model, the one that actuall (4.0s)\n- {\n    \"description\": \"The person is saying: 'That model, the one that actually beats chat GPT, still requires a massive amount of GPU compute. But the big difference is, assuming you have a few 3090s,. The person is saying: 'That model, the one that actually beats chat GPT, still requires a massive amount of GPU compute {\n    \"description\": \"The person is saying: 'That model, the one that actually beats chat GPT, still requires a massive amount of GPU compute (4.0s)\n- {\n    \"description\": \"The person is saying: 'But the big difference is, assuming you have a few 3090s, you could run it at home. You don't have to pay Open AI for the privilege of running one of their. {\n    \"description\": \"The person is saying: 'That model, the one that actually beats chat GPT, still requires a massive amount of GPU compute But the big difference is, assuming you have a few 3090s, (8.0s)\n- You don't have to pay Open AI for the privilege of running one of their fancy models. You can just install Alama, download DeepSeek, and play with it to your heart's content. And even if you don't have a bunch of GPUs, you could technically still run DeepSeek on any computer with enough RAM.. The person is saying: 'You don't have to pay Open AI for the privilege of running one of their fancy models You don't have to pay Open AI for the privilege of running one of their fancy models (4.0s)\n- You can just install Alama, download DeepSeek, and play with it to your heart's content. And even if you don't have a bunch of GPUs, you could technically still run DeepSeek on any computer with enough RAM.. You don't have to pay Open AI for the privilege of running one of their fancy models (4.0s)\n- {\n    \"description\": \"The person is saying: 'And even if you don't have a bunch of GPUs, you could technically still run DeepSeek on any computer with enough RAM. Like here, it's running on my 19924 A. You can just install Alama, download DeepSeek, and play with it to your heart's content And even if you don't have a bunch of GPUs, you could technically still run DeepSeek on any computer with enough RAM (4.0s)\n- {\n    \"description\": \"A man in a blue shirt with the text 'Is the root of all problems' on it is standing in front of a rack of servers.\",\n    \"objects\": [\n        \"a man in a blue shirt with the text. {\n    \"description\": \"The person is saying: 'And even if you don't have a bunch of GPUs, you could technically still run DeepSeek on any computer with enough RAM Like here, it's running on my 19924 A (8.0s)\n- The person is saying: 'It's running DeepSeek 671B at about 4 tokens per second, which isn't crazy fast, but the server won't touch you back like 100,000 bucks either. Even though it's only using a few hundred watts, which is honestly pretty amazing,'. The person is saying: 'Like here, it's running on my 19924 Ampere 1 server It's running DeepSeek 671B at about 4 tokens per second, which isn't crazy fast, but the server won't touch you back like 100,000 bucks either (4.0s)\n- the during sunrise and sunset, illustrating this dependency, and human visual perception. this them during sunrise and sunset, illustrating this dependency, and human visual perception. this them during sunrise and sunset, illustrating this dependency, and human visual perception.. The person is saying: 'It's running DeepSeek 671B at about 4 tokens per second, which isn't crazy fast, but the server won't touch you back like 100,000 bucks either Even though it's only using a few hundred watts, which is honestly pretty amazing,' (4.0s)\n- The person is saying: 'Even though it's only using a few hundred watts, which is honestly pretty amazing, a noisy server like this isn't gonna be in everyone's living room. A Raspberry Pi could be though.'. the during sunrise and sunset, illustrating this dependency, and human visual perception The person is saying: 'Even though it's only using a few hundred watts, which is honestly pretty amazing, a noisy server like this isn't gonna be in everyone's living room (4.0s)\n- a noisy server like this isn't gonna be in everyone's living room. A Raspberry Pi could be though. So let's look at how the smaller 14b model runs on it.. The person is saying: 'Even though it's only using a few hundred watts, which is honestly pretty amazing, a noisy server like this isn't gonna be in everyone's living room a noisy server like this isn't gonna be in everyone's living room (4.0s)\n- The sky appears blue due to a phenomenon called Rayleigh scattering. Blue light has a shorter wavelength and whereas other colors like red. a noisy server like this isn't gonna be in everyone's living room A Raspberry Pi could be though (4.0s)\n- {\n    \"description\": \"The sky appears blue due to a phenomenon called Rayleigh scattering which is the interaction of light with molecules and small particles in the air. Sunlight interacts with diffe. The sky appears blue due to a phenomenon called Rayleigh scattering Blue light has a shorter wavelength and whereas other colors like red (4.0s)\n- Testing a few different prompts, I got about 1.2 tokens per second. I mean, it runs, but if you want a chatbot for like rubber duck debugging, or to give you a few ideas for your next YouTube title, this isn't fun.. {\n    \"description\": \"The sky appears blue due to a phenomenon called Rayleigh scattering which is the interaction of light with molecules and small particles in the air Sunlight interacts with diffe (4.0s)\n- {\n    \"description\": \"The person is saying: 'I mean, it runs, but if you want a chatbot for like rubber duck debugging, or to give you a few ideas for your next YouTube title, this isn't fun. But we c. Testing a few different prompts, I got about 1 I mean, it runs, but if you want a chatbot for like rubber duck debugging, or to give you a few ideas for your next YouTube title, this isn't fun (4.0s)\n- The person is saying: 'or to give you a few ideas for your next YouTube title, this isn't fun. But we can speed things up a lot. All we need is an external graphics card, because GPUs and the VRAM on them are way faster than CPUs and system memory.'. {\n    \"description\": \"The person is saying: 'I mean, it runs, but if you want a chatbot for like rubber duck debugging, or to give you a few ideas for your next YouTube title, this isn't fun The person is saying: 'or to give you a few ideas for your next YouTube title, this isn't fun (4.0s)\n- The person is saying: 'But we can speed things up a lot. All we need is an external graphics card, because GPUs and the VRAM on them are way faster than CPUs and system memory.'. The person is saying: 'or to give you a few ideas for your next YouTube title, this isn't fun But we can speed things up a lot (4.0s)\n- A man is holding a graphics card and a mug on a table.. The person is saying: 'But we can speed things up a lot All we need is an external graphics card, because GPUs and the VRAM on them are way faster than CPUs and system memory (4.0s)\n- I have this setup I've been testing with an AMD W7700 graphics card. It has 16 gigs of speedy VRAM, and as long as it can fit the whole AI model in that.. A man is holding a graphics card and a mug on a table I have this setup I've been testing with an AMD W7700 graphics card (4.0s)\n- The person is saying: 'It has 16 gigs of speedy VRAM, and as long as it can fit the whole AI model in that, it should be way faster than any CPU.'. I have this setup I've been testing with an AMD W7700 graphics card It has 16 gigs of speedy VRAM, and as long as it can fit the whole AI model in that (4.0s)\n- {\n    \"description\": \"the person is saying: 'it should be way faster than any cpu. and it is, like 10 times faster.'\",\n    \"objects\": [\n        \"the person\"\n    ],\n    \"actions\": [\n        \"saying\"\n  . The person is saying: 'It has 16 gigs of speedy VRAM, and as long as it can fit the whole AI model in that, it should be way faster than any CPU {\n    \"description\": \"the person is saying: 'it should be way faster than any cpu (4.0s)\n- the person is saying: 'it should be way faster than any cpu. and it is, like 10 times faster. i can get between 20 to 50 tokens per second depending on the type of work i'm doing.'. {\n    \"description\": \"the person is saying: 'it should be way faster than any cpu '\",\n    \"objects\": [\n        \"the person\"\n    ],\n    \"actions\": [\n        \"saying\" (4.0s)\n- The person is saying: 'I can get between 20 to 50 tokens per second depending on the type of work I'm doing. Here's the raw output from an interactive session, and if I look at NV Top,'. the person is saying: 'it should be way faster than any cpu and it is, like 10 times faster (4.0s)\n- {\n    \"description\": \"The person is saying: 'Here's the raw output from an interactive session, and if I look at NV Top, I can see all this processing is being done on the GPU. And if I run Lama Bench. The person is saying: 'I can get between 20 to 50 tokens per second depending on the type of work I'm doing Here's the raw output from an interactive session, and if I look at NV Top,' (4.0s)\n- The person is saying: 'I can see all this processing is being done on the GPU. And if I run Lama Bench, it's reporting 24 to 54 tokens per second. And this GPU isn't even targeted at LLMs. You can go a lot faster.'. {\n    \"description\": \"The person is saying: 'Here's the raw output from an interactive session, and if I look at NV Top, I can see all this processing is being done on the GPU And if I run Lama Bench (4.0s)\n- And if I run Lama Bench, it's reporting 24 to 54 tokens per second. And this GPU isn't even targeted at LLMs. You can go a lot faster.. The person is saying: 'I can see all this processing is being done on the GPU (4.0s)\n- The person is saying: 'And this GPU isn't even targeted at LLMs. You can go a lot faster. If you're interested in running GPUs on Raspberry Pi's, or maybe even other ARM boards,'. And if I run Lama Bench, it's reporting 24 to 54 tokens per second And this GPU isn't even targeted at LLMs (4.0s)\n- The person is saying: 'If you're interested in running GPUs on Raspberry Pi's, or maybe even other ARM boards, well, you're in for a treat this year. Not only do we have AMD GPUs working great, the new Intel open source drivers are also working.'. The person is saying: 'And this GPU isn't even targeted at LLMs You can go a lot faster (4.0s)\n- A black and silver graphics card is sitting on a desk.. The person is saying: 'If you're interested in running GPUs on Raspberry Pi's, or maybe even other ARM boards, well, you're in for a treat this year Not only do we have AMD GPUs working great, the new Intel open source drivers are also working (4.0s)\n- {\n    \"description\": \"The person is saying: 'Not only do we have AMD GPUs working great, the new Intel open source drivers are also working. Somewhat. And Nvidia might be in the cards too.'\",\n    \"obj. A black and silver graphics card is sitting on a desk {\n    \"description\": \"The person is saying: 'Not only do we have AMD GPUs working great, the new Intel open source drivers are also working (4.0s)\n- The person is saying: 'Somewhat. And Nvidia might be in the cards too. On top of that, I have an Orion 06, a CM5 ITX board, and even the high 5 premiere P550',. {\n    \"description\": \"The person is saying: 'Not only do we have AMD GPUs working great, the new Intel open source drivers are also working The person is saying: 'Somewhat (4.0s)\n- {\n    \"description\": \"The person is saying: 'On top of that, I have an Orion 06, a CM5 ITX board, and even the high 5 premiere P550, all of which have full size by 16 PCIe slots.'\",\n    \"objects\": [\n . The person is saying: 'Somewhat And Nvidia might be in the cards too (4.0s)\n- {\n    \"description\": \"A box with the word 'Slive' on it\",\n    \"objects\": [\n        \"a box\",\n        \"a keyboard\",\n        \"a mouse\",\n        \"a monitor\",\n        \"a speaker\",\n        \"a chair\",\n      . {\n    \"description\": \"The person is saying: 'On top of that, I have an Orion 06, a CM5 ITX board, and even the high 5 premiere P550, all of which have full size by 16 PCIe slots {\n    \"description\": \"A box with the word 'Slive' on it\",\n    \"objects\": [\n        \"a box\",\n        \"a keyboard\",\n        \"a mouse\",\n        \"a monitor\",\n        \"a speaker\",\n        \"a chair\", (8.0s)\n- {\n    \"description\": \"The person is saying: 'So even if the year of the Linux desktop will never come, at least we'll get custom ARM and risk 5 PCs. AI is still in a massive bubble. Nvidia just lost m. The person is saying: \"all of which have full size by 16 PCIe slots So even if the year of the Linux desktop will never come, at least we'll get custom ARM and risk 5 PCs (4.0s)\n- The person is saying: 'risk 5 PCs. AI is still in a massive bubble. Nvidia just lost more than half a trillion dollars in value in one day after deep sea was launched. But their stock price is still'. {\n    \"description\": \"The person is saying: 'So even if the year of the Linux desktop will never come, at least we'll get custom ARM and risk 5 PCs The person is saying: 'risk 5 PCs (4.0s)\n- {\n    \"description\": \"Analyze this video frame.\",\n    \"objects\": [\n        \"macbook\",\n        \"webpage\",\n        \"window\",\n        \"search\",\n        \"join\",\n        \"live stream\",\n        \"video\",\n   . The person is saying: 'risk 5 PCs AI is still in a massive bubble (4.0s)\n- {\n    \"description\": \"Analyze this video frame.\",\n    \"objects\": [\n        \"finance\",\n        \"news\",\n        \"stocks\",\n        \"stocks\",\n        \"stocks\",\n        \"stocks\",\n        \"stocks\",\n        . \",\n    \"objects\": [\n        \"macbook\",\n        \"webpage\",\n        \"window\",\n        \"search\",\n        \"join\",\n        \"live stream\",\n        \"video\", {\n    \"description\": \"The person is saying: 'eight times higher today than it was in 2023, and it's not like anyone's hyping up AI any less now (16.0s)\n- solve trillions of multiplication problems to spit out another thousand mediocre web apps. The other takeaway is that there's new confusion in AI models over who precisely is Winnie the Pooh.. the world's energy resources or set up a Dyson sphere around the sun just to help computer solve trillions of multiplication problems to spit out another thousand mediocre web apps solve trillions of multiplication problems to spit out another thousand mediocre web apps (4.0s)\n- solve trillions of multiplication problems to spit out another thousand mediocre web apps. The other takeaway is that there's new confusion in AI models over who precisely is Winnie the Pooh. (4.0s)\n- The person is saying: 'The other takeaway is that there's new confusion in AI models over who precisely is Winnie the Poo'. solve trillions of multiplication problems to spit out another thousand mediocre web apps The other takeaway is that there's new confusion in AI models over who precisely is Winnie the Pooh (4.0s)\n- {\n    \"description\": \"The person is saying: 'Until next time, I'm Jeff Kearling.'\",\n    \"objects\": [\n        \"a coffee mug\",\n        \"a poster\",\n        \"a computer graphics card\"\n    ],\n    \"actions\". The person is saying: 'The other takeaway is that there's new confusion in AI models over who precisely is Winnie the Poo' {\n    \"description\": \"The person is saying: 'Until next time, I'm Jeff Kearling (4.0s)\n\nTranscript: Open AI, which is only really open about consuming all the world's energy, just got rattled to its core. DeepSeek, a new AI startup run by a Chinese hedge fund, created a new open weights model called R1 that allegedly beats Open AI's best models in most metrics. And they did it for $6 million, with GPUs that run a half-the-memory bandwidth of Open AI's. Tony Stark was able to build this in a cave with a box of scraps! Besides the embarrassment of a Chinese startup beating Open AI using 1% of th...\n\nProvide a concise, engaging summary.\nAssistant: Open AI, which is only really open about consuming all the world's energy, just got rattled to its core. DeepSeek, a new AI startup run by a Chinese hedge fund, created a new open weights model called R1 that allegedly beats Open AI's best models in most metrics. Tony Stark was able to build this in a cave with a box of scraps! Besides the embarrassment of a Chinese startup beating Open AI using 1% of the resources,.",
+  "global_keywords": [
+    "download",
+    "Testing a few different prompts, I got about 1.2 tokens per second.",
+    "vw700",
+    "front",
+    "perception.",
+    "working",
+    "chatbot",
+    "amount",
+    "Reolv",
+    "Winnie-the-Pooh is a beloved fictional character created by A. A. Milne. He first appeared in the book 'Winnie-the-Pooh', published in 1926, followed by 'The House at Pooh Corner' in 1928.",
+    "particles",
+    "slots",
+    "\"live",
+    "sphere",
+    "though",
+    "great,",
+    "using",
+    "test",
+    "orion",
+    "launched."
+  ],
+  "global_tags": [
+    "people",
+    "sports"
+  ],
+  "total_frames_analyzed": 65,
+  "analysis_duration": 769.3330101966858
+}

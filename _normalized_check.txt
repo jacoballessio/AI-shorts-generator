@@ -1,0 +1,70 @@
+<example>
+<input>
+<duration>42</duration>
+<creator>Daniel Hentschel</creator>
+<topic>Education</topic>
+<title>Why is it so hard?</title>
+</input>
+<output>
+<segments>
+<segment>
+<start>0</start>
+<end>5.62</end>
+<duration>5.62</duration>
+<scene>a close-up selfie-style shot showing a bald man with light skin and dark eyebrows wearing a white collared shirt standing against a softly lit indoor backdrop blending purple and blue hues; he looks directly into the camera with an expressive face, his mouth open as if speaking, while large bold white text with a black outline appears over him reading "Why is it SO HARD?" The audio begins with him asking, 'Why is it so hard?' in a loud, high-pitched, exasperated voice filled with frustration and disbelief, followed immediately by a sharp, pained gasp.The camera remains static throughout, keeping focus entirely on his upper body and face to emphasize his emotional state.</scene>
+<transcript>[SPEAKER_1]Why is it so hard to talk to you?</transcript>
+<audio>groan</audio>
+</segment>
+<segment>
+<start>5.62</start>
+<end>13.62</end>
+<duration>8</duration>
+</segment>
+<segment>
+<start>13.62</start>
+<end>17.26</end>
+<duration>3.64</duration>
+<transcript><scene>>
+
+
+a close-up, slightly shaky shot of a bald man wearing sunglasses and a white collared shirt against a vibrant purple backdrop accented by soft blue light streaks; he looks directly at the camerawith an intense expression, his mouth open as though speaking emphatically.The word 'YOU' appears in large white blocky letters with a black outline superimposed over his face, while the name 'DANIEL HENTSCHEL' is displayed in white text below it.The audio features a male speaker with a very aggressive, confrontational tone-his voice loud, fast-paced, and filled with anger-saying "You don't even know what you're talking about!" in a direct, dismissive manner that underscores his frustration.The camera remains focused on him throughout, capturing every nuance of his facial expressions and movements without shifting angle or position.</scene>
+[SPEAKER_1]You don't even wanna be honest with me.</transcript></scene>
+<audio>tools, sawing, sounds of things, wood</audio>
+</segment>
+<segment>
+<start>17.26</start>
+<end>19.55</end>
+<duration>2.29</duration>
+<scene>a close-up static shot showing a bald man wearing glasses and a white collaredshirt against a solid purple background; he has an intense expression with his mouth open as if shouting, while large white text with a black outlined reading 'TOMMY!' appears superimposed over his chest.The camera remains fixed throughout the clip, focusing entirely on the man's face andupper body to emphasize his passionate delivery.</scene>
+<transcript>[SPEAKER_1]Tommy! Tommy! Tommy!</transcript>
+</segment>
+<segment>
+<start>19.55</start>
+<end>25.65</end>
+<duration>6.1</duration>
+<transcript>>
+
+
+
+<scene>'The camera shifts slightly to reveal more of his shirt and tie, then pans down to show his hand reaching toward his pocket before returning to a close-up of his face.He speaks with an exasperated tone, saying "And I had to pull you off me because you couldn't." The word 'MOVE' appears in large white letters with a black outline at the bottom of the frames, then changes sequentially to 'NO,' 'ME,' and finally 'BECAUSE YOU COULDN'T.' The audio focuses solely on his voice, with no background music or other sound effects, keeping attention entirely on his direct, conversational delivery.</scene>
+[SPEAKER_1]And I had to put you off me because you can't move.</transcript>
+
+ 
+
+ 
+a medium close-up of a bald man wearing glasses, a light-colored collided shirt, and a silver chain necklace standing in an indoor space against a softly lit, out-of-focus purple backdrop; he has his hands clasped behind him initially before raising them slightly to gesture expressively, while large white text reading 'EXPELLING' appears at the bottom of theframe.The camera remains steady, focusing on his upper body and gesturing hands, to capture his animated expression and deliberate movements.At 1s, he lowers his hands back down, maintaining eye contact with someone off-camera, then shifts his gaze upward briefly before refocusing forward.At 2s, he says "Revenge." At 3s, he continues, "Gone wild," gesturing again with both palms up as if explaining something passionately.At 4s, he adds "Joint pain," his tone earnest and concerned, keeping his hands raised for emphasis.Throughout the sequence, the soft lighting highlights his face and upper torso, emphasizing his emotional engagement through subtle shifts in posture and gesture.The background stays consistent with its blurred purple hue, creating a focused atmosphere that draws attention to his message.</scene>
+[SPEAKER_1] Revenge, go-go wild, joint pain.</transcript>
+</segment>
+<segment>
+<start>25.65</start>
+<end>27.84</end>
+<duration>2.19</duration>
+</segment>
+<segment>
+<start>27.84</start>
+<end>42</end>
+<duration>14.16</duration>
+</segment>
+</segments>
+</output>
+</example>

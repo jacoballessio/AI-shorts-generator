@@ -1,0 +1,46 @@
+<example>
+	<input>
+		<duration>
+			8
+		</duration>
+		<creator>
+			Daniel Hentschel
+		</creator>
+		<topic>
+			Film &amp;Animation
+		</topic>
+		<title>
+			expl or in g the ar to fs to pmoti on
+		</title>
+	</input>
+	<output>
+		<segments>
+<segment><start>
+			0.0
+		</start>
+		<end>
+			2.5
+		</end>
+		<duration>
+			2.5
+		</duration>
+		<scene>
+			the video be g in s with a close-up shot of acol or fuls to pmoti on setfe at ur in gm in i at ure trees and characters in various poses, illum in at ed by soft studio lights. The camera slowlyp an sacross the set, show c as in g in tric at edetails on the characters' face s and costumes.
+		</scene>
+		</segment>
+		<segment><start>
+			2.5
+		</start>
+		<end>
+			5.0
+		</end>
+		<duration>
+			2.5
+		</duration>
+		<scene>
+			A hand enters
+		</scene>
+		</segment>
+	</segments>
+</output>
+</example>

@@ -1,0 +1,29 @@
+<topic>Education</topic>
+<title>Understanding the Basics of Time Management</title>
+</input>
+<output>
+<segments>
+<segment>
+<start>0.0</start>
+<end>5.0</end>
+<duration>5.0</duration> <scene>The video starts with a medium shot of Daniel Hentschel in a cozy, well-lit study filled with bookshelves and a desk.He smiles warmly at the camera, introducing the topic of time management.The background is softly blurred to keep focus on him.</scene>
+<transcript>[SPEAKER_1]Hi everyone! Today we're going to talk about understanding the basics of time management.</transcript>
+</segment>
+<segment> <start>5.0</start> <end>10.0</end> <duration>5.0 </duration>
+<scene>The camera zooms in slightly on Daniel as he gestures towards a whiteboard filled with notes.The scene transitions to the whiteboard where key points about prioritizing tasks are written.</scene>
+<transcript>[SPEAKERS_1]First, it's crucial to prioritize your tasks.Not everything is equally important.</transcript>
+<audio>basic thumbnail</audio>
+</segment> <segment> <start>10.0 </start>
+<end>15.0</end><duration>5.0">The scene shifts back to Daniel speaking with enthusiasm, his expressions conveying passion about the subject.</scene>
+<transit>[SPEAKER1]You must identify what matters most to you and allocate your time accordingly.</transcript>
+></segment>
+<segment><start>15.0</start>< <end>20.0</end>< <duration>5.0>The video cuts to a split screen showing Daniel on one side and a calendar on the other, illustrating a visual of a scheduled day.</scene>
+<trascript>[SPEAKERR_1]Using a calendar can help you visualize your schedule and stay organized.</transcript> <audio>telephone, telephone bell ringing</audio>
+</segment>
+<segment> <start>20.0 </start>< <end> twenty 5</end>< <duration>=5.0>The scene returns to Daniel, now holding a planner, emphasizing the importance of writing down goals.</scene>
+<trascript>[SPEAKRR_1]Don't forget to write down your goals; this helps you stay focused.</transcript> </segment>
+<segment><start>25.0</start></segment>
+<end>30.0</end></segment>
+</segments>
+</output>
+</example>

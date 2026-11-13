@@ -1,0 +1,113 @@
+<segment>
+	<start>
+		0.0
+	</start>
+	<end>
+		9.4
+	</end>
+	<duration>
+		9.4
+	</duration>
+	<scene>
+		The video opens with a close - up selfie - style shot of a bald man wearing white face paint with red accent s around his mouth and eyes, dressed in a purple shirt adorned with a graphic pr in to fa man's face and yellow checkered pants, standing on a concrete sidewalk beside a building with large glass windows; bright sunlight cast s sharp shadow sunder clear skies, and palm tree s line the street behind him. The camera remains steady throughout the clip. he turn s his head slightly to the side while maintaining eye contact with t helens, then raise s both hand s only, palm s facing out ward, as if emphasizing a point. Large bold white text with a black out line appear s over him reading " i'm a different kind of Scary "., and an up beat electron ic dance track play s feat u ring a strong driving beat and catch y synthesize d melody that create sa fun modern club - like atmosphere. he continue s turning his head fur ther, looking off - camera with a serious expression, then low ers his hand s toe lower every where near the camera, making a fist with his right hand and pointing downward with his left. The text change s to'but you can call me'in the sam estyle, and them an maintain s his focused pos ture, looking directly at the camera with a neutral yet engaged expression. The scene maintain s its urban jungle town vibe, with the concrete sidewalk contrasting with the greenery of the palm tree sand the modern building backdrop, keeping focus on them an's deliberate movement sand the scene's stability despite the playful energy of his gestures.
+	</scene>
+	<transcript>
+		i'm a different kind of scary, but you can call me...
+	</transcript>
+	<audio>
+		music, music mood, exciting music
+	</audio>
+</segment>
+<segment>
+	<start>
+		9.4
+	</start>
+	<end>
+		16.83
+	</end>
+	<duration>
+		7.43
+	</duration>
+	<scene>
+		The video opens with a close ‐ up selfie ‐ style shot of a bald man n wearing white face paint smudged under his mouth, eyes, and nose, looking directly into the camera against a clear blue sky backdrop suggesting outdoor scenes; he we a rsa purple graphic ‐ shirt and has a raised hand with finger s spread wide, palm facing forward, as if emphasis ing a point. the came rare м a in s steady throughout the clip. large bold white text with a green out line appear s over his head reading " The kind of Scary " while the audio play s an up be ate lec tron i chip hop track with a strong driving beat and catch y synthesis ed melody that create sa vibrant energetic atmosphere. them an now has a more animated expression, opening his mouth wide as if speaking emphatically, maintaining eye contact with the camera; he low ers his hand slightly but keep sit raised near his face, continuing to speak with an intense, serious expression. The text change s to a different style with a black out line, still centered over his head, and read s " what do You Think?". His mouth move sexpressively, as if asking a question, and the camera stay s focused on his upper body and face to capture every nuance of his delivery. The clear blue sky background remains con s istent, emphasis ing the bright, open feel of the outdoor setting, while the steady close ‐ up fra mesh is expressive movement sand engaged demeanor central to the communication dynamic.
+	</scene>
+	<transcript>
+		i'm a different kind of scary, but you can call me the kind of scary what doo you think?
+	</transcript>
+	<audio>
+		key word s music role, dance music
+	</audio>
+</segment>
+<segment>
+	<start>
+		16.8
+	</start>
+	<end>
+		24.27
+	</end>
+	<duration>
+		7.47
+	</duration>
+	<scene>
+		Close - up of a bald man winking wearing super white make up with dark shadow sunder his mouth and eye shin ting at playful yet intense emotions; he has an animated expression with wide eye sand open mouth, looking slightly to his right before turning toward the camera. The background features a blurred green outdoor scene with indistinct folk likely transition from nature park to urban street. the scene shift s to a close - up of a bald man naturally lit by bright natural day light outdoors, wearing a white shirt adorned with a graphic patch feat u ring a cartoon character's face and yellow checked patterns, standing on a concrete street lined with parked car sand leafy tree sunder clear skies that cast soft shadows; he looks directly into the camera with a serious, intense expression, his mouth open as if speak in gem ph astically, while large bold white text with a green out line appear sat the bottom of the frame reading " when you see me coming ". the camera remains static throughout both shots, focusing closely on each subject's face and upper body to high light emotional state sand environ mental details.
+	</scene>
+	<transcript>
+		the kind of scary what doo you think? When you see o me coming toward you,
+	</transcript>
+	<audio>
+		. music, music mood, exciting musical equipment
+	</audio>
+</segment>
+<segment>
+	<start>
+		24.2
+	</start>
+	<end>
+		31.1
+	</end>
+	<duration>
+		6.9
+	</duration>
+	<scene>
+		Close - up of a bald man wearing white face pain tearing under his mouth and around his eyes, looking directly at the dark - haired man with an intense expression; the background features a blurred green outdoor scene with foliage and a shady figure to his left. the camera remains static throughout the clip. the scene shift s to an outdoor urban sidewalk bathed in bright natural day light where a bald man nat tying suit three s shirt s stand s with hand s raised near his head, palm s facing forward, exuding confident energy against aback drop of parked car sand distant figures. The camera stay s focused on him, capturing every nuance of his posture and expression that convey assertive ness and engagement with th espace.
+	</scene>
+	<transcript>
+		the kind of scary who's your friend? who is my friend?
+	</transcript>
+	<audio>
+		music, musical concept s, song
+	</audio>
+</segment>
+<segment>
+	<start>
+		31.1
+	</start>
+	<end>
+		34.83
+	</end>
+	<duration>
+		3.73
+	</duration>
+	<scene>
+	</scene>
+	<transcript>
+		the kind of scary it's got you caught, it's got you chasing
+	</transcript>
+	<audio>
+		music, musical experiment s, gl itch music
+	</audio>
+</segment>
+<segment>
+	<start>
+		34.83
+	</start>
+	<end>
+		60.0
+	</end>
+	<duration>
+		25.17
+	</duration>
+	<scene>
+		three people sitting closely together on a concrete sidewalk in front of a white building with large glass window sunder bright sunlight that cast s sharp sharp shadows; the camera cap tu res a medium shot from the side, keeping all three individual sin a frame. the person on the left wear sap up leg rap hic tee with a black design, the person in the center has short light - colored hair and we a rsa yellow checkered shirt, and the person on the right also we a rsa yellow checkered pattern but with different colors; each has a relaxed pos ture, casual demeanor, and calm expression, looking toward the camera with subtle movement s that suggest inter action. In the background, a blurred green outdoor area likely a park or garden reinforce s the urban environment's calm fresh air and clear sky, creating a cool, slightly lively atmosphere. At 1 s, the person on the left gesture s with their hand near their face, finger s slightly spread, while the other two continue s to look forward. At 2 s, the person in the center raise s both hand s to chest level with palm s facing out wards, then low ers them back down, maintaining a relaxed but engaged stance. At 3 s, the person on the right place s their hand s behind their heads, finger s resting gently against their skull, also looking forward with a steady gaze. throughout the sequence, there is no backs
+	</segment>
+</scene>
